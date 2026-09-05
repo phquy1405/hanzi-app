@@ -1214,7 +1214,13 @@
             document.getElementById('cardSrsBadge').innerText = `Cấp SRS: ${card.srsLevel || 1}`;
             document.getElementById('promptPinyin').innerText = card.pinyin;
             document.getElementById('promptMeaning').innerText = card.meaning;
-            document.getElementById('promptSentence').innerText = card.sentence || "Câu ví dụ: [ ? ]";
+            
+            // Tự động che đáp án chữ Hán thành [ ? ] để người học không bị lộ đáp án trong đề bài
+            let displaySentence = card.sentence || "请在这个句子填入 [ ? ]。";
+            if (displaySentence.includes(card.character)) {
+                displaySentence = displaySentence.replaceAll(card.character, "[ ? ]");
+            }
+            document.getElementById('promptSentence').innerText = displaySentence;
 
             const input = document.getElementById('hanziInput');
             input.value = "";
