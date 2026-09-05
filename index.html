@@ -1117,7 +1117,7 @@
                 container.innerHTML = dueList.map((item) => `
                     <div onclick="startPracticeSingle('${item.character}')" class="vocab-item-card flex justify-between items-center bg-white p-2 rounded-xl border border-[#F5D7E2] cursor-pointer hover:border-[#EBA3BD] hover:shadow-sm transition">
                         <div>
-                            <p class="font-bold text-xs hanzi-text text-[#3D2B3D]">${item.character} <span class="font-normal text-[10px] text-gray-400 font-sans">(${item.pinyin})</span></p>
+                            <p class="font-bold text-xs hanzi-text text-[#3D2B3D]">${item.character} <span class="font-normal text-[10px] text-gray-400 font-sans">(${formatPinyinWithTones(item.pinyin)})</span></p>
                             <p class="text-[10px] text-gray-500 line-clamp-1">${item.meaning}</p>
                         </div>
                         <span class="text-[9px] font-bold bg-[#FFF0F5] text-[#EBA3BD] px-2.5 py-1 rounded-lg border border-[#F5D7E2] hover:bg-[#FCEAF1] whitespace-nowrap">
@@ -1138,6 +1138,57 @@
                     behavior: 'smooth'
                 });
             }
+        }
+
+        // Bảng quy tắc chuyển đổi thanh điệu Pinyin số (1, 2, 3, 4) thành dấu chuẩn quốc tế
+        const PINYIN_TONE_MAP = {
+            'a': ['a', 'ā', 'á', 'ǎ', 'à'],
+            'e': ['e', 'ē', 'é', 'ě', 'è'],
+            'i': ['i', 'ī', 'í', 'ǐ', 'ì'],
+            'o': ['o', 'ō', 'ó', 'ǒ', 'ò'],
+            'u': ['u', 'ū', 'ú', 'ǔ', 'ù'],
+            'v': ['ü', 'ǖ', 'ǘ', 'ǚ', 'ǜ'],
+            'ü': ['ü', 'ǖ', 'ǘ', 'ǚ', 'ǜ']
+        };
+
+        function convertPinyinSyllable(s) {
+            const m = s.match(/^([a-zA-ZüÜvV]+)([1-5])?$/);
+            if (!m) return s;
+            let word = m[1].toLowerCase();
+            const tone = m[2] ? parseInt(m[2]) : 0;
+            if (tone === 0 || tone === 5) return word.replace(/v/g, 'ü');
+
+            word = word.replace(/v/g, 'ü');
+            let targetVowel = null;
+            if (word.includes('a')) targetVowel = 'a';
+            else if (word.includes('e')) targetVowel = 'e';
+            else if (word.includes('ou')) targetVowel = 'o';
+            else {
+                for (let i = word.length - 1; i >= 0; i--) {
+                    if ('iuü'.includes(word[i])) {
+                        targetVowel = word[i];
+                        break;
+                    }
+                }
+            }
+
+            if (targetVowel && PINYIN_TONE_MAP[targetVowel] && tone <= 4) {
+                const accented = PINYIN_TONE_MAP[targetVowel][tone];
+                const idx = (word.endsWith('ui') || word.endsWith('iu')) ? word.lastIndexOf(targetVowel) : word.indexOf(targetVowel);
+                return word.slice(0, idx) + accented + word.slice(idx + 1);
+            }
+            return word;
+        }
+
+        function formatPinyinWithTones(raw) {
+            if (!raw) return "";
+            // Nếu chuỗi đã có sẵn dấu Pinyin (ā, á, etc.), giữ nguyên
+            if (/[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]/i.test(raw)) return raw.trim();
+
+            // Tách các âm tiết kèm số (ví dụ: za2zhi4 -> zá zhì, qing1chu -> qīng chu)
+            const parts = raw.match(/[a-zA-ZüÜvV]+[1-5]?/g);
+            if (!parts) return raw.trim();
+            return parts.map(convertPinyinSyllable).join(' ');
         }
 
         // Thuật toán xáo trộn ngẫu nhiên hoàn toàn (Fisher-Yates Shuffle)
@@ -1212,7 +1263,10 @@
             const card = activePracticeQueue[currentQueueIndex];
             document.getElementById('cardProgress').innerText = `Thẻ ${currentQueueIndex + 1} / ${activePracticeQueue.length}`;
             document.getElementById('cardSrsBadge').innerText = `Cấp SRS: ${card.srsLevel || 1}`;
-            document.getElementById('promptPinyin').innerText = card.pinyin;
+            
+            // Tự động chuyển đổi pinyin số (1, 2, 3, 4) thành dấu chuẩn quốc tế (ā, á, ǎ, à)
+            const standardPinyin = formatPinyinWithTones(card.pinyin);
+            document.getElementById('promptPinyin').innerText = standardPinyin;
             document.getElementById('promptMeaning').innerText = card.meaning;
             
             // Tự động che đáp án chữ Hán thành [ ? ] để người học không bị lộ đáp án trong đề bài
@@ -1720,11 +1774,14 @@ QUY TẮC BẮT BUỘC:
                         if (slashM) pinyin = slashM[1].trim();
                     }
 
+                    // Tự động chuyển đổi số thanh 1,2,3,4 thành dấu Pinyin chuẩn quốc tế (ā, á, ǎ, à)
+                    const normalizedPinyin = formatPinyinWithTones(pinyin);
+
                     seenHanzi.add(hanzi);
                     results.push({
                         id: "doc_" + Date.now() + "_" + Math.random().toString(36).substr(2, 4),
                         character: hanzi,
-                        pinyin: pinyin,
+                        pinyin: normalizedPinyin,
                         meaning: meaning,
                         sentence: `请在这个句子填入 [ ${hanzi} ]。`,
                         srsLevel: 1,
