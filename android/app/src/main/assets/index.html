@@ -667,16 +667,15 @@
         // Tham khảo chuẩn từ TBSG Content Optimizer (Model Resolver & Key Rotator)
         let ACTIVE_MODEL = localStorage.getItem("gemini_selected_model") || "gemini-3.1-flash-lite";
 
-        // Thứ tự các model fallback an toàn tránh lỗi 429/403:
+        // Thứ tự các model fallback an toàn tránh lỗi 429/403/404:
         const MODEL_FALLBACK_CHAIN = [
+            "gemini-2.5-flash",
+            "gemini-2.0-flash",
+            "gemini-2.5-flash-lite",
             "gemini-3.1-flash-lite",
             "gemini-3.5-flash-lite",
-            "gemini-2.5-flash-lite",
             "gemini-3.8-flash",
-            "gemini-3.7-flash",
-            "gemini-3.6-flash",
-            "gemini-2.5-flash",
-            "gemini-2.0-flash"
+            "gemini-3.7-flash"
         ];
 
         let apiKeyList = [];
@@ -1183,9 +1182,18 @@ QUY TẮC BẮT BUỘC:
                     }
 
                     if (!res.ok) {
-                        const err = await res.json();
-                        console.warn(`[GeminiAPI] Lỗi model ${targetModel}:`, err.error?.message);
-                        lastErrorMsg = err.error?.message || res.statusText;
+                        let errMsg = res.statusText;
+                        try {
+                            const errData = await res.json();
+                            errMsg = errData.error?.message || errMsg;
+                        } catch (e) {}
+
+                        console.warn(`[GeminiAPI] Lỗi model ${targetModel}:`, errMsg);
+                        lastErrorMsg = errMsg;
+                        // Nếu lỗi do API Key bị khóa (Leaked key / 403), dừng ngay để báo người dùng đổi key mới
+                        if (errMsg.includes("leaked") || errMsg.includes("API key not valid") || res.status === 403) {
+                            break;
+                        }
                         continue; // Thử model tiếp theo trong chuỗi fallback
                     }
 
