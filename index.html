@@ -1140,6 +1140,16 @@
             }
         }
 
+        // Thuật toán xáo trộn ngẫu nhiên hoàn toàn (Fisher-Yates Shuffle)
+        function shuffleArray(arr) {
+            const copy = [...arr];
+            for (let i = copy.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [copy[i], copy[j]] = [copy[j], copy[i]];
+            }
+            return copy;
+        }
+
         // ================= LUYỆN TẬP GBOARD SRS =================
         function startPracticeQueue(onlyDue = false) {
             const now = Date.now();
@@ -1148,6 +1158,15 @@
                 alert("Bạn đã hoàn thành hết các từ đến hạn hôm nay! Đang mở toàn bộ kho từ để luyện tự do.");
                 pool = [...cards];
             }
+
+            // Với Luyện Tự Do (hoặc khi xáo trộn bài ôn), xáo trộn ngẫu nhiên 100% để không bị lặp thứ tự ban đầu
+            if (!onlyDue) {
+                pool = shuffleArray(pool);
+            } else {
+                // Với SRS cũng xáo trộn nhẹ các thẻ cùng hạn ôn để tránh học vẹt vị trí
+                pool = shuffleArray(pool);
+            }
+
             activePracticeQueue = pool;
             currentQueueIndex = 0;
 
@@ -1157,8 +1176,8 @@
                 if (title) title.innerText = "Ôn Luyện Theo Lịch SRS 📅";
                 if (subtitle) subtitle.innerText = `Chế độ: Ôn ngắt quãng (${pool.length} từ đến hạn)`;
             } else {
-                if (title) title.innerText = "Luyện Tự Do (Gboard) ✨";
-                if (subtitle) subtitle.innerText = `Chế độ: Toàn bộ kho từ (${pool.length} từ)`;
+                if (title) title.innerText = "Luyện Tự Do (Ngẫu Nhiên) 🎲";
+                if (subtitle) subtitle.innerText = `Chế độ: Xáo trộn ngẫu nhiên (${pool.length} từ)`;
             }
 
             renderCurrentCard();
