@@ -307,9 +307,10 @@
                     <button onclick="toggleVocabModal()" title="Quản lý kho từ vựng" class="text-xs text-[#EBA3BD] bg-white px-2.5 py-1 rounded-full border border-[#F5D7E2] shadow-sm flex items-center gap-1 font-bold hover:bg-[#FFF0F5]">
                         <i class="fa-solid fa-book text-[11px]"></i> Kho từ
                     </button>
-                    <button onclick="toggleSettingsModal()" title="Cài đặt API Key & Model" class="relative text-[#EBA3BD] hover:text-[#4A3B4E] transition p-1">
-                        <i class="fa-solid fa-bell text-base"></i>
-                        <span id="apiKeyStatusDot" class="absolute top-0.5 right-0.5 w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                    <button onclick="toggleSettingsModal()" title="Cài đặt API Key & Model" class="text-xs text-[#EBA3BD] bg-white px-2.5 py-1 rounded-full border border-[#F5D7E2] shadow-sm flex items-center gap-1.5 font-bold hover:bg-[#FFF0F5] transition">
+                        <i class="fa-solid fa-key text-[10px]"></i>
+                        <span>API</span>
+                        <span id="apiKeyStatusDot" class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
                     </button>
                 </div>
             </div>
@@ -462,7 +463,7 @@
                     <h1 id="practiceScreenTitle" class="text-xs font-bold text-[#4A3B4E]">Luyện Phản Xạ Gboard ✨</h1>
                     <p id="practiceScreenSubtitle" class="text-[9px] text-gray-400 font-semibold">Chế độ: Toàn bộ kho từ</p>
                 </div>
-                <button onclick="toggleVocabModal()" class="text-xs text-[#EBA3BD]"><i class="fa-solid fa-gear"></i></button>
+                <button onclick="toggleSettingsModal()" title="Cài đặt API" class="text-xs text-[#EBA3BD] hover:text-[#4A3B4E] transition"><i class="fa-solid fa-gear"></i></button>
             </div>
 
             <div class="space-y-3 py-3">
@@ -820,8 +821,8 @@
         let currentKeyIndex = 0;
 
         function getStoredApiKeys() {
-            const raw = localStorage.getItem("gemini_api_key") || "AIzaSyBKPxA28TFe9Q4RK3Fx6nGL70L8q1z82tw";
-            return raw.split(",").map(k => k.trim()).filter(k => k && !k.startsWith("AQ."));
+            const raw = localStorage.getItem("gemini_api_key") || "";
+            return raw.split(",").map(k => k.trim()).filter(k => k && !k.startsWith("AQ.") && !k.includes("BKPxA28T"));
         }
 
         function getActiveApiKey() {
@@ -1375,13 +1376,13 @@
             // 2. Kiểm tra API Key (Sử dụng getActiveApiKey an toàn cho cả máy khác)
             let apiKey = getActiveApiKey();
             if (!apiKey) {
-                const promptKey = prompt("Vui lòng dán khóa Gemini API Key của Google AI Studio để kích hoạt tính năng Rã Chữ Chiết Tự trên thiết bị này:", "AIzaSyBKPxA28TFe9Q4RK3Fx6nGL70L8q1z82tw");
+                const promptKey = prompt("Vui lòng dán khóa Gemini API Key của Google AI Studio để kích hoạt tính năng Rã Chữ Chiết Tự trên thiết bị này:", "");
                 if (promptKey && promptKey.trim()) {
                     localStorage.setItem("gemini_api_key", promptKey.trim());
                     apiKey = promptKey.trim();
                     updateApiKeyStatusDot(true);
                 } else {
-                    alert("Chưa có API Key, không thể gọi Gemini AI. Hãy bấm vào nút API ở góc trên trang chủ để cài đặt.");
+                    alert("Chưa có API Key, không thể gọi Gemini AI. Hãy bấm vào nút API ở góc trên trang chủ hoặc bánh răng cài đặt để lưu khóa API.");
                     toggleSettingsModal();
                     return;
                 }
