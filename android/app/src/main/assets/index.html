@@ -477,13 +477,13 @@
                         这个问题你听 [ ? ] 了吗？
                     </div>
 
-                    <!-- Ô Gõ Tiếng Trung Gboard -->
+                    <!-- Ô Gõ Tiếng Trung Gboard (Tối ưu responsive không tràn chữ) -->
                     <div class="pt-1">
                         <input 
                             id="hanziInput" 
                             type="text" 
-                            placeholder="Chạm để mở Gboard gõ chữ Hán" 
-                            class="w-full bg-white border-2 border-[#F5D7E2] rounded-xl px-3 py-2.5 text-center hanzi-text text-xl text-[#4A3B4E] outline-none focus:border-[#EBA3BD] transition shadow-inner"
+                            placeholder="Chạm để mở Gboard gõ đáp án..." 
+                            class="w-full bg-white border-2 border-[#F5D7E2] rounded-xl px-3 py-2 text-center hanzi-text text-lg placeholder:text-xs placeholder:font-sans placeholder:text-gray-400 text-[#4A3B4E] outline-none focus:border-[#EBA3BD] transition shadow-inner"
                             autocomplete="off" 
                             autocorrect="off" 
                             autocapitalize="off"
@@ -1092,12 +1092,19 @@
 
             cacheBadge.classList.add('hidden');
 
-            // 2. Kiểm tra API Key
-            const apiKey = localStorage.getItem("gemini_api_key");
+            // 2. Kiểm tra API Key (Sử dụng getActiveApiKey an toàn cho cả máy khác)
+            let apiKey = getActiveApiKey();
             if (!apiKey) {
-                alert("Vui lòng nhập API Key của Google AI Studio để kích hoạt tính năng Rã Chữ Chiết Tự!");
-                toggleSettingsModal();
-                return;
+                const promptKey = prompt("Vui lòng dán khóa Gemini API Key của Google AI Studio để kích hoạt tính năng Rã Chữ Chiết Tự trên thiết bị này:", "AIzaSyBKPxA28TFe9Q4RK3Fx6nGL70L8q1z82tw");
+                if (promptKey && promptKey.trim()) {
+                    localStorage.setItem("gemini_api_key", promptKey.trim());
+                    apiKey = promptKey.trim();
+                    updateApiKeyStatusDot(true);
+                } else {
+                    alert("Chưa có API Key, không thể gọi Gemini AI. Hãy bấm vào nút API ở góc trên trang chủ để cài đặt.");
+                    toggleSettingsModal();
+                    return;
+                }
             }
 
             document.getElementById('loadingAi').classList.remove('hidden');
@@ -1201,8 +1208,10 @@ QUY TẮC BẮT BUỘC:
             }
 
             if (!success) {
-                alert("Không thể kết nối Gemini API với các mô hình khả dụng: " + lastErrorMsg);
+                const reason = lastErrorMsg ? `\n\nChi tiết lỗi: ${lastErrorMsg}` : "\n\nNguyên nhân: Thiết bị này chưa được lưu API Key của Google AI Studio hoặc mạng bị gián đoạn.";
+                alert("⚠️ Không thể kết nối tới Google Gemini API:" + reason + "\n\n👉 Vui lòng chạm vào nút 'API' ở góc trên bên phải màn hình để kiểm tra hoặc nhập mã API Key của bạn.");
                 updateApiKeyStatusDot(false);
+                toggleSettingsModal();
             }
             document.getElementById('loadingAi').classList.add('hidden');
         }
