@@ -683,7 +683,12 @@
                 </div>
                 <div>
                     <p class="text-[10px] text-gray-500 mb-1">Khóa API Google AI Studio (hỗ trợ nhập 1 hoặc nhiều key cách nhau bằng dấu phẩy để tự động xoay vòng như TBSG):</p>
-                    <input id="apiKeyInput" type="password" placeholder="AIzaSy..." class="w-full bg-[#FDF4F7] border border-[#F5D7E2] rounded-xl px-3 py-2 text-xs outline-none focus:border-[#EBA3BD]" />
+                    <div class="relative">
+                        <input id="apiKeyInput" type="password" placeholder="AIzaSy..." class="w-full bg-[#FDF4F7] border border-[#F5D7E2] rounded-xl pl-3 pr-9 py-2 text-xs font-mono outline-none focus:border-[#EBA3BD]" />
+                        <button type="button" onclick="toggleApiKeyVisibility()" class="absolute right-2.5 top-1/2 -translate-y-1/2 text-gray-400 hover:text-[#EBA3BD] text-xs focus:outline-none">
+                            <i id="apiKeyEyeIcon" class="fa-solid fa-eye"></i>
+                        </button>
+                    </div>
                 </div>
                 
                 <div id="apiKeyTestResult" class="hidden p-2 rounded-xl text-[11px] font-semibold"></div>
@@ -996,6 +1001,18 @@
 
         function toggleSettingsModal() {
             document.getElementById('apiModal').classList.toggle('hidden');
+        }
+
+        function toggleApiKeyVisibility() {
+            const input = document.getElementById('apiKeyInput');
+            const icon = document.getElementById('apiKeyEyeIcon');
+            if (input.type === "password") {
+                input.type = "text";
+                icon.className = "fa-solid fa-eye-slash";
+            } else {
+                input.type = "password";
+                icon.className = "fa-solid fa-eye";
+            }
         }
 
         function toggleVocabModal() {
