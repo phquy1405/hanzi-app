@@ -67,31 +67,87 @@
             display: block;
         }
 
-        /* Quả cầu nước HSK */
+        /* Quả cầu nước HSK chân thực (Liquid Wave Globe) */
         .water-globe {
-            width: 66px;
-            height: 66px;
+            width: 70px;
+            height: 70px;
             border-radius: 50%;
-            border: 3px solid #EBA3BD;
-            background-color: #fff;
+            border: 3.5px solid #EBA3BD;
+            background: radial-gradient(circle at 30% 30%, #FFFFFF 0%, #FFF5F8 70%, #F5D7E2 100%);
             position: relative;
             overflow: hidden;
             flex-shrink: 0;
+            box-shadow: 0 4px 15px rgba(235, 163, 189, 0.35), inset 0 2px 8px rgba(255, 255, 255, 0.9);
         }
-        .water {
+
+        /* Lớp sóng nước thứ nhất (Sóng chính phía trước) */
+        .water-wave-front {
             position: absolute;
+            left: -50%;
             bottom: 0;
             width: 200%;
-            height: 65%;
-            background-color: #F5BED2;
-            border-radius: 40%;
-            animation: wave 3.5s linear infinite;
-            left: -50%;
-            transition: height 0.6s ease;
+            height: 200%;
+            background-color: rgba(235, 163, 189, 0.88);
+            border-radius: 38% 42% 40% 44%;
+            animation: waveRotateFront 4.5s linear infinite;
+            transition: top 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: 2;
         }
-        @keyframes wave {
+
+        /* Lớp sóng nước thứ hai (Sóng nền phía sau tạo độ sâu 3D) */
+        .water-wave-back {
+            position: absolute;
+            left: -50%;
+            bottom: 0;
+            width: 200%;
+            height: 200%;
+            background-color: rgba(245, 190, 210, 0.55);
+            border-radius: 44% 38% 42% 40%;
+            animation: waveRotateBack 6.5s linear infinite;
+            transition: top 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+            z-index: 1;
+        }
+
+        /* Điểm bóng sáng thủy tinh trên quả cầu (Glass reflection highlight) */
+        .globe-glass-glare {
+            position: absolute;
+            top: 5px;
+            left: 12px;
+            width: 20px;
+            height: 10px;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0) 100%);
+            border-radius: 50%;
+            transform: rotate(-30deg);
+            z-index: 4;
+            pointer-events: none;
+        }
+
+        /* Hiệu ứng bong bóng nước sủi tăm */
+        .bubble {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.6);
+            border-radius: 50%;
+            z-index: 3;
+            animation: bubbleRise 3s infinite ease-in;
+            pointer-events: none;
+        }
+        .bubble-1 { width: 5px; height: 5px; left: 35%; bottom: 10px; animation-duration: 2.8s; }
+        .bubble-2 { width: 7px; height: 7px; left: 55%; bottom: 5px; animation-duration: 3.6s; animation-delay: 1.2s; }
+
+        @keyframes waveRotateFront {
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
+        }
+
+        @keyframes waveRotateBack {
+            0% { transform: rotate(360deg); }
+            100% { transform: rotate(0deg); }
+        }
+
+        @keyframes bubbleRise {
+            0% { transform: translateY(0) scale(0.6); opacity: 0; }
+            40% { opacity: 0.8; }
+            100% { transform: translateY(-50px) scale(1.2); opacity: 0; }
         }
 
         .card-pink {
@@ -235,7 +291,11 @@
             <div class="card-pink p-3.5 mb-3.5">
                 <div class="flex justify-between items-center mb-3">
                     <div class="water-globe">
-                        <div id="globeWater" class="water" style="height: 65%;"></div>
+                        <div class="globe-glass-glare"></div>
+                        <div id="globeWaterBack" class="water-wave-back" style="top: 35%;"></div>
+                        <div id="globeWaterFront" class="water-wave-front" style="top: 35%;"></div>
+                        <div class="bubble bubble-1"></div>
+                        <div class="bubble bubble-2"></div>
                     </div>
                     <div class="flex-1 ml-3 text-right">
                         <h2 class="font-bold text-sm">Chinh phục HSK4</h2>
@@ -634,8 +694,12 @@
             const masteredList = cards.filter(c => c.srsLevel >= 4);
 
             // Mực nước quả cầu (Globe) theo tiến độ học
-            const pct = cards.length > 0 ? Math.min(100, Math.max(15, Math.round((masteredList.length / cards.length) * 100))) : 20;
-            document.getElementById('globeWater').style.height = `${pct}%`;
+            const pct = cards.length > 0 ? Math.min(95, Math.max(15, Math.round((masteredList.length / cards.length) * 100))) : 25;
+            const waveTopPct = 100 - pct;
+            const frontWave = document.getElementById('globeWaterFront');
+            const backWave = document.getElementById('globeWaterBack');
+            if (frontWave) frontWave.style.top = `${waveTopPct}%`;
+            if (backWave) backWave.style.top = `${waveTopPct - 4}%`;
             document.getElementById('homeMasteredCount').innerText = `${masteredList.length} / ${cards.length}`;
             document.getElementById('homeDueSubtitle').innerText = `(Hôm nay cần ôn: ${dueList.length} từ)`;
             document.getElementById('dueBadge').innerText = `${dueList.length} thẻ đến hạn`;
