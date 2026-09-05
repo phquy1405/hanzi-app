@@ -291,53 +291,52 @@
         
         <!-- ================= MÀN HÌNH 1: TRANG CHỦ ================= -->
         <div id="screen-home" class="screen active">
-            <!-- Header -->
+            <!-- Header chuẩn phong cách Công chúa Tiên & notification bell -->
             <div class="flex justify-between items-center mb-3 pt-1">
-                <div class="flex items-center gap-2.5">
-                    <div class="relative">
-                        <div class="w-10 h-10 rounded-full border-2 border-[#EBA3BD] bg-[#FFF0F5] flex items-center justify-center text-lg">🌸</div>
-                        <div class="absolute -top-1.5 -right-1 text-xs">👑</div>
+                <div class="flex items-center gap-3">
+                    <div class="relative cursor-pointer" onclick="toggleSettingsModal()">
+                        <img src="https://i.pravatar.cc/100?img=32" alt="Avatar" class="w-10 h-10 rounded-full border-2 border-[#EBA3BD] p-0.5 object-cover">
+                        <div class="absolute -top-2 -right-1 text-sm">👑</div>
                     </div>
                     <div>
-                        <p class="text-[10px] text-gray-500 font-semibold">Dream Chinese • HSK 3 ➔ 4</p>
-                        <h1 class="text-sm font-bold text-[#4A3B4E]">Tiến độ học tập</h1>
+                        <p class="text-[10px] text-gray-500 font-semibold">Chào mừng trở lại,</p>
+                        <h1 class="text-sm font-bold text-[#4A3B4E]">Công chúa Tiên!</h1>
                     </div>
                 </div>
-                <div class="flex gap-1.5">
-                    <button onclick="toggleVocabModal()" title="Quản lý & Import Từ vựng" class="text-xs text-[#EBA3BD] bg-white px-2 py-1 rounded-full border border-[#F5D7E2] shadow-sm flex items-center gap-1 font-bold hover:bg-[#FFF0F5]">
-                        <i class="fa-solid fa-folder-plus text-[11px]"></i> Kho từ
+                <div class="flex items-center gap-2">
+                    <button onclick="toggleVocabModal()" title="Quản lý kho từ vựng" class="text-xs text-[#EBA3BD] bg-white px-2.5 py-1 rounded-full border border-[#F5D7E2] shadow-sm flex items-center gap-1 font-bold hover:bg-[#FFF0F5]">
+                        <i class="fa-solid fa-book text-[11px]"></i> Kho từ
                     </button>
-                    <button onclick="toggleSettingsModal()" title="Cài đặt API Key" class="text-xs text-[#EBA3BD] bg-white px-2 py-1 rounded-full border border-[#F5D7E2] shadow-sm flex items-center gap-1 font-bold hover:bg-[#FFF0F5]">
-                        <i class="fa-solid fa-key text-[10px]"></i> API
+                    <button onclick="toggleSettingsModal()" title="Cài đặt API Key & Model" class="relative text-[#EBA3BD] hover:text-[#4A3B4E] transition p-1">
+                        <i class="fa-solid fa-bell text-base"></i>
+                        <span id="apiKeyStatusDot" class="absolute top-0.5 right-0.5 w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
                     </button>
                 </div>
             </div>
 
-            <!-- Model Badge & Dynamic Model Selector (Chuẩn hóa theo TBSG Content Optimizer) -->
+            <!-- Model Badge & Dynamic Model Selector (nhỏ gọn tinh tế) -->
             <div class="flex items-center justify-between mb-3 px-1">
-                <div class="flex items-center gap-1.5 text-[11px] font-bold text-[#9E8591]">
-                    <span id="apiKeyStatusDot" class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-                    <select id="modelSelector" onchange="changeActiveModel(this.value)" class="bg-white/80 border border-[#F5D7E2] rounded-lg px-2 py-0.5 text-[10px] font-bold text-[#4A3B4E] outline-none cursor-pointer focus:border-[#EBA3BD]">
-                        <optgroup label="⚡ Nhóm Siêu Quota (500 RPD / 15 RPM - Khuyên dùng)">
+                <div class="flex items-center gap-1.5 text-[10px] font-bold text-[#9E8591]">
+                    <i class="fa-solid fa-robot text-[#EBA3BD]"></i>
+                    <select id="modelSelector" onchange="changeActiveModel(this.value)" class="bg-white/90 border border-[#F5D7E2] rounded-lg px-2 py-0.5 text-[10px] font-bold text-[#4A3B4E] outline-none cursor-pointer focus:border-[#EBA3BD]">
+                        <optgroup label="⚡ Siêu Quota (500 RPD - Khuyên dùng)">
                             <option value="gemini-3.1-flash-lite" selected>Gemini 3.1 Flash Lite</option>
                             <option value="gemini-3.5-flash-lite">Gemini 3.5 Flash Lite</option>
                             <option value="gemini-2.5-flash-lite">Gemini 2.5 Flash Lite</option>
                         </optgroup>
-                        <optgroup label="🧠 Nhóm Suy luận cao (20 RPD / 5 RPM)">
+                        <optgroup label="🧠 Suy luận cao">
                             <option value="gemini-3.8-flash">Gemini 3.8 Flash</option>
                             <option value="gemini-3.7-flash">Gemini 3.7 Flash</option>
-                            <option value="gemini-3.6-flash">Gemini 3.6 Flash</option>
                             <option value="gemini-2.5-flash">Gemini 2.5 Flash</option>
-                            <option value="gemini-2.0-flash">Gemini 2.0 Flash</option>
                         </optgroup>
                     </select>
                 </div>
                 <span id="srs-status-tag" class="text-[10px] font-bold text-[#EBA3BD] bg-[#FFF0F5] px-2 py-0.5 rounded-full border border-[#F5D7E2]">
-                    Đang đồng bộ SRS...
+                    SRS: 0 từ cần ôn
                 </span>
             </div>
 
-            <!-- HSK Progress Card (Water Globe) -->
+            <!-- HSK Progress Card (Quả cầu nước 3D Fluid Water Globe & 2 nút điều hướng) -->
             <div class="card-pink p-3.5 mb-3.5">
                 <div class="flex justify-between items-center mb-3">
                     <div class="water-globe">
@@ -348,58 +347,66 @@
                         <div class="bubble bubble-2"></div>
                     </div>
                     <div class="flex-1 ml-3 text-right">
-                        <h2 class="font-bold text-sm">Chinh phục HSK4</h2>
-                        <p class="text-[11px] font-semibold">Thuộc vững: <span id="homeMasteredCount" class="text-[#EBA3BD] font-bold">0 / 0</span> từ</p>
+                        <h2 class="font-bold text-sm text-[#4A3B4E]">Chinh phục HSK4</h2>
+                        <p class="text-[11px] font-semibold">Đã học: <span id="homeMasteredCount" class="text-[#EBA3BD] font-bold">0 / 0</span> từ</p>
                         <p id="homeDueSubtitle" class="text-[10px] text-gray-400 mt-0.5">(Hôm nay cần ôn: 0 từ)</p>
                     </div>
                 </div>
                 <hr class="border-[#F5D7E2] mb-2.5">
-                <!-- 2 Chế độ luyện tập tách biệt rõ ràng -->
-                <div class="grid grid-cols-2 gap-2 text-[11px] font-semibold">
-                    <button onclick="startPracticeQueue(false)" class="bg-[#FFF0F5] hover:bg-[#FCEAF1] p-2.5 rounded-xl border border-[#F5D7E2] text-left transition flex flex-col justify-between">
-                        <div class="flex items-center gap-1 text-[#EBA3BD] font-bold text-xs mb-1">
-                            <i class="fa-solid fa-keyboard"></i> Luyện Tự Do
-                        </div>
-                        <p class="text-[9px] text-gray-500 font-normal leading-tight">Luyện gõ Gboard toàn bộ <span class="font-bold text-[#EBA3BD]">695 từ</span> bất kỳ lúc nào</p>
+                
+                <!-- 2 Nút: Ôn SRS (Bắt đầu ➔) & Luyện Tự Do (Gboard) chuẩn theo ảnh mẫu -->
+                <div class="flex justify-between text-[11px] font-semibold gap-2">
+                    <button onclick="startPracticeQueue(true)" class="flex-1 bg-[#FFF0F5] hover:bg-[#FCEAF1] px-2.5 py-2 rounded-xl border border-[#EBA3BD] text-left transition flex items-center justify-between shadow-sm">
+                        <span><i class="fa-regular fa-clock text-[#EBA3BD] mr-1"></i> Ôn SRS: <span class="text-[#EBA3BD] font-bold">Bắt đầu ➔</span></span>
+                        <span id="duePillCount" class="text-[9px] bg-[#EBA3BD] text-white px-1.5 py-0.2 rounded-full">0</span>
                     </button>
-                    <button onclick="startPracticeQueue(true)" class="bg-[#FFF0F5] hover:bg-[#FCEAF1] p-2.5 rounded-xl border border-[#EBA3BD] text-left transition flex flex-col justify-between shadow-sm">
-                        <div class="flex items-center gap-1 text-[#4A3B4E] font-bold text-xs mb-1">
-                            <i class="fa-solid fa-calendar-check text-[#EBA3BD]"></i> Ôn Theo Lịch SRS
-                        </div>
-                        <p class="text-[9px] text-gray-500 font-normal leading-tight">Chỉ ôn các từ <span class="font-bold text-amber-600">đến hạn hôm nay</span> theo chu kỳ nhớ</p>
+                    <button onclick="startPracticeQueue(false)" class="bg-[#FFF0F5] hover:bg-[#FCEAF1] px-2.5 py-2 rounded-xl border border-[#F5D7E2] flex items-center text-[10px] font-bold text-[#4A3B4E] transition">
+                        <i class="fa-solid fa-keyboard text-[#EBA3BD] mr-1"></i> Luyện Tự Do
                     </button>
                 </div>
             </div>
 
-            <!-- Kho Từ Vựng Trọng Tâm (SRS Due List - Slide Up/Down) -->
+            <!-- Frame 'Bài học mới ở trường' đã được ẩn hoàn toàn để trang chủ ngắn gọn và tinh tế -->
+
+            <!-- Kho Từ Vựng (Lọc Tự Động) - Bố cục chuẩn theo ảnh mẫu với danh sách từ cuộn mượt -->
             <div class="mb-3.5">
                 <div class="flex justify-between items-center mb-1.5">
+                    <h3 class="font-bold text-xs text-[#4A3B4E]">Kho Từ Vựng (Lọc Tự Động)</h3>
                     <div class="flex items-center gap-1.5">
-                        <h3 class="font-bold text-xs">Từ Vựng Trọng Tâm Trong Ngày</h3>
-                        <span id="dueBadge" class="text-[9px] font-bold text-[#EBA3BD] bg-[#FFF0F5] px-2 py-0.5 rounded border border-[#F5D7E2]">0 thẻ</span>
-                    </div>
-                    <!-- Nút bấm Slide Up / Down tiện lợi thay thế thanh cuộn thô -->
-                    <div class="flex items-center gap-1">
-                        <button onclick="slideVocabList(-1)" title="Cuộn lên" class="w-5 h-5 rounded-full bg-white border border-[#F5D7E2] hover:border-[#EBA3BD] text-[#EBA3BD] flex items-center justify-center text-[9px] shadow-sm transition active:scale-95">
-                            <i class="fa-solid fa-chevron-up"></i>
-                        </button>
-                        <button onclick="slideVocabList(1)" title="Cuộn xuống" class="w-5 h-5 rounded-full bg-white border border-[#F5D7E2] hover:border-[#EBA3BD] text-[#EBA3BD] flex items-center justify-center text-[9px] shadow-sm transition active:scale-95">
-                            <i class="fa-solid fa-chevron-down"></i>
-                        </button>
+                        <span onclick="toggleVocabModal()" class="text-[9px] font-bold text-[#EBA3BD] bg-[#FFF0F5] px-2 py-0.5 rounded border border-[#F5D7E2] cursor-pointer hover:bg-[#FCEAF1]">
+                            📁 Thư mục
+                        </span>
+                        <!-- Nút bấm Slide Up / Down -->
+                        <div class="flex items-center gap-1">
+                            <button onclick="slideVocabList(-1)" title="Cuộn lên" class="w-5 h-5 rounded-full bg-white border border-[#F5D7E2] hover:border-[#EBA3BD] text-[#EBA3BD] flex items-center justify-center text-[9px] shadow-sm transition active:scale-95">
+                                <i class="fa-solid fa-chevron-up"></i>
+                            </button>
+                            <button onclick="slideVocabList(1)" title="Cuộn xuống" class="w-5 h-5 rounded-full bg-white border border-[#F5D7E2] hover:border-[#EBA3BD] text-[#EBA3BD] flex items-center justify-center text-[9px] shadow-sm transition active:scale-95">
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </button>
+                        </div>
                     </div>
                 </div>
-                <div id="homeDueCardsList" class="card-pink p-2.5 space-y-1.5 max-h-[195px] overflow-y-auto no-scrollbar vocab-scroll-container relative">
-                    <!-- Danh sách thẻ cần ôn sẽ được render tự động -->
+
+                <div class="card-pink p-2.5">
+                    <div class="flex gap-3 border-b border-[#F5D7E2] pb-1 mb-2 text-[11px] font-bold">
+                        <span class="text-[#EBA3BD] border-b-2 border-[#EBA3BD] pb-0.5 cursor-pointer">1. Từ vựng trọng tâm</span>
+                        <span onclick="toggleVocabModal()" class="text-gray-400 cursor-pointer hover:text-[#4A3B4E]">2. Toàn bộ kho HSK</span>
+                    </div>
+                    
+                    <div id="homeDueCardsList" class="space-y-1.5 max-h-[195px] overflow-y-auto no-scrollbar vocab-scroll-container relative">
+                        <!-- Danh sách thẻ từ vựng render động với nút 'Luyện Gboard ➔' -->
+                    </div>
                 </div>
             </div>
 
-            <!-- Shortcut Đọc Truyện -->
-            <div class="card-pink p-3 flex gap-3 items-center cursor-pointer mb-3 hover:border-[#EBA3BD] transition" onclick="switchScreen('screen-reader')">
-                <div class="w-12 h-14 bg-[#F5D7E2] rounded-xl flex items-center justify-center text-xl">📖</div>
+            <!-- Card Đọc Truyện: Câu Chuyện Của Thanh ✨ -->
+            <div class="card-pink p-3 flex gap-3 items-center cursor-pointer mb-3 hover:border-[#EBA3BD] transition shadow-sm" onclick="switchScreen('screen-reader')">
+                <div class="w-12 h-14 bg-[#F5D7E2] rounded-2xl flex items-center justify-center text-xl shadow-inner">📖</div>
                 <div class="flex-1">
-                    <h4 class="font-bold text-xs">Đọc Văn Học — Trích Đoạn HSK 3-4</h4>
-                    <p class="text-[9px] font-semibold text-[#EBA3BD] my-0.5">✨ Chạm chữ Hán để tra nghĩa, lưu & đẩy sang Gboard</p>
-                    <button class="w-full py-0.5 bg-white border border-[#EBA3BD] text-[#EBA3BD] text-[9px] font-bold rounded-lg">Mở bài đọc ➔</button>
+                    <h4 class="font-bold text-xs text-[#4A3B4E]">Câu Chuyện Của Thanh ✨</h4>
+                    <p class="text-[9px] font-semibold text-[#EBA3BD] my-0.5">✨ Đã tô vàng: 15 từ mới</p>
+                    <button class="w-full py-0.5 bg-white border border-[#EBA3BD] text-[#EBA3BD] text-[9px] font-bold rounded-lg hover:bg-[#FFF0F5] transition">Đọc Tiếp ➔</button>
                 </div>
             </div>
         </div>
@@ -902,7 +909,8 @@
             if (backWave) backWave.style.top = `${waveTopPct - 4}%`;
             document.getElementById('homeMasteredCount').innerText = `${masteredList.length} / ${cards.length}`;
             document.getElementById('homeDueSubtitle').innerText = `(Hôm nay cần ôn: ${dueList.length} từ)`;
-            document.getElementById('dueBadge').innerText = `${dueList.length} thẻ đến hạn`;
+            const duePill = document.getElementById('duePillCount');
+            if (duePill) duePill.innerText = dueList.length;
             document.getElementById('srs-status-tag').innerText = `SRS: ${dueList.length} từ cần ôn`;
 
             // Render danh sách thẻ cần ôn (hiển thị đầy đủ thẻ để trượt slide up/down)
@@ -916,12 +924,14 @@
                 `;
             } else {
                 container.innerHTML = dueList.map((item) => `
-                    <div onclick="startPracticeSingle('${item.character}')" class="vocab-item-card flex justify-between items-center bg-white p-2.5 rounded-xl border border-[#F5D7E2] cursor-pointer hover:border-[#EBA3BD] hover:shadow-sm transition">
+                    <div onclick="startPracticeSingle('${item.character}')" class="vocab-item-card flex justify-between items-center bg-white p-2 rounded-xl border border-[#F5D7E2] cursor-pointer hover:border-[#EBA3BD] hover:shadow-sm transition">
                         <div>
-                            <p class="font-bold text-xs hanzi-text">${item.character} <span class="font-normal text-[10px] text-gray-400 font-sans">(${item.pinyin})</span></p>
+                            <p class="font-bold text-xs hanzi-text text-[#3D2B3D]">${item.character} <span class="font-normal text-[10px] text-gray-400 font-sans">(${item.pinyin})</span></p>
                             <p class="text-[10px] text-gray-500 line-clamp-1">${item.meaning}</p>
                         </div>
-                        <span class="text-[9px] font-bold bg-[#FFF0F5] text-[#EBA3BD] px-2 py-0.5 rounded-lg border border-[#F5D7E2] whitespace-nowrap">Cấp ${item.srsLevel || 1} ➔</span>
+                        <span class="text-[9px] font-bold bg-[#FFF0F5] text-[#EBA3BD] px-2.5 py-1 rounded-lg border border-[#F5D7E2] hover:bg-[#FCEAF1] whitespace-nowrap">
+                            Luyện Gboard ➔
+                        </span>
                     </div>
                 `).join('');
             }
