@@ -1,0 +1,7282 @@
+[
+  {
+    "id": "doc_1",
+    "character": "不听",
+    "pinyin": "bu4ting1",
+    "meaning": "ko nghe",
+    "sentence": "请在这个句子填入 [ 不听 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_2",
+    "character": "口",
+    "pinyin": "kou3",
+    "meaning": "cái miệng",
+    "sentence": "请在这个句子填入 [ 口 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_3",
+    "character": "我",
+    "pinyin": "wo3",
+    "meaning": "tôi",
+    "sentence": "请在这个句子填入 [ 我 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_4",
+    "character": "你",
+    "pinyin": "ni3",
+    "meaning": "bạn",
+    "sentence": "请在这个句子填入 [ 你 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_5",
+    "character": "学",
+    "pinyin": "xue2",
+    "meaning": "học",
+    "sentence": "请在这个句子填入 [ 学 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_6",
+    "character": "写",
+    "pinyin": "xie3",
+    "meaning": "viết",
+    "sentence": "请在这个句子填入 [ 写 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_7",
+    "character": "算",
+    "pinyin": "suan4",
+    "meaning": "tính , tính toán",
+    "sentence": "请在这个句子填入 [ 算 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_8",
+    "character": "不算",
+    "pinyin": "bu2suan4",
+    "meaning": "ko tính",
+    "sentence": "请在这个句子填入 [ 不算 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_9",
+    "character": "算了吧",
+    "pinyin": "suan4leba",
+    "meaning": "thôi bỏ đi , thôi dẹp đi",
+    "sentence": "请在这个句子填入 [ 算了吧 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_10",
+    "character": "酸",
+    "pinyin": "suan1",
+    "meaning": "chua",
+    "sentence": "请在这个句子填入 [ 酸 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_11",
+    "character": "舌",
+    "pinyin": "she2",
+    "meaning": "bộ thiệt (lưỡi )",
+    "sentence": "请在这个句子填入 [ 舌 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_12",
+    "character": "舌头",
+    "pinyin": "she2tou2",
+    "meaning": "cái lưỡi , đầu lưỡi",
+    "sentence": "请在这个句子填入 [ 舌头 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_13",
+    "character": "甜",
+    "pinyin": "tian2",
+    "meaning": "ngọt",
+    "sentence": "请在这个句子填入 [ 甜 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_14",
+    "character": "苦",
+    "pinyin": "ku3",
+    "meaning": "khổ / đắng",
+    "sentence": "请在这个句子填入 [ 苦 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_15",
+    "character": "吃",
+    "pinyin": "chi1",
+    "meaning": "ăn",
+    "sentence": "请在这个句子填入 [ 吃 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_16",
+    "character": "能",
+    "pinyin": "neng2",
+    "meaning": "có thể",
+    "sentence": "请在这个句子填入 [ 能 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_17",
+    "character": "我能吃苦",
+    "pinyin": "wo3neng2chi1ku3",
+    "meaning": "tôi có thể chịu khổ",
+    "sentence": "请在这个句子填入 [ 我能吃苦 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_18",
+    "character": "辣",
+    "pinyin": "la4",
+    "meaning": "cay",
+    "sentence": "请在这个句子填入 [ 辣 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_19",
+    "character": "汤",
+    "pinyin": "tang1",
+    "meaning": "canh , súp",
+    "sentence": "请在这个句子填入 [ 汤 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_20",
+    "character": "酸辣汤",
+    "pinyin": "suan1la4tang1",
+    "meaning": "canh chua cay , canh chua",
+    "sentence": "请在这个句子填入 [ 酸辣汤 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_21",
+    "character": "不干不净",
+    "pinyin": "bu4gan1bu2jing4",
+    "meaning": "ko sạch ko sẽ",
+    "sentence": "请在这个句子填入 [ 不干不净 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_22",
+    "character": "干净",
+    "pinyin": "gan1jing4",
+    "meaning": "sạch , sạch sẽ",
+    "sentence": "请在这个句子填入 [ 干净 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_23",
+    "character": "不喜不悲",
+    "pinyin": "bu4xi3bu4bei1",
+    "meaning": "ko vui ko buồn",
+    "sentence": "请在这个句子填入 [ 不喜不悲 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_24",
+    "character": "喜",
+    "pinyin": "xi3",
+    "meaning": "hỉ , vui",
+    "sentence": "请在这个句子填入 [ 喜 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_25",
+    "character": "悲",
+    "pinyin": "bei1",
+    "meaning": "bi , buồn",
+    "sentence": "请在这个句子填入 [ 悲 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_26",
+    "character": "心",
+    "pinyin": "xin1",
+    "meaning": "tâm, tim , lòng",
+    "sentence": "请在这个句子填入 [ 心 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_27",
+    "character": "不闻不问",
+    "pinyin": "bu4wen2bu2wen4",
+    "meaning": "ko nghe ko hỏi",
+    "sentence": "请在这个句子填入 [ 不闻不问 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_28",
+    "character": "闻",
+    "pinyin": "wen2",
+    "meaning": "nghe ( ngóng )",
+    "sentence": "请在这个句子填入 [ 闻 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_29",
+    "character": "门",
+    "pinyin": "men2",
+    "meaning": "cửa",
+    "sentence": "请在这个句子填入 [ 门 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_30",
+    "character": "耳",
+    "pinyin": "er3",
+    "meaning": "cái tai",
+    "sentence": "请在这个句子填入 [ 耳 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_31",
+    "character": "新闻",
+    "pinyin": "xin1wen2",
+    "meaning": "tin tức, báo chí",
+    "sentence": "请在这个句子填入 [ 新闻 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_32",
+    "character": "问",
+    "pinyin": "wen4",
+    "meaning": "( vấn ) hỏi",
+    "sentence": "请在这个句子填入 [ 问 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_33",
+    "character": "不见不散",
+    "pinyin": "bu2jian4bu2san4",
+    "meaning": "ko gặp ko về",
+    "sentence": "请在这个句子填入 [ 不见不散 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_34",
+    "character": "见",
+    "pinyin": "jian4",
+    "meaning": "bộ kiến , gặp",
+    "sentence": "请在这个句子填入 [ 见 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_35",
+    "character": "散",
+    "pinyin": "san4",
+    "meaning": "tản",
+    "sentence": "请在这个句子填入 [ 散 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_36",
+    "character": "好",
+    "pinyin": "hao3",
+    "meaning": "tốt , khỏe , dc",
+    "sentence": "请在这个句子填入 [ 好 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_37",
+    "character": "女",
+    "pinyin": "nv3",
+    "meaning": "nữ",
+    "sentence": "请在这个句子填入 [ 女 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_38",
+    "character": "子",
+    "pinyin": "",
+    "meaning": "bộ tử /zi3/ con trai",
+    "sentence": "请在这个句子填入 [ 子 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_39",
+    "character": "早生贵子",
+    "pinyin": "zao3sheng1gui4zi3",
+    "meaning": "sớm sinh quý tử",
+    "sentence": "请在这个句子填入 [ 早生贵子 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_40",
+    "character": "老板",
+    "pinyin": "lao3ban3",
+    "meaning": "ông chủ",
+    "sentence": "请在这个句子填入 [ 老板 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_41",
+    "character": "叔叔",
+    "pinyin": "shu4shu",
+    "meaning": "chú",
+    "sentence": "请在这个句子填入 [ 叔叔 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_42",
+    "character": "姑姑",
+    "pinyin": "gu1gu1",
+    "meaning": "cô",
+    "sentence": "请在这个句子填入 [ 姑姑 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_43",
+    "character": "阿姨",
+    "pinyin": "a1yi2",
+    "meaning": "dì",
+    "sentence": "请在这个句子填入 [ 阿姨 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_44",
+    "character": "人",
+    "pinyin": "ren2",
+    "meaning": "bộ nhân , người",
+    "sentence": "请在这个句子填入 [ 人 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_45",
+    "character": "女人",
+    "pinyin": "nv3ren2",
+    "meaning": "đàn bà , phụ nữ , con gái , nữ giới",
+    "sentence": "请在这个句子填入 [ 女人 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_46",
+    "character": "好人",
+    "pinyin": "hao3ren2",
+    "meaning": "người tốt",
+    "sentence": "请在这个句子填入 [ 好人 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_47",
+    "character": "老师",
+    "pinyin": "lao3shi1",
+    "meaning": "giáo viên",
+    "sentence": "请在这个句子填入 [ 老师 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_48",
+    "character": "老",
+    "pinyin": "lao3",
+    "meaning": "( lão ) già",
+    "sentence": "请在这个句子填入 [ 老 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_49",
+    "character": "老人",
+    "pinyin": "lao3ren2",
+    "meaning": "người già",
+    "sentence": "请在这个句子填入 [ 老人 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_50",
+    "character": "了",
+    "pinyin": "le",
+    "meaning": "rồi , nữa",
+    "sentence": "请在这个句子填入 [ 了 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_51",
+    "character": "年轻",
+    "pinyin": "nian2qing1",
+    "meaning": "trẻ",
+    "sentence": "请在这个句子填入 [ 年轻 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_52",
+    "character": "年轻人",
+    "pinyin": "nian2qing1ren2",
+    "meaning": "người trẻ",
+    "sentence": "请在这个句子填入 [ 年轻人 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_53",
+    "character": "是",
+    "pinyin": "shi4",
+    "meaning": "là , phải",
+    "sentence": "请在这个句子填入 [ 是 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_54",
+    "character": "不是",
+    "pinyin": "bu2shi4",
+    "meaning": "ko là , ko phải là",
+    "sentence": "请在这个句子填入 [ 不是 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_55",
+    "character": "师",
+    "pinyin": "shi1",
+    "meaning": "帅shuai4 : đẹp trai",
+    "sentence": "请在这个句子填入 [ 师 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_56",
+    "character": "谢谢",
+    "pinyin": "xie4xie",
+    "meaning": "cảm ơn",
+    "sentence": "请在这个句子填入 [ 谢谢 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_57",
+    "character": "讠",
+    "pinyin": "",
+    "meaning": "bộ ngôn",
+    "sentence": "请在这个句子填入 [ 讠 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_58",
+    "character": "身体",
+    "pinyin": "shen1ti3",
+    "meaning": "thân thể , sức khỏe",
+    "sentence": "请在这个句子填入 [ 身体 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_59",
+    "character": "身",
+    "pinyin": "shen1",
+    "meaning": "thân",
+    "sentence": "请在这个句子填入 [ 身 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_60",
+    "character": "寸",
+    "pinyin": "cun4",
+    "meaning": "thốn",
+    "sentence": "请在这个句子填入 [ 寸 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_61",
+    "character": "客气",
+    "pinyin": "",
+    "meaning": "ke4qi :",
+    "sentence": "请在这个句子填入 [ 客气 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_62",
+    "character": "客户",
+    "pinyin": "ke4hu4",
+    "meaning": "khách , khách hàng",
+    "sentence": "请在这个句子填入 [ 客户 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_63",
+    "character": "气",
+    "pinyin": "qi",
+    "meaning": "khí",
+    "sentence": "请在这个句子填入 [ 气 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_64",
+    "character": "空气",
+    "pinyin": "kong1qi",
+    "meaning": "ko khí",
+    "sentence": "请在这个句子填入 [ 空气 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_65",
+    "character": "对不起",
+    "pinyin": "dui4bu4qi",
+    "meaning": "xin lỗi",
+    "sentence": "请在这个句子填入 [ 对不起 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_66",
+    "character": "对",
+    "pinyin": "dui4",
+    "meaning": "đúng / đối với",
+    "sentence": "请在这个句子填入 [ 对 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_67",
+    "character": "错",
+    "pinyin": "cuo4",
+    "meaning": "sai",
+    "sentence": "请在这个句子填入 [ 错 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_68",
+    "character": "很",
+    "pinyin": "hen3",
+    "meaning": "rất",
+    "sentence": "请在这个句子填入 [ 很 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_69",
+    "character": "为什么",
+    "pinyin": "wei4shen2me",
+    "meaning": "tại sao , vì sao",
+    "sentence": "请在这个句子填入 [ 为什么 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_70",
+    "character": "没关系",
+    "pinyin": "mei2guan1xi",
+    "meaning": "ko sao , ko việc gì đâu",
+    "sentence": "请在这个句子填入 [ 没关系 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_71",
+    "character": "有",
+    "pinyin": "you3",
+    "meaning": "( hữu) có",
+    "sentence": "请在这个句子填入 [ 有 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_72",
+    "character": "没有",
+    "pinyin": "mei2you3",
+    "meaning": "ko có",
+    "sentence": "请在这个句子填入 [ 没有 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_73",
+    "character": "关系",
+    "pinyin": "guan1xi",
+    "meaning": "quan hệ , mối quan hệ",
+    "sentence": "请在这个句子填入 [ 关系 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_74",
+    "character": "再见",
+    "pinyin": "zai4jian4",
+    "meaning": "tạm biệt",
+    "sentence": "请在这个句子填入 [ 再见 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_75",
+    "character": "再",
+    "pinyin": "zai4",
+    "meaning": "( tái ) again , lại",
+    "sentence": "请在这个句子填入 [ 再 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_76",
+    "character": "再来",
+    "pinyin": "zai4lai2",
+    "meaning": "lặp lại",
+    "sentence": "请在这个句子填入 [ 再来 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_77",
+    "character": "再说一遍",
+    "pinyin": "zai4shuo1yi2(4)bian4",
+    "meaning": "nói lại 1 lần",
+    "sentence": "请在这个句子填入 [ 再说一遍 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_78",
+    "character": "遍",
+    "pinyin": "bian4",
+    "meaning": "lần",
+    "sentence": "请在这个句子填入 [ 遍 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_79",
+    "character": "请",
+    "pinyin": "qing3",
+    "meaning": "mời , xin mời , vui lòng",
+    "sentence": "请在这个句子填入 [ 请 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_80",
+    "character": "进步",
+    "pinyin": "jin4bu4",
+    "meaning": "tiến bộ",
+    "sentence": "请在这个句子填入 [ 进步 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_81",
+    "character": "散步",
+    "pinyin": "san4bu4",
+    "meaning": "tản bộ",
+    "sentence": "请在这个句子填入 [ 散步 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_82",
+    "character": "土",
+    "pinyin": "tu3",
+    "meaning": "bộ thổ /tu3/ : đất",
+    "sentence": "请在这个句子填入 [ 土 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_83",
+    "character": "你很土",
+    "pinyin": "ni3hen3tu3",
+    "meaning": "bạn rất phèn",
+    "sentence": "请在这个句子填入 [ 你很土 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_84",
+    "character": "发音",
+    "pinyin": "fa1yin1",
+    "meaning": "phát âm",
+    "sentence": "请在这个句子填入 [ 发音 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_85",
+    "character": "发",
+    "pinyin": "fa1",
+    "meaning": "phát",
+    "sentence": "请在这个句子填入 [ 发 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_86",
+    "character": "发钱",
+    "pinyin": "fa1qian2",
+    "meaning": "phát tiền",
+    "sentence": "请在这个句子填入 [ 发钱 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_87",
+    "character": "发展",
+    "pinyin": "fa1zhan3",
+    "meaning": "phát triển",
+    "sentence": "请在这个句子填入 [ 发展 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_88",
+    "character": "还没",
+    "pinyin": "hai2mei2",
+    "meaning": "chưa , vẫn chưa",
+    "sentence": "请在这个句子填入 [ 还没 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_89",
+    "character": "欢迎",
+    "pinyin": "huan1ying2",
+    "meaning": "hoan nghênh",
+    "sentence": "请在这个句子填入 [ 欢迎 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_90",
+    "character": "钢笔",
+    "pinyin": "",
+    "meaning": "gang1bi3 :",
+    "sentence": "请在这个句子填入 [ 钢笔 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_91",
+    "character": "钢",
+    "pinyin": "gang1",
+    "meaning": "sắt ,thép",
+    "sentence": "请在这个句子填入 [ 钢 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_92",
+    "character": "笔",
+    "pinyin": "bi3",
+    "meaning": "bút",
+    "sentence": "请在这个句子填入 [ 笔 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_93",
+    "character": "毛",
+    "pinyin": "mao2",
+    "meaning": "lông",
+    "sentence": "请在这个句子填入 [ 毛 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_94",
+    "character": "铅笔",
+    "pinyin": "qian1bi3",
+    "meaning": "bút chì",
+    "sentence": "请在这个句子填入 [ 铅笔 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_95",
+    "character": "铅",
+    "pinyin": "qian1",
+    "meaning": "chì (Pb )",
+    "sentence": "请在这个句子填入 [ 铅 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_96",
+    "character": "圆珠笔",
+    "pinyin": "yuan2zhu1bi3",
+    "meaning": "bút bi",
+    "sentence": "请在这个句子填入 [ 圆珠笔 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_97",
+    "character": "珍珠",
+    "pinyin": "zhen1zhu1",
+    "meaning": "trân châu",
+    "sentence": "请在这个句子填入 [ 珍珠 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_98",
+    "character": "高兴",
+    "pinyin": "gao1xing4",
+    "meaning": "vui , cao hứng",
+    "sentence": "请在这个句子填入 [ 高兴 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_99",
+    "character": "高",
+    "pinyin": "gao1",
+    "meaning": "cao",
+    "sentence": "请在这个句子填入 [ 高 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_100",
+    "character": "矮",
+    "pinyin": "ai3",
+    "meaning": "lùn",
+    "sentence": "请在这个句子填入 [ 矮 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_101",
+    "character": "矮人",
+    "pinyin": "ai3ren2",
+    "meaning": "người lùn",
+    "sentence": "请在这个句子填入 [ 矮人 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_102",
+    "character": "兴",
+    "pinyin": "xing4",
+    "meaning": "hưng , hứng",
+    "sentence": "请在这个句子填入 [ 兴 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_103",
+    "character": "开",
+    "pinyin": "kai1",
+    "meaning": "khai , mở",
+    "sentence": "请在这个句子填入 [ 开 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_104",
+    "character": "开心",
+    "pinyin": "kai1xin1",
+    "meaning": "vui",
+    "sentence": "请在这个句子填入 [ 开心 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_105",
+    "character": "开门",
+    "pinyin": "kai1men2",
+    "meaning": "mở cửa",
+    "sentence": "请在这个句子填入 [ 开门 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_106",
+    "character": "关",
+    "pinyin": "guan1",
+    "meaning": "đóng , tắt",
+    "sentence": "请在这个句子填入 [ 关 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_107",
+    "character": "关门",
+    "pinyin": "guan1men2",
+    "meaning": "đóng cửa",
+    "sentence": "请在这个句子填入 [ 关门 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_108",
+    "character": "灯",
+    "pinyin": "deng1",
+    "meaning": "( đăng ) đèn",
+    "sentence": "请在这个句子填入 [ 灯 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_109",
+    "character": "火",
+    "pinyin": "huo3",
+    "meaning": "lửa",
+    "sentence": "请在这个句子填入 [ 火 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_110",
+    "character": "开灯",
+    "pinyin": "kai1deng1",
+    "meaning": "mở đèn",
+    "sentence": "请在这个句子填入 [ 开灯 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_111",
+    "character": "关灯",
+    "pinyin": "guan1deng1",
+    "meaning": "tắt đèn",
+    "sentence": "请在这个句子填入 [ 关灯 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_112",
+    "character": "难过",
+    "pinyin": "nan2guo4",
+    "meaning": "buồn",
+    "sentence": "请在这个句子填入 [ 难过 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_113",
+    "character": "难",
+    "pinyin": "nan2",
+    "meaning": "khó",
+    "sentence": "请在这个句子填入 [ 难 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_114",
+    "character": "过",
+    "pinyin": "guo4",
+    "meaning": "qua , quá",
+    "sentence": "请在这个句子填入 [ 过 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_115",
+    "character": "过分",
+    "pinyin": "guo4fen1",
+    "meaning": "quá đáng",
+    "sentence": "请在这个句子填入 [ 过分 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_116",
+    "character": "兴趣",
+    "pinyin": "xing4qu4",
+    "meaning": "hứng thú",
+    "sentence": "请在这个句子填入 [ 兴趣 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_117",
+    "character": "工作",
+    "pinyin": "gong1zuo4",
+    "meaning": "công việc",
+    "sentence": "请在这个句子填入 [ 工作 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_118",
+    "character": "但是",
+    "pinyin": "",
+    "meaning": "dan4shi4",
+    "sentence": "请在这个句子填入 [ 但是 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_119",
+    "character": "但",
+    "pinyin": "",
+    "meaning": "dan4",
+    "sentence": "请在这个句子填入 [ 但 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_120",
+    "character": "可是",
+    "pinyin": "",
+    "meaning": "ke3shi4",
+    "sentence": "请在这个句子填入 [ 可是 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_121",
+    "character": "可",
+    "pinyin": "",
+    "meaning": "ke3 :",
+    "sentence": "请在这个句子填入 [ 可 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_122",
+    "character": "不过",
+    "pinyin": "",
+    "meaning": "bu2guo4 :",
+    "sentence": "请在这个句子填入 [ 不过 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_123",
+    "character": "妈妈",
+    "pinyin": "ma1ma",
+    "meaning": "mẹ",
+    "sentence": "请在这个句子填入 [ 妈妈 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_124",
+    "character": "马",
+    "pinyin": "ma3",
+    "meaning": "con ngựa",
+    "sentence": "请在这个句子填入 [ 马 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_125",
+    "character": "飞机",
+    "pinyin": "fei1ji1",
+    "meaning": "máy bay",
+    "sentence": "请在这个句子填入 [ 飞机 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_126",
+    "character": "飞",
+    "pinyin": "fei1",
+    "meaning": "phi ( bay )",
+    "sentence": "请在这个句子填入 [ 飞 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_127",
+    "character": "机",
+    "pinyin": "ji1",
+    "meaning": "( cơ ) máy",
+    "sentence": "请在这个句子填入 [ 机 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_128",
+    "character": "手",
+    "pinyin": "shou3",
+    "meaning": "(thủ) tay",
+    "sentence": "请在这个句子填入 [ 手 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_129",
+    "character": "手机",
+    "pinyin": "shou3ji1",
+    "meaning": "đth d động",
+    "sentence": "请在这个句子填入 [ 手机 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_130",
+    "character": "耳朵",
+    "pinyin": "er3duo1",
+    "meaning": "lỗ tai",
+    "sentence": "请在这个句子填入 [ 耳朵 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_131",
+    "character": "耳机",
+    "pinyin": "er3ji1",
+    "meaning": "tai nghe",
+    "sentence": "请在这个句子填入 [ 耳机 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_132",
+    "character": "帮忙",
+    "pinyin": "bang1mang2",
+    "meaning": "giúp đỡ",
+    "sentence": "请在这个句子填入 [ 帮忙 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_133",
+    "character": "帮",
+    "pinyin": "bang1",
+    "meaning": "giúp",
+    "sentence": "请在这个句子填入 [ 帮 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_134",
+    "character": "忙",
+    "pinyin": "mang2",
+    "meaning": "bận",
+    "sentence": "请在这个句子填入 [ 忙 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_135",
+    "character": "黑板",
+    "pinyin": "hei1ban3",
+    "meaning": "bảng đen , bảng",
+    "sentence": "请在这个句子填入 [ 黑板 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_136",
+    "character": "黑",
+    "pinyin": "hei1",
+    "meaning": "（ hắc ) đen",
+    "sentence": "请在这个句子填入 [ 黑 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_137",
+    "character": "黑马",
+    "pinyin": "hei1ma3",
+    "meaning": "hắc mã ( ngựa đen )",
+    "sentence": "请在这个句子填入 [ 黑马 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_138",
+    "character": "白",
+    "pinyin": "bai2",
+    "meaning": "bạch ( trắng )",
+    "sentence": "请在这个句子填入 [ 白 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_139",
+    "character": "白马",
+    "pinyin": "bai2ma3",
+    "meaning": "bạch mã",
+    "sentence": "请在这个句子填入 [ 白马 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_140",
+    "character": "板",
+    "pinyin": "ban3",
+    "meaning": "mảnh , miếng",
+    "sentence": "请在这个句子填入 [ 板 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_141",
+    "character": "木",
+    "pinyin": "mu4",
+    "meaning": "cây",
+    "sentence": "请在这个句子填入 [ 木 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_142",
+    "character": "林",
+    "pinyin": "lin2",
+    "meaning": "lâm , rừng",
+    "sentence": "请在这个句子填入 [ 林 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_143",
+    "character": "森",
+    "pinyin": "sen1",
+    "meaning": "rừng rậm",
+    "sentence": "请在这个句子填入 [ 森 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_144",
+    "character": "森林",
+    "pinyin": "sen1lin2",
+    "meaning": "rừng rậm",
+    "sentence": "请在这个句子填入 [ 森林 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_145",
+    "character": "爱人",
+    "pinyin": "ai4ren2",
+    "meaning": "vợ / chồng",
+    "sentence": "请在这个句子填入 [ 爱人 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_146",
+    "character": "朋友",
+    "pinyin": "peng2you ( bằng hữu )",
+    "meaning": "bạn , bạn bè",
+    "sentence": "请在这个句子填入 [ 朋友 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_147",
+    "character": "男朋友",
+    "pinyin": "nan2peng2you",
+    "meaning": "bạn trai",
+    "sentence": "请在这个句子填入 [ 男朋友 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_148",
+    "character": "女朋友",
+    "pinyin": "nv3peng2you",
+    "meaning": "bạn gái",
+    "sentence": "请在这个句子填入 [ 女朋友 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_149",
+    "character": "爱",
+    "pinyin": "ai4",
+    "meaning": "( ái ) yêu",
+    "sentence": "请在这个句子填入 [ 爱 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_150",
+    "character": "好感",
+    "pinyin": "hao3gan3",
+    "meaning": "( hảo cảm ) , thiện cảm",
+    "sentence": "请在这个句子填入 [ 好感 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_151",
+    "character": "喜欢",
+    "pinyin": "xi3huan1",
+    "meaning": "thích",
+    "sentence": "请在这个句子填入 [ 喜欢 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_152",
+    "character": "讨厌",
+    "pinyin": "tao3yan4",
+    "meaning": "ghét",
+    "sentence": "请在这个句子填入 [ 讨厌 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_153",
+    "character": "疼",
+    "pinyin": "teng2",
+    "meaning": "thương",
+    "sentence": "请在这个句子填入 [ 疼 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_154",
+    "character": "痛",
+    "pinyin": "tong4",
+    "meaning": "đau",
+    "sentence": "请在这个句子填入 [ 痛 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_155",
+    "character": "累",
+    "pinyin": "lei4",
+    "meaning": "mệt",
+    "sentence": "请在这个句子填入 [ 累 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_156",
+    "character": "饿",
+    "pinyin": "e4",
+    "meaning": "đói 声调: sheng1diao4 :",
+    "sentence": "请在这个句子填入 [ 饿 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_157",
+    "character": "声",
+    "pinyin": "sheng1",
+    "meaning": "thanh",
+    "sentence": "请在这个句子填入 [ 声 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_158",
+    "character": "第一声",
+    "pinyin": "di4yi4sheng1",
+    "meaning": "thanh 1 ( thanh thứ nhất )",
+    "sentence": "请在这个句子填入 [ 第一声 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_159",
+    "character": "第二声",
+    "pinyin": "di4er4sheng1",
+    "meaning": "thanh 2",
+    "sentence": "请在这个句子填入 [ 第二声 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_160",
+    "character": "第三声",
+    "pinyin": "di4san1sheng1",
+    "meaning": "thanh 3",
+    "sentence": "请在这个句子填入 [ 第三声 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_161",
+    "character": "第四声",
+    "pinyin": "di4si4sheng1",
+    "meaning": "thanh4",
+    "sentence": "请在这个句子填入 [ 第四声 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_162",
+    "character": "第几声",
+    "pinyin": "di4ji3sheng1",
+    "meaning": "thanh mấy ?",
+    "sentence": "请在这个句子填入 [ 第几声 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_163",
+    "character": "几",
+    "pinyin": "ji3",
+    "meaning": "mấy",
+    "sentence": "请在这个句子填入 [ 几 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_164",
+    "character": "调",
+    "pinyin": "diao4",
+    "meaning": "điệu",
+    "sentence": "请在这个句子填入 [ 调 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_165",
+    "character": "音调",
+    "pinyin": "yin1diao4",
+    "meaning": "âm điệu",
+    "sentence": "请在这个句子填入 [ 音调 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_166",
+    "character": "声音",
+    "pinyin": "sheng1yin1",
+    "meaning": "thanh âm , âm thanh , tiếng",
+    "sentence": "请在这个句子填入 [ 声音 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_167",
+    "character": "声调",
+    "pinyin": "sheng1diao4",
+    "meaning": "thanh điệu",
+    "sentence": "请在这个句子填入 [ 声调 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_168",
+    "character": "调虎离山",
+    "pinyin": "diao4hu3li2shan1",
+    "meaning": "điệu hổ li sơn",
+    "sentence": "请在这个句子填入 [ 调虎离山 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_169",
+    "character": "老虎",
+    "pinyin": "lao3hu3",
+    "meaning": "hổ",
+    "sentence": "请在这个句子填入 [ 老虎 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_170",
+    "character": "离开",
+    "pinyin": "li2kai1",
+    "meaning": "li khai ( rời bỏ )",
+    "sentence": "请在这个句子填入 [ 离开 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_171",
+    "character": "山",
+    "pinyin": "shan1",
+    "meaning": "sơn ( núi )",
+    "sentence": "请在这个句子填入 [ 山 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_172",
+    "character": "商量",
+    "pinyin": "shang1liang (2)",
+    "meaning": "thương lượng",
+    "sentence": "请在这个句子填入 [ 商量 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_173",
+    "character": "商人",
+    "pinyin": "shang1ren2",
+    "meaning": "thương nhân",
+    "sentence": "请在这个句子填入 [ 商人 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_174",
+    "character": "我们",
+    "pinyin": "wo3men",
+    "meaning": "chúng tôi",
+    "sentence": "请在这个句子填入 [ 我们 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_175",
+    "character": "恨",
+    "pinyin": "hen4",
+    "meaning": "hận",
+    "sentence": "请在这个句子填入 [ 恨 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_176",
+    "character": "做",
+    "pinyin": "zuo4",
+    "meaning": "làm",
+    "sentence": "请在这个句子填入 [ 做 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_177",
+    "character": "做好了",
+    "pinyin": "zuo4hao3le",
+    "meaning": "làm xong rồi",
+    "sentence": "请在这个句子填入 [ 做好了 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_178",
+    "character": "写好了",
+    "pinyin": "xie3hao3le",
+    "meaning": "viết xong rồi",
+    "sentence": "请在这个句子填入 [ 写好了 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_179",
+    "character": "票",
+    "pinyin": "piao4",
+    "meaning": "vé",
+    "sentence": "请在这个句子填入 [ 票 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_180",
+    "character": "买",
+    "pinyin": "mai3",
+    "meaning": "mua",
+    "sentence": "请在这个句子填入 [ 买 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_181",
+    "character": "票买好了",
+    "pinyin": "piao4mai3hao3 le",
+    "meaning": "mua vé xong rồi , vé mua xong rồi , mua vé được rồi",
+    "sentence": "请在这个句子填入 [ 票买好了 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_182",
+    "character": "爱好",
+    "pinyin": "ai4hao4",
+    "meaning": "sở thích",
+    "sentence": "请在这个句子填入 [ 爱好 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_183",
+    "character": "好色",
+    "pinyin": "hao4se4",
+    "meaning": "háo sắc , dê",
+    "sentence": "请在这个句子填入 [ 好色 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_184",
+    "character": "你呢",
+    "pinyin": "ni3ne",
+    "meaning": "còn bạn thì sao ( and you ? )",
+    "sentence": "请在这个句子填入 [ 你呢 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_185",
+    "character": "爸爸",
+    "pinyin": "ba4ba",
+    "meaning": "cha , ba , bố",
+    "sentence": "请在这个句子填入 [ 爸爸 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_186",
+    "character": "父",
+    "pinyin": "fu4",
+    "meaning": "cha",
+    "sentence": "请在这个句子填入 [ 父 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_187",
+    "character": "父亲",
+    "pinyin": "fu4qin1",
+    "meaning": "phụ thân , cha , ba",
+    "sentence": "请在这个句子填入 [ 父亲 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_188",
+    "character": "亲人",
+    "pinyin": "qin1ren2",
+    "meaning": "Người thân",
+    "sentence": "请在这个句子填入 [ 亲人 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_189",
+    "character": "亲",
+    "pinyin": "(v)",
+    "meaning": "kiss , hôn",
+    "sentence": "请在这个句子填入 [ 亲 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_190",
+    "character": "老爸",
+    "pinyin": "lao3ba4",
+    "meaning": "ba , cha , bố",
+    "sentence": "请在这个句子填入 [ 老爸 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_191",
+    "character": "母亲",
+    "pinyin": "mu3qin1",
+    "meaning": "Mẫu thân , mẹ , má",
+    "sentence": "请在这个句子填入 [ 母亲 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_192",
+    "character": "老妈",
+    "pinyin": "lao3ma1",
+    "meaning": "mẹ , má",
+    "sentence": "请在这个句子填入 [ 老妈 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_193",
+    "character": "母老虎",
+    "pinyin": "mu3lao3hu3",
+    "meaning": "cọp cái , cọp mẹ / chỉ người phụ nữ dữ",
+    "sentence": "请在这个句子填入 [ 母老虎 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_194",
+    "character": "爷爷",
+    "pinyin": "ye2ye",
+    "meaning": "ông nội ( gia gia )",
+    "sentence": "请在这个句子填入 [ 爷爷 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_195",
+    "character": "奶奶",
+    "pinyin": "nai3nai",
+    "meaning": "bà nội",
+    "sentence": "请在这个句子填入 [ 奶奶 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_196",
+    "character": "奶",
+    "pinyin": "nai3",
+    "meaning": "sữa",
+    "sentence": "请在这个句子填入 [ 奶 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_197",
+    "character": "酸奶",
+    "pinyin": "suan1nai3",
+    "meaning": "sữa chua",
+    "sentence": "请在这个句子填入 [ 酸奶 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_198",
+    "character": "喝",
+    "pinyin": "he1",
+    "meaning": "uống",
+    "sentence": "请在这个句子填入 [ 喝 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_199",
+    "character": "外公",
+    "pinyin": "wai4gong1",
+    "meaning": "( ngoại công ) ông ngoại",
+    "sentence": "请在这个句子填入 [ 外公 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_200",
+    "character": "外婆",
+    "pinyin": "wai4po2",
+    "meaning": "( ngoại bà ) Bà ngoại",
+    "sentence": "请在这个句子填入 [ 外婆 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_201",
+    "character": "外人",
+    "pinyin": "wai4ren2",
+    "meaning": "người ngoài",
+    "sentence": "请在这个句子填入 [ 外人 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_202",
+    "character": "外边",
+    "pinyin": "wai4bian",
+    "meaning": "bên ngoài",
+    "sentence": "请在这个句子填入 [ 外边 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_203",
+    "character": "老公",
+    "pinyin": "lao3gong1",
+    "meaning": "chồng",
+    "sentence": "请在这个句子填入 [ 老公 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_204",
+    "character": "老婆",
+    "pinyin": "lao3po2",
+    "meaning": "vợ",
+    "sentence": "请在这个句子填入 [ 老婆 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_205",
+    "character": "丈夫",
+    "pinyin": "zhang4fu",
+    "meaning": "chồng",
+    "sentence": "请在这个句子填入 [ 丈夫 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_206",
+    "character": "妻子",
+    "pinyin": "qi1zi",
+    "meaning": "thê tử",
+    "sentence": "请在这个句子填入 [ 妻子 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_207",
+    "character": "黑婆山",
+    "pinyin": "hei1po2shan1",
+    "meaning": "Núi Bà Đen",
+    "sentence": "请在这个句子填入 [ 黑婆山 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_208",
+    "character": "西宁",
+    "pinyin": "xi1ning2",
+    "meaning": "Tây Ninh",
+    "sentence": "请在这个句子填入 [ 西宁 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_209",
+    "character": "省",
+    "pinyin": "sheng3",
+    "meaning": "tỉnh",
+    "sentence": "请在这个句子填入 [ 省 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_210",
+    "character": "西宁省",
+    "pinyin": "xi1ning2sheng3",
+    "meaning": "Tỉnh Tây Ninh",
+    "sentence": "请在这个句子填入 [ 西宁省 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_211",
+    "character": "去",
+    "pinyin": "qu4",
+    "meaning": "đi",
+    "sentence": "请在这个句子填入 [ 去 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_212",
+    "character": "伯父",
+    "pinyin": "bo2fu4",
+    "meaning": "( bá phụ ) bác trai",
+    "sentence": "请在这个句子填入 [ 伯父 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_213",
+    "character": "伯母",
+    "pinyin": "bo2mu3",
+    "meaning": "( bá mẫu ) bác gái",
+    "sentence": "请在这个句子填入 [ 伯母 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_214",
+    "character": "姑母",
+    "pinyin": "gu1mu3",
+    "meaning": "cô ruột ( cô mẫu )",
+    "sentence": "请在这个句子填入 [ 姑母 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_215",
+    "character": "婶婶",
+    "pinyin": "shen3shen",
+    "meaning": "Thím",
+    "sentence": "请在这个句子填入 [ 婶婶 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_216",
+    "character": "舅舅",
+    "pinyin": "jiu4jiu",
+    "meaning": "cậu",
+    "sentence": "请在这个句子填入 [ 舅舅 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_217",
+    "character": "舅妈",
+    "pinyin": "jiu4ma1",
+    "meaning": "mợ",
+    "sentence": "请在这个句子填入 [ 舅妈 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_218",
+    "character": "姐夫",
+    "pinyin": "jie3fu1",
+    "meaning": "anh rể",
+    "sentence": "请在这个句子填入 [ 姐夫 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_219",
+    "character": "嫂子",
+    "pinyin": "sao3zi",
+    "meaning": "chị dâu",
+    "sentence": "请在这个句子填入 [ 嫂子 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_220",
+    "character": "哥哥",
+    "pinyin": "ge1ge",
+    "meaning": "anh trai",
+    "sentence": "请在这个句子填入 [ 哥哥 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_221",
+    "character": "姐姐",
+    "pinyin": "jie3jie",
+    "meaning": "chị gái",
+    "sentence": "请在这个句子填入 [ 姐姐 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_222",
+    "character": "弟弟",
+    "pinyin": "di4di",
+    "meaning": "em trai",
+    "sentence": "请在这个句子填入 [ 弟弟 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_223",
+    "character": "妹妹",
+    "pinyin": "mei4mei",
+    "meaning": "em gái",
+    "sentence": "请在这个句子填入 [ 妹妹 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_224",
+    "character": "表",
+    "pinyin": "",
+    "meaning": "biao3 + (哥/姐/弟/妹）:họ ngoại",
+    "sentence": "请在这个句子填入 [ 表 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_225",
+    "character": "堂",
+    "pinyin": "",
+    "meaning": "tang2 +  (哥/姐/弟/妹）: họ nội",
+    "sentence": "请在这个句子填入 [ 堂 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_226",
+    "character": "的",
+    "pinyin": "de",
+    "meaning": "của",
+    "sentence": "请在这个句子填入 [ 的 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_227",
+    "character": "这",
+    "pinyin": "zhe4",
+    "meaning": "đây , này",
+    "sentence": "请在这个句子填入 [ 这 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_228",
+    "character": "那",
+    "pinyin": "na4",
+    "meaning": "đó , kia",
+    "sentence": "请在这个句子填入 [ 那 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_229",
+    "character": "这是",
+    "pinyin": "zhe4shi4",
+    "meaning": "đây là",
+    "sentence": "请在这个句子填入 [ 这是 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_230",
+    "character": "那是",
+    "pinyin": "na4shi4",
+    "meaning": "đó là",
+    "sentence": "请在这个句子填入 [ 那是 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_231",
+    "character": "谁",
+    "pinyin": "shui2/shei2",
+    "meaning": "ai",
+    "sentence": "请在这个句子填入 [ 谁 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_232",
+    "character": "他",
+    "pinyin": "ta1",
+    "meaning": "he",
+    "sentence": "请在这个句子填入 [ 他 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_233",
+    "character": "她",
+    "pinyin": "ta1",
+    "meaning": "she",
+    "sentence": "请在这个句子填入 [ 她 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_234",
+    "character": "它",
+    "pinyin": "ta1",
+    "meaning": "it",
+    "sentence": "请在这个句子填入 [ 它 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_235",
+    "character": "饱",
+    "pinyin": "bao3",
+    "meaning": "no",
+    "sentence": "请在这个句子填入 [ 饱 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_236",
+    "character": "渴",
+    "pinyin": "ke3",
+    "meaning": "khát",
+    "sentence": "请在这个句子填入 [ 渴 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_237",
+    "character": "渴望",
+    "pinyin": "ke3wang4",
+    "meaning": "khát vọng",
+    "sentence": "请在这个句子填入 [ 渴望 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_238",
+    "character": "希望",
+    "pinyin": "xi1wang4",
+    "meaning": "hy vọng",
+    "sentence": "请在这个句子填入 [ 希望 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_239",
+    "character": "失望",
+    "pinyin": "shi1wang4",
+    "meaning": "thất vọng",
+    "sentence": "请在这个句子填入 [ 失望 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_240",
+    "character": "什么",
+    "pinyin": "shen2me",
+    "meaning": "gì , cái gì",
+    "sentence": "请在这个句子填入 [ 什么 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_241",
+    "character": "打嗝",
+    "pinyin": "da3ge2",
+    "meaning": "nấc cục",
+    "sentence": "请在这个句子填入 [ 打嗝 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_242",
+    "character": "打",
+    "pinyin": "da3",
+    "meaning": "( đả ) : đánh",
+    "sentence": "请在这个句子填入 [ 打 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_243",
+    "character": "打哈欠",
+    "pinyin": "da3ha1qian",
+    "meaning": "ngáp",
+    "sentence": "请在这个句子填入 [ 打哈欠 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_244",
+    "character": "打呼噜",
+    "pinyin": "da3hu1lu(2)",
+    "meaning": "ngáy",
+    "sentence": "请在这个句子填入 [ 打呼噜 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_245",
+    "character": "打喷嚏",
+    "pinyin": "da3pen4ti",
+    "meaning": "hắt xì",
+    "sentence": "请在这个句子填入 [ 打喷嚏 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_246",
+    "character": "喷",
+    "pinyin": "pen4",
+    "meaning": "xịt",
+    "sentence": "请在这个句子填入 [ 喷 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_247",
+    "character": "嚏",
+    "pinyin": "ti1",
+    "meaning": "nước mũi",
+    "sentence": "请在这个句子填入 [ 嚏 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_248",
+    "character": "别",
+    "pinyin": "bie2",
+    "meaning": "đừng +V",
+    "sentence": "请在这个句子填入 [ 别 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_249",
+    "character": "明天",
+    "pinyin": "ming2tian1",
+    "meaning": "ngày mai",
+    "sentence": "请在这个句子填入 [ 明天 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_250",
+    "character": "明",
+    "pinyin": "ming2",
+    "meaning": "Minh",
+    "sentence": "请在这个句子填入 [ 明 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_251",
+    "character": "聪明",
+    "pinyin": "cong1ming2",
+    "meaning": "thông minh",
+    "sentence": "请在这个句子填入 [ 聪明 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_252",
+    "character": "日",
+    "pinyin": "ri4",
+    "meaning": "nhật , mặt trời ,ngày",
+    "sentence": "请在这个句子填入 [ 日 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_253",
+    "character": "日本",
+    "pinyin": "ri4ben3",
+    "meaning": "Nhật Bản",
+    "sentence": "请在这个句子填入 [ 日本 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_254",
+    "character": "日本人",
+    "pinyin": "ri4ben3ren2",
+    "meaning": "người Nhật Bản",
+    "sentence": "请在这个句子填入 [ 日本人 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_255",
+    "character": "月",
+    "pinyin": "yue4",
+    "meaning": "bộ Nguyệt ,nguyệt  ,mặt  trăng, tháng",
+    "sentence": "请在这个句子填入 [ 月 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_256",
+    "character": "明白",
+    "pinyin": "ming2bai2",
+    "meaning": "Minh bạch (hiểu)",
+    "sentence": "请在这个句子填入 [ 明白 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_257",
+    "character": "懂",
+    "pinyin": "dong3",
+    "meaning": "hiểu",
+    "sentence": "请在这个句子填入 [ 懂 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_258",
+    "character": "天",
+    "pinyin": "tian1",
+    "meaning": "ông trời ( thiên) / ngày",
+    "sentence": "请在这个句子填入 [ 天 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_259",
+    "character": "一",
+    "pinyin": "yi4",
+    "meaning": "(nhất) số1",
+    "sentence": "请在这个句子填入 [ 一 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_260",
+    "character": "大",
+    "pinyin": "da4",
+    "meaning": "( đại ) to,lớn",
+    "sentence": "请在这个句子填入 [ 大 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_261",
+    "character": "天啊",
+    "pinyin": "tian1  a1",
+    "meaning": "trời ơi",
+    "sentence": "请在这个句子填入 [ 天啊 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_262",
+    "character": "老天",
+    "pinyin": "lao3tian1",
+    "meaning": "ông  trời",
+    "sentence": "请在这个句子填入 [ 老天 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_263",
+    "character": "老天爷",
+    "pinyin": "lao3tian1ye2",
+    "meaning": "ông trời",
+    "sentence": "请在这个句子填入 [ 老天爷 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_264",
+    "character": "老天啊老天",
+    "pinyin": "lao3tian1 a1lao3tian1",
+    "meaning": "ông trời ơi ông trời",
+    "sentence": "请在这个句子填入 [ 老天啊老天 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_265",
+    "character": "大哥",
+    "pinyin": "da4ge1",
+    "meaning": "đại ca ( anh xã hội)/ anh cả",
+    "sentence": "请在这个句子填入 [ 大哥 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_266",
+    "character": "大姐",
+    "pinyin": "da4jie3",
+    "meaning": "đại tỷ ( chị xã hội) /chị cả",
+    "sentence": "请在这个句子填入 [ 大姐 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_267",
+    "character": "大声",
+    "pinyin": "da4sheng1",
+    "meaning": "lớn tiếng",
+    "sentence": "请在这个句子填入 [ 大声 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_268",
+    "character": "小声",
+    "pinyin": "xiao3sheng1",
+    "meaning": "nhỏ tiếng",
+    "sentence": "请在这个句子填入 [ 小声 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_269",
+    "character": "小声一点儿",
+    "pinyin": "",
+    "meaning": "xiao3sheng1 yi4dian3r",
+    "sentence": "请在这个句子填入 [ 小声一点儿 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_270",
+    "character": "今天",
+    "pinyin": "jin1tian1",
+    "meaning": "hôm nay",
+    "sentence": "请在这个句子填入 [ 今天 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_271",
+    "character": "银行",
+    "pinyin": "yin2hang2",
+    "meaning": "ngân hàng",
+    "sentence": "请在这个句子填入 [ 银行 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_272",
+    "character": "银",
+    "pinyin": "yin2",
+    "meaning": "(ngân ) bạc",
+    "sentence": "请在这个句子填入 [ 银 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_273",
+    "character": "银子",
+    "pinyin": "yin2zi",
+    "meaning": "bạc , ngân lượng",
+    "sentence": "请在这个句子填入 [ 银子 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_274",
+    "character": "卡",
+    "pinyin": "ka3",
+    "meaning": "thẻ,card",
+    "sentence": "请在这个句子填入 [ 卡 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_275",
+    "character": "银行卡",
+    "pinyin": "yin2hang2ka3",
+    "meaning": "thẻ ngân hàng",
+    "sentence": "请在这个句子填入 [ 银行卡 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_276",
+    "character": "账号",
+    "pinyin": "zhang4hao4",
+    "meaning": "tài khoản",
+    "sentence": "请在这个句子填入 [ 账号 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_277",
+    "character": "账户",
+    "pinyin": "zhang4hu4",
+    "meaning": "tài khoản",
+    "sentence": "请在这个句子填入 [ 账户 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_278",
+    "character": "转",
+    "pinyin": "zhuan3",
+    "meaning": "chuyển",
+    "sentence": "请在这个句子填入 [ 转 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_279",
+    "character": "车",
+    "pinyin": "che1",
+    "meaning": "xe",
+    "sentence": "请在这个句子填入 [ 车 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_280",
+    "character": "转钱",
+    "pinyin": "zhuan3qian2",
+    "meaning": "chuyển tiền",
+    "sentence": "请在这个句子填入 [ 转钱 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_281",
+    "character": "转账",
+    "pinyin": "zhuan3zhang4",
+    "meaning": "chuyển khoản",
+    "sentence": "请在这个句子填入 [ 转账 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_282",
+    "character": "打钱",
+    "pinyin": "da3qian2",
+    "meaning": "chuyển tiền",
+    "sentence": "请在这个句子填入 [ 打钱 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_283",
+    "character": "给",
+    "pinyin": "gei3",
+    "meaning": "cho",
+    "sentence": "请在这个句子填入 [ 给 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_284",
+    "character": "啤酒",
+    "pinyin": "pi2jiu3",
+    "meaning": "bia",
+    "sentence": "请在这个句子填入 [ 啤酒 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_285",
+    "character": "酒",
+    "pinyin": "jiu3",
+    "meaning": "( tửu ) rượu",
+    "sentence": "请在这个句子填入 [ 酒 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_286",
+    "character": "酒量",
+    "pinyin": "jiu3liang4",
+    "meaning": "tửu lượng",
+    "sentence": "请在这个句子填入 [ 酒量 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_287",
+    "character": "红酒",
+    "pinyin": "hong2jiu3",
+    "meaning": "rượu vang",
+    "sentence": "请在这个句子填入 [ 红酒 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_288",
+    "character": "白酒",
+    "pinyin": "bai2jiu3",
+    "meaning": "rượu trắng",
+    "sentence": "请在这个句子填入 [ 白酒 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_289",
+    "character": "米酒",
+    "pinyin": "mi3jiu3",
+    "meaning": "rươu gạo",
+    "sentence": "请在这个句子填入 [ 米酒 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_290",
+    "character": "洋酒",
+    "pinyin": "yang2jiu3",
+    "meaning": "rượu tây",
+    "sentence": "请在这个句子填入 [ 洋酒 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_291",
+    "character": "得到",
+    "pinyin": "de2dao4",
+    "meaning": "đạt được ,chiếm dc",
+    "sentence": "请在这个句子填入 [ 得到 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_292",
+    "character": "得",
+    "pinyin": "de2",
+    "meaning": "Đắc",
+    "sentence": "请在这个句子填入 [ 得 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_293",
+    "character": "得人心",
+    "pinyin": "de2ren2xin1",
+    "meaning": "Đắc Nhân Tâm",
+    "sentence": "请在这个句子填入 [ 得人心 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_294",
+    "character": "头发",
+    "pinyin": "tou2fa",
+    "meaning": "tóc",
+    "sentence": "请在这个句子填入 [ 头发 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_295",
+    "character": "头",
+    "pinyin": "tou2",
+    "meaning": "đầu",
+    "sentence": "请在这个句子填入 [ 头 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_296",
+    "character": "白头发",
+    "pinyin": "bai2tou2fa",
+    "meaning": "tóc bạc (白发: bai2fa :tóc bạc)",
+    "sentence": "请在这个句子填入 [ 白头发 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_297",
+    "character": "头痛",
+    "pinyin": "tou2tong4",
+    "meaning": "đau đầu",
+    "sentence": "请在这个句子填入 [ 头痛 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_298",
+    "character": "头疼",
+    "pinyin": "tou2teng2",
+    "meaning": "đau đầu",
+    "sentence": "请在这个句子填入 [ 头疼 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_299",
+    "character": "现在",
+    "pinyin": "xian4zai4",
+    "meaning": "hiện tại ,bây giờ ,lúc này",
+    "sentence": "请在这个句子填入 [ 现在 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_300",
+    "character": "现金",
+    "pinyin": "xian4jin1",
+    "meaning": "hiện kim , tiền mặt",
+    "sentence": "请在这个句子填入 [ 现金 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_301",
+    "character": "付现金",
+    "pinyin": "fu4xian4jin1",
+    "meaning": "trả tiền mặt",
+    "sentence": "请在这个句子填入 [ 付现金 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_302",
+    "character": "刷卡",
+    "pinyin": "shua1ka3",
+    "meaning": "quẹt thẻ",
+    "sentence": "请在这个句子填入 [ 刷卡 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_303",
+    "character": "刷",
+    "pinyin": "shua1",
+    "meaning": "cà ,chà,....",
+    "sentence": "请在这个句子填入 [ 刷 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_304",
+    "character": "还是",
+    "pinyin": "hai2shi4",
+    "meaning": "hay là",
+    "sentence": "请在这个句子填入 [ 还是 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_305",
+    "character": "坐",
+    "pinyin": "zuo4",
+    "meaning": "ngồi",
+    "sentence": "请在这个句子填入 [ 坐 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_306",
+    "character": "过去",
+    "pinyin": "guo4qu4",
+    "meaning": "quá khứ",
+    "sentence": "请在这个句子填入 [ 过去 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_307",
+    "character": "已经",
+    "pinyin": "yi3jing1",
+    "meaning": "đã ,đã từng",
+    "sentence": "请在这个句子填入 [ 已经 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_308",
+    "character": "未来",
+    "pinyin": "wei4lai2",
+    "meaning": "tương lai",
+    "sentence": "请在这个句子填入 [ 未来 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_309",
+    "character": "将来",
+    "pinyin": "jiang1lai2",
+    "meaning": "tương lai",
+    "sentence": "请在这个句子填入 [ 将来 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_310",
+    "character": "会",
+    "pinyin": "hui4",
+    "meaning": "sẽ",
+    "sentence": "请在这个句子填入 [ 会 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_311",
+    "character": "知道",
+    "pinyin": "zhi1dao4",
+    "meaning": "biết ( thông tin)",
+    "sentence": "请在这个句子填入 [ 知道 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_312",
+    "character": "十",
+    "pinyin": "shi2",
+    "meaning": "10",
+    "sentence": "请在这个句子填入 [ 十 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_313",
+    "character": "百",
+    "pinyin": "bai3",
+    "meaning": "Bách (trăm)",
+    "sentence": "请在这个句子填入 [ 百 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_314",
+    "character": "千",
+    "pinyin": "qian1",
+    "meaning": "Ngàn , nghìn ( thiên)",
+    "sentence": "请在这个句子填入 [ 千 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_315",
+    "character": "万",
+    "pinyin": "wan4",
+    "meaning": "vạn (chục ngàn)",
+    "sentence": "请在这个句子填入 [ 万 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_316",
+    "character": "好吃",
+    "pinyin": "hao3chi1",
+    "meaning": "ngon ( đồ ăn)",
+    "sentence": "请在这个句子填入 [ 好吃 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_317",
+    "character": "好喝",
+    "pinyin": "hao3he1",
+    "meaning": "ngon ( đồ uống)",
+    "sentence": "请在这个句子填入 [ 好喝 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_318",
+    "character": "可以",
+    "pinyin": "ke3yi3",
+    "meaning": "có thể ,được",
+    "sentence": "请在这个句子填入 [ 可以 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_319",
+    "character": "包饺子",
+    "pinyin": "bao1jiao3zi",
+    "meaning": "gói sủi cảo",
+    "sentence": "请在这个句子填入 [ 包饺子 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_320",
+    "character": "米饭",
+    "pinyin": "mi3fan4",
+    "meaning": "cơm,  cơm trắng",
+    "sentence": "请在这个句子填入 [ 米饭 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_321",
+    "character": "白饭",
+    "pinyin": "bai2fan4",
+    "meaning": "cơm trắng",
+    "sentence": "请在这个句子填入 [ 白饭 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_322",
+    "character": "吃白饭",
+    "pinyin": "chi1bai2fan4",
+    "meaning": "ăn ko ngồi  rồi",
+    "sentence": "请在这个句子填入 [ 吃白饭 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_323",
+    "character": "稀饭",
+    "pinyin": "xi1fan4",
+    "meaning": "cháo",
+    "sentence": "请在这个句子填入 [ 稀饭 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_324",
+    "character": "白稀饭",
+    "pinyin": "bai2xi1fan4",
+    "meaning": "Cháo trắng",
+    "sentence": "请在这个句子填入 [ 白稀饭 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_325",
+    "character": "粥",
+    "pinyin": "zhou1",
+    "meaning": "cháo",
+    "sentence": "请在这个句子填入 [ 粥 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_326",
+    "character": "白粥",
+    "pinyin": "bai2zhou1",
+    "meaning": "cháo trắng",
+    "sentence": "请在这个句子填入 [ 白粥 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_327",
+    "character": "糯米",
+    "pinyin": "nuo4mi3",
+    "meaning": "Nếp",
+    "sentence": "请在这个句子填入 [ 糯米 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_328",
+    "character": "糯米饭",
+    "pinyin": "nuo4mi3fan4",
+    "meaning": "xôi",
+    "sentence": "请在这个句子填入 [ 糯米饭 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_329",
+    "character": "面条",
+    "pinyin": "mian4tiao2",
+    "meaning": "mì sợi",
+    "sentence": "请在这个句子填入 [ 面条 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_330",
+    "character": "面",
+    "pinyin": "mian4",
+    "meaning": "mì",
+    "sentence": "请在这个句子填入 [ 面 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_331",
+    "character": "条",
+    "pinyin": "tiao2",
+    "meaning": "sợi",
+    "sentence": "请在这个句子填入 [ 条 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_332",
+    "character": "方便",
+    "pinyin": "fang1bian4",
+    "meaning": "tiện,tiện lợi",
+    "sentence": "请在这个句子填入 [ 方便 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_333",
+    "character": "方便面",
+    "pinyin": "fang1bian4mian4",
+    "meaning": "mì ăn liền,mì gói",
+    "sentence": "请在这个句子填入 [ 方便面 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_334",
+    "character": "扌",
+    "pinyin": "",
+    "meaning": "bộ thủ ( tay)",
+    "sentence": "请在这个句子填入 [ 扌 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_335",
+    "character": "抱",
+    "pinyin": "bao4",
+    "meaning": "ôm (v)",
+    "sentence": "请在这个句子填入 [ 抱 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_336",
+    "character": "拥抱",
+    "pinyin": "yong4bao4",
+    "meaning": "(v,n)cái ôm,ôm",
+    "sentence": "请在这个句子填入 [ 拥抱 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_337",
+    "character": "氵",
+    "pinyin": "",
+    "meaning": "bộ 3 chấm thủy",
+    "sentence": "请在这个句子填入 [ 氵 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_338",
+    "character": "泡",
+    "pinyin": "pao4",
+    "meaning": "pha ,ngâm",
+    "sentence": "请在这个句子填入 [ 泡 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_339",
+    "character": "泡茶",
+    "pinyin": "pao4cha2",
+    "meaning": "Pha trà",
+    "sentence": "请在这个句子填入 [ 泡茶 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_340",
+    "character": "泡面",
+    "pinyin": "pao4mian4",
+    "meaning": "(n,v) mì gói ,mì ăn liền, úp mì ,nấu mì",
+    "sentence": "请在这个句子填入 [ 泡面 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_341",
+    "character": "蔬菜",
+    "pinyin": "shu1cai4",
+    "meaning": "rau",
+    "sentence": "请在这个句子填入 [ 蔬菜 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_342",
+    "character": "艹",
+    "pinyin": "",
+    "meaning": "bộ thảo",
+    "sentence": "请在这个句子填入 [ 艹 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_343",
+    "character": "泡菜",
+    "pinyin": "pao4cai4",
+    "meaning": "kim chi, dưa muối",
+    "sentence": "请在这个句子填入 [ 泡菜 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_344",
+    "character": "泡妞",
+    "pinyin": "pao4niu1",
+    "meaning": "tán gái",
+    "sentence": "请在这个句子填入 [ 泡妞 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_345",
+    "character": "吃素",
+    "pinyin": "chi1su4",
+    "meaning": "ăn thanh đạm ( thuầnTV)",
+    "sentence": "请在这个句子填入 [ 吃素 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_346",
+    "character": "吃斋",
+    "pinyin": "chi1zhai1",
+    "meaning": "ăn chay",
+    "sentence": "请在这个句子填入 [ 吃斋 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_347",
+    "character": "吃斋念佛",
+    "pinyin": "chi1zhai1nian4fo2",
+    "meaning": "ăn chay niệm phật",
+    "sentence": "请在这个句子填入 [ 吃斋念佛 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_348",
+    "character": "吃斋念经",
+    "pinyin": "chi1zhai1nian4jing1",
+    "meaning": "ăn chay niệm kinh",
+    "sentence": "请在这个句子填入 [ 吃斋念经 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_349",
+    "character": "肉",
+    "pinyin": "rou4",
+    "meaning": "(nhục) thịt",
+    "sentence": "请在这个句子填入 [ 肉 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_350",
+    "character": "扣肉",
+    "pinyin": "kou4rou4",
+    "meaning": "khâu nhục",
+    "sentence": "请在这个句子填入 [ 扣肉 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_351",
+    "character": "猪肉",
+    "pinyin": "zhu1rou4",
+    "meaning": "thịt heo",
+    "sentence": "请在这个句子填入 [ 猪肉 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_352",
+    "character": "犭",
+    "pinyin": "",
+    "meaning": "bộ khuyển",
+    "sentence": "请在这个句子填入 [ 犭 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_353",
+    "character": "狗",
+    "pinyin": "gou3",
+    "meaning": "chó",
+    "sentence": "请在这个句子填入 [ 狗 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_354",
+    "character": "猫",
+    "pinyin": "mao1",
+    "meaning": "mèo",
+    "sentence": "请在这个句子填入 [ 猫 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_355",
+    "character": "牛肉",
+    "pinyin": "niu2rou4",
+    "meaning": "thịt bò",
+    "sentence": "请在这个句子填入 [ 牛肉 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_356",
+    "character": "鸡肉",
+    "pinyin": "ji1rou4",
+    "meaning": "thịt gà",
+    "sentence": "请在这个句子填入 [ 鸡肉 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_357",
+    "character": "羊",
+    "pinyin": "yang2",
+    "meaning": "dương  ( dê)",
+    "sentence": "请在这个句子填入 [ 羊 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_358",
+    "character": "鸟",
+    "pinyin": "",
+    "meaning": "bộ điểu /niao3/ : con chim",
+    "sentence": "请在这个句子填入 [ 鸟 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_359",
+    "character": "蛋",
+    "pinyin": "dan4",
+    "meaning": "trứng",
+    "sentence": "请在这个句子填入 [ 蛋 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_360",
+    "character": "鸡蛋",
+    "pinyin": "ji1dan4",
+    "meaning": "trứng gà",
+    "sentence": "请在这个句子填入 [ 鸡蛋 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_361",
+    "character": "鸭",
+    "pinyin": "ya1",
+    "meaning": "vịt",
+    "sentence": "请在这个句子填入 [ 鸭 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_362",
+    "character": "鸭蛋",
+    "pinyin": "ya1dan4",
+    "meaning": "thịt vịt",
+    "sentence": "请在这个句子填入 [ 鸭蛋 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_363",
+    "character": "鸭肉",
+    "pinyin": "ya1rou4",
+    "meaning": "trứng vịt",
+    "sentence": "请在这个句子填入 [ 鸭肉 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_364",
+    "character": "鹅",
+    "pinyin": "e2",
+    "meaning": "ngỗng",
+    "sentence": "请在这个句子填入 [ 鹅 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_365",
+    "character": "鹅蛋",
+    "pinyin": "e2dan4",
+    "meaning": "trứng ngỗng",
+    "sentence": "请在这个句子填入 [ 鹅蛋 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_366",
+    "character": "天鹅",
+    "pinyin": "tian1e2",
+    "meaning": "Thiên nga",
+    "sentence": "请在这个句子填入 [ 天鹅 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_367",
+    "character": "天鹅肉",
+    "pinyin": "tian1e2rou4",
+    "meaning": "thịt thiên nga",
+    "sentence": "请在这个句子填入 [ 天鹅肉 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_368",
+    "character": "蛤蟆",
+    "pinyin": "ha2ma2",
+    "meaning": "con cóc",
+    "sentence": "请在这个句子填入 [ 蛤蟆 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_369",
+    "character": "虫",
+    "pinyin": "",
+    "meaning": "bộ trùng",
+    "sentence": "请在这个句子填入 [ 虫 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_370",
+    "character": "想",
+    "pinyin": "xiang3",
+    "meaning": "muốn,nhớ nghĩ",
+    "sentence": "请在这个句子填入 [ 想 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_371",
+    "character": "疒",
+    "pinyin": "",
+    "meaning": "bộ nạch,bộ bệnh",
+    "sentence": "请在这个句子填入 [ 疒 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_372",
+    "character": "瘌",
+    "pinyin": "la4",
+    "meaning": "ghẻ",
+    "sentence": "请在这个句子填入 [ 瘌 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_373",
+    "character": "千里",
+    "pinyin": "qian1li3",
+    "meaning": "ngàn dặm",
+    "sentence": "请在这个句子填入 [ 千里 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_374",
+    "character": "鹅毛",
+    "pinyin": "e2mao2",
+    "meaning": "lông ngỗng",
+    "sentence": "请在这个句子填入 [ 鹅毛 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_375",
+    "character": "万里",
+    "pinyin": "wan4li3",
+    "meaning": "vặn dặm",
+    "sentence": "请在这个句子填入 [ 万里 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_376",
+    "character": "万里长城",
+    "pinyin": "wan4li3chang2cheng2",
+    "meaning": "vạn lí trường thành",
+    "sentence": "请在这个句子填入 [ 万里长城 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_377",
+    "character": "送",
+    "pinyin": "song4",
+    "meaning": "(tống) tặng,tiễn ,đưa",
+    "sentence": "请在这个句子填入 [ 送 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_378",
+    "character": "千里送鹅毛",
+    "pinyin": "",
+    "meaning": "qian1li3song4e2mao2:",
+    "sentence": "请在这个句子填入 [ 千里送鹅毛 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_379",
+    "character": "毛蛋",
+    "pinyin": "mao2dan4",
+    "meaning": "trứng lộn",
+    "sentence": "请在这个句子填入 [ 毛蛋 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_380",
+    "character": "咸",
+    "pinyin": "xian2",
+    "meaning": "mặn",
+    "sentence": "请在这个句子填入 [ 咸 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_381",
+    "character": "咸蛋",
+    "pinyin": "xian2dan4",
+    "meaning": "trứng muối",
+    "sentence": "请在这个句子填入 [ 咸蛋 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_382",
+    "character": "咸鸭蛋",
+    "pinyin": "xian2ya4dan4",
+    "meaning": "trứng vịt muối",
+    "sentence": "请在这个句子填入 [ 咸鸭蛋 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_383",
+    "character": "鹌鹑蛋",
+    "pinyin": "an1chun2dan4",
+    "meaning": "trứng cút",
+    "sentence": "请在这个句子填入 [ 鹌鹑蛋 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_384",
+    "character": "鸵鸟",
+    "pinyin": "tuo2niao3",
+    "meaning": "đà điểu",
+    "sentence": "请在这个句子填入 [ 鸵鸟 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_385",
+    "character": "鸵鸟蛋",
+    "pinyin": "tuo2niao3dan4",
+    "meaning": "trứng đà  điểu",
+    "sentence": "请在这个句子填入 [ 鸵鸟蛋 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_386",
+    "character": "溏心蛋",
+    "pinyin": "tang2xin1dan4",
+    "meaning": "trứng lòng đào",
+    "sentence": "请在这个句子填入 [ 溏心蛋 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_387",
+    "character": "皮肤",
+    "pinyin": "pi2fu",
+    "meaning": "da ,da dẻ",
+    "sentence": "请在这个句子填入 [ 皮肤 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_388",
+    "character": "皮蛋",
+    "pinyin": "pi2dan4",
+    "meaning": "trứng bắc thảo",
+    "sentence": "请在这个句子填入 [ 皮蛋 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_389",
+    "character": "河",
+    "pinyin": "he2",
+    "meaning": "sông (Hà)",
+    "sentence": "请在这个句子填入 [ 河 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_390",
+    "character": "荷",
+    "pinyin": "he2",
+    "meaning": "Hà ( bông sen)",
+    "sentence": "请在这个句子填入 [ 荷 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_391",
+    "character": "莲荷花",
+    "pinyin": "lian2he2hua1",
+    "meaning": "bông Liên Hà ( bông sen)",
+    "sentence": "请在这个句子填入 [ 莲荷花 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_392",
+    "character": "荷包蛋",
+    "pinyin": "he2bao1dan4",
+    "meaning": "trứng ốp la",
+    "sentence": "请在这个句子填入 [ 荷包蛋 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_393",
+    "character": "煎",
+    "pinyin": "jian1",
+    "meaning": "chiên",
+    "sentence": "请在这个句子填入 [ 煎 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_394",
+    "character": "腿",
+    "pinyin": "tui3",
+    "meaning": "chân",
+    "sentence": "请在这个句子填入 [ 腿 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_395",
+    "character": "鸡腿",
+    "pinyin": "ji1tui3",
+    "meaning": "đùi gà",
+    "sentence": "请在这个句子填入 [ 鸡腿 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_396",
+    "character": "鸡腿饭",
+    "pinyin": "ji1tui3fan4",
+    "meaning": "cơm đùi gà",
+    "sentence": "请在这个句子填入 [ 鸡腿饭 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_397",
+    "character": "鸡腿面",
+    "pinyin": "ji1tui3mian4",
+    "meaning": "mì đùi gà",
+    "sentence": "请在这个句子填入 [ 鸡腿面 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_398",
+    "character": "翅膀",
+    "pinyin": "chi1bang3",
+    "meaning": "cánh",
+    "sentence": "请在这个句子填入 [ 翅膀 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_399",
+    "character": "羽",
+    "pinyin": "yu3",
+    "meaning": "cánh ( chim)",
+    "sentence": "请在这个句子填入 [ 羽 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_400",
+    "character": "打羽毛球",
+    "pinyin": "da3yu3mao2qiu2",
+    "meaning": "đánh cầu lông",
+    "sentence": "请在这个句子填入 [ 打羽毛球 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_401",
+    "character": "鸡翅膀",
+    "pinyin": "ji1chi1bang3",
+    "meaning": "cánh gà",
+    "sentence": "请在这个句子填入 [ 鸡翅膀 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_402",
+    "character": "鸭翅膀",
+    "pinyin": "ya1chi1bang3",
+    "meaning": "cánh vịt",
+    "sentence": "请在这个句子填入 [ 鸭翅膀 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_403",
+    "character": "爪",
+    "pinyin": "zhua3",
+    "meaning": "bộ trảo",
+    "sentence": "请在这个句子填入 [ 爪 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_404",
+    "character": "鸡爪",
+    "pinyin": "ji1zhua3",
+    "meaning": "chân gà",
+    "sentence": "请在这个句子填入 [ 鸡爪 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_405",
+    "character": "肠",
+    "pinyin": "chang2",
+    "meaning": "( tràng) ruột",
+    "sentence": "请在这个句子填入 [ 肠 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_406",
+    "character": "腊肠",
+    "pinyin": "la4chang2",
+    "meaning": "lạp xưởng",
+    "sentence": "请在这个句子填入 [ 腊肠 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_407",
+    "character": "香肠",
+    "pinyin": "xiang1chang2",
+    "meaning": "lạp xưởng",
+    "sentence": "请在这个句子填入 [ 香肠 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_408",
+    "character": "香",
+    "pinyin": "xiang1",
+    "meaning": "( hương ) thơm",
+    "sentence": "请在这个句子填入 [ 香 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_409",
+    "character": "香水",
+    "pinyin": "xiang1shui3",
+    "meaning": "nước hoa",
+    "sentence": "请在这个句子填入 [ 香水 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_410",
+    "character": "打香水",
+    "pinyin": "da3xiang1shui3",
+    "meaning": "xứt nước hoa",
+    "sentence": "请在这个句子填入 [ 打香水 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_411",
+    "character": "喷香水",
+    "pinyin": "pen4xiang1shui3",
+    "meaning": "xịt nước hoa",
+    "sentence": "请在这个句子填入 [ 喷香水 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_412",
+    "character": "火腿肠",
+    "pinyin": "huo3tui3chang2",
+    "meaning": "xúc xích",
+    "sentence": "请在这个句子填入 [ 火腿肠 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_413",
+    "character": "放松",
+    "pinyin": "fang4song4",
+    "meaning": "thả lỏng, relax",
+    "sentence": "请在这个句子填入 [ 放松 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_414",
+    "character": "肉松",
+    "pinyin": "rou4song4",
+    "meaning": "chà bông",
+    "sentence": "请在这个句子填入 [ 肉松 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_415",
+    "character": "打火机",
+    "pinyin": "da3huo3ji1",
+    "meaning": "bật lửa",
+    "sentence": "请在这个句子填入 [ 打火机 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_416",
+    "character": "锅",
+    "pinyin": "guo1",
+    "meaning": "nồi",
+    "sentence": "请在这个句子填入 [ 锅 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_417",
+    "character": "火锅",
+    "pinyin": "huo3guo1",
+    "meaning": "lẩu",
+    "sentence": "请在这个句子填入 [ 火锅 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_418",
+    "character": "锅巴",
+    "pinyin": "guo1ba",
+    "meaning": "cơm cháy",
+    "sentence": "请在这个句子填入 [ 锅巴 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_419",
+    "character": "烧烤",
+    "pinyin": "shao1kao3",
+    "meaning": "BBQ",
+    "sentence": "请在这个句子填入 [ 烧烤 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_420",
+    "character": "烧",
+    "pinyin": "shao1",
+    "meaning": "(v) đốt",
+    "sentence": "请在这个句子填入 [ 烧 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_421",
+    "character": "发烧",
+    "pinyin": "fa1shao1",
+    "meaning": "sốt ,bị sốt",
+    "sentence": "请在这个句子填入 [ 发烧 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_422",
+    "character": "烧卖",
+    "pinyin": "shao1mai4",
+    "meaning": "xíu mại",
+    "sentence": "请在这个句子填入 [ 烧卖 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_423",
+    "character": "烤",
+    "pinyin": "kao3",
+    "meaning": "nướng",
+    "sentence": "请在这个句子填入 [ 烤 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_424",
+    "character": "北京烤鸭",
+    "pinyin": "Bei3jing1kao3ya1",
+    "meaning": "Vịt quay Bắc Kinh",
+    "sentence": "请在这个句子填入 [ 北京烤鸭 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_425",
+    "character": "肯德基",
+    "pinyin": "ken3de2ji1",
+    "meaning": "KFC",
+    "sentence": "请在这个句子填入 [ 肯德基 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_426",
+    "character": "麦当劳",
+    "pinyin": "mai4dang1lao2",
+    "meaning": "Mc donal",
+    "sentence": "请在这个句子填入 [ 麦当劳 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_427",
+    "character": "热",
+    "pinyin": "re4",
+    "meaning": "( nhiệt ) nóng",
+    "sentence": "请在这个句子填入 [ 热 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_428",
+    "character": "热狗",
+    "pinyin": "re4gou3",
+    "meaning": "hot dog",
+    "sentence": "请在这个句子填入 [ 热狗 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_429",
+    "character": "热情",
+    "pinyin": "re4qing2",
+    "meaning": "Nhiệt tình",
+    "sentence": "请在这个句子填入 [ 热情 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_430",
+    "character": "爱情",
+    "pinyin": "ai4qing2",
+    "meaning": "tình yêu",
+    "sentence": "请在这个句子填入 [ 爱情 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_431",
+    "character": "汉堡包",
+    "pinyin": "han4bao3bao",
+    "meaning": "hamburger",
+    "sentence": "请在这个句子填入 [ 汉堡包 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_432",
+    "character": "三明治",
+    "pinyin": "san1ming2zhi4",
+    "meaning": "sandwich",
+    "sentence": "请在这个句子填入 [ 三明治 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_433",
+    "character": "寿司",
+    "pinyin": "shou4si1",
+    "meaning": "sushi",
+    "sentence": "请在这个句子填入 [ 寿司 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_434",
+    "character": "新鲜",
+    "pinyin": "xin1xian1",
+    "meaning": "tươi,tươi mới",
+    "sentence": "请在这个句子填入 [ 新鲜 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_435",
+    "character": "新",
+    "pinyin": "xin1",
+    "meaning": "(tân) mới",
+    "sentence": "请在这个句子填入 [ 新 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_436",
+    "character": "鲜",
+    "pinyin": "xian1",
+    "meaning": "tươi",
+    "sentence": "请在这个句子填入 [ 鲜 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_437",
+    "character": "海",
+    "pinyin": "hai3",
+    "meaning": "( hải ) biển",
+    "sentence": "请在这个句子填入 [ 海 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_438",
+    "character": "海鲜",
+    "pinyin": "hai3xian1",
+    "meaning": "hải  sản",
+    "sentence": "请在这个句子填入 [ 海鲜 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_439",
+    "character": "鱼",
+    "pinyin": "yu2",
+    "meaning": "( ngư ) cá",
+    "sentence": "请在这个句子填入 [ 鱼 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_440",
+    "character": "美",
+    "pinyin": "mei3",
+    "meaning": "mỹ ( đẹp)",
+    "sentence": "请在这个句子填入 [ 美 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_441",
+    "character": "美人鱼",
+    "pinyin": "mei3ren2yu2",
+    "meaning": "mỹ nhân ngư",
+    "sentence": "请在这个句子填入 [ 美人鱼 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_442",
+    "character": "鳗鱼",
+    "pinyin": "man2yu2",
+    "meaning": "lươn (cá chình)",
+    "sentence": "请在这个句子填入 [ 鳗鱼 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_443",
+    "character": "巴沙鱼",
+    "pinyin": "ba1sha1yu2",
+    "meaning": "cá ba sa",
+    "sentence": "请在这个句子填入 [ 巴沙鱼 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_444",
+    "character": "草",
+    "pinyin": "cao3",
+    "meaning": "( thảo) cỏ",
+    "sentence": "请在这个句子填入 [ 草 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_445",
+    "character": "草鱼",
+    "pinyin": "cao3yu2",
+    "meaning": "cá trắm cỏ",
+    "sentence": "请在这个句子填入 [ 草鱼 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_446",
+    "character": "鲶鱼",
+    "pinyin": "nian2yu2",
+    "meaning": "cá trê",
+    "sentence": "请在这个句子填入 [ 鲶鱼 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_447",
+    "character": "鲤鱼",
+    "pinyin": "li3yu2",
+    "meaning": "cá chép",
+    "sentence": "请在这个句子填入 [ 鲤鱼 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_448",
+    "character": "石斑鱼",
+    "pinyin": "shi2ban1yu2",
+    "meaning": "cá bống mú",
+    "sentence": "请在这个句子填入 [ 石斑鱼 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_449",
+    "character": "三文鱼",
+    "pinyin": "san1wen2yu2",
+    "meaning": "cá hồi",
+    "sentence": "请在这个句子填入 [ 三文鱼 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_450",
+    "character": "骨",
+    "pinyin": "gu3",
+    "meaning": "cốt ( xương)",
+    "sentence": "请在这个句子填入 [ 骨 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_451",
+    "character": "骨头",
+    "pinyin": "gu3tou2",
+    "meaning": "cục xương, xương  ống  ( thịt)",
+    "sentence": "请在这个句子填入 [ 骨头 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_452",
+    "character": "鱼刺",
+    "pinyin": "yu2ci4",
+    "meaning": "xương cá",
+    "sentence": "请在这个句子填入 [ 鱼刺 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_453",
+    "character": "刺耳",
+    "pinyin": "ci4er3",
+    "meaning": "chói tai",
+    "sentence": "请在这个句子填入 [ 刺耳 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_454",
+    "character": "刺客",
+    "pinyin": "ci4ke4",
+    "meaning": "thích khách",
+    "sentence": "请在这个句子填入 [ 刺客 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_455",
+    "character": "刺激",
+    "pinyin": "ci4ji1",
+    "meaning": "kích thích , hưng phấn",
+    "sentence": "请在这个句子填入 [ 刺激 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_456",
+    "character": "虾",
+    "pinyin": "xia4",
+    "meaning": "tôm",
+    "sentence": "请在这个句子填入 [ 虾 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_457",
+    "character": "虫子",
+    "pinyin": "chong2zi",
+    "meaning": "con sâu",
+    "sentence": "请在这个句子填入 [ 虫子 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_458",
+    "character": "毛毛虫",
+    "pinyin": "mao2mao2chong2",
+    "meaning": "sâu lông",
+    "sentence": "请在这个句子填入 [ 毛毛虫 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_459",
+    "character": "龙",
+    "pinyin": "",
+    "meaning": "long2( long ) rồng",
+    "sentence": "请在这个句子填入 [ 龙 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_460",
+    "character": "龙虾",
+    "pinyin": "long2xia4",
+    "meaning": "tôm hùm",
+    "sentence": "请在这个句子填入 [ 龙虾 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_461",
+    "character": "螃蟹",
+    "pinyin": "pang2xie1",
+    "meaning": "cua",
+    "sentence": "请在这个句子填入 [ 螃蟹 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_462",
+    "character": "青蛙",
+    "pinyin": "qing1wa1",
+    "meaning": "ếch",
+    "sentence": "请在这个句子填入 [ 青蛙 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_463",
+    "character": "青",
+    "pinyin": "qing1",
+    "meaning": "thanh",
+    "sentence": "请在这个句子填入 [ 青 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_464",
+    "character": "螺",
+    "pinyin": "luo2",
+    "meaning": "ốc",
+    "sentence": "请在这个句子填入 [ 螺 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_465",
+    "character": "生蚝",
+    "pinyin": "sheng1hao2",
+    "meaning": "con hào",
+    "sentence": "请在这个句子填入 [ 生蚝 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_466",
+    "character": "蛤蜊",
+    "pinyin": "ge2li2",
+    "meaning": "con nghêu",
+    "sentence": "请在这个句子填入 [ 蛤蜊 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_467",
+    "character": "隔离",
+    "pinyin": "ge2li2",
+    "meaning": "cách li",
+    "sentence": "请在这个句子填入 [ 隔离 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_468",
+    "character": "饮料",
+    "pinyin": "yin3liao4",
+    "meaning": "đồ uống,thức uống",
+    "sentence": "请在这个句子填入 [ 饮料 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_469",
+    "character": "饮",
+    "pinyin": "yin3",
+    "meaning": "ẩm",
+    "sentence": "请在这个句子填入 [ 饮 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_470",
+    "character": "饮食",
+    "pinyin": "yin3shi2",
+    "meaning": "ẩm thực饣",
+    "sentence": "请在这个句子填入 [ 饮食 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_471",
+    "character": "饮酒",
+    "pinyin": "yin3jiu3",
+    "meaning": "uống rượu ( thưởng thức )",
+    "sentence": "请在这个句子填入 [ 饮酒 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_472",
+    "character": "汽",
+    "pinyin": "qi4",
+    "meaning": "hơi ,gas",
+    "sentence": "请在这个句子填入 [ 汽 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_473",
+    "character": "汽水",
+    "pinyin": "qi4shui3",
+    "meaning": "nước có gas",
+    "sentence": "请在这个句子填入 [ 汽水 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_474",
+    "character": "可口可乐",
+    "pinyin": "ke3kou3ke3le4",
+    "meaning": "coca cola",
+    "sentence": "请在这个句子填入 [ 可口可乐 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_475",
+    "character": "百事",
+    "pinyin": "bai3shi4",
+    "meaning": "pepsi",
+    "sentence": "请在这个句子填入 [ 百事 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_476",
+    "character": "七喜",
+    "pinyin": "qi1xi3",
+    "meaning": "7up",
+    "sentence": "请在这个句子填入 [ 七喜 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_477",
+    "character": "雪碧",
+    "pinyin": "xue3bi4",
+    "meaning": "sprite",
+    "sentence": "请在这个句子填入 [ 雪碧 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_478",
+    "character": "美年达",
+    "pinyin": "mei3nian2da2",
+    "meaning": "mirinda",
+    "sentence": "请在这个句子填入 [ 美年达 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_479",
+    "character": "斯汀",
+    "pinyin": "si1ting1",
+    "meaning": "sting",
+    "sentence": "请在这个句子填入 [ 斯汀 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_480",
+    "character": "红牛",
+    "pinyin": "hong2niu2",
+    "meaning": "bò cụng",
+    "sentence": "请在这个句子填入 [ 红牛 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_481",
+    "character": "茶",
+    "pinyin": "cha2",
+    "meaning": "trà",
+    "sentence": "请在这个句子填入 [ 茶 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_482",
+    "character": "绿茶",
+    "pinyin": "lv4cha2",
+    "meaning": "trà xanh",
+    "sentence": "请在这个句子填入 [ 绿茶 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_483",
+    "character": "红茶",
+    "pinyin": "hong2cha2",
+    "meaning": "hồng trà",
+    "sentence": "请在这个句子填入 [ 红茶 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_484",
+    "character": "抹茶",
+    "pinyin": "mo3cha2",
+    "meaning": "matcha",
+    "sentence": "请在这个句子填入 [ 抹茶 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_485",
+    "character": "胃",
+    "pinyin": "wei4",
+    "meaning": "(vị) bao tử",
+    "sentence": "请在这个句子填入 [ 胃 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_486",
+    "character": "养",
+    "pinyin": "yang3",
+    "meaning": "dưỡng ( nuôi )",
+    "sentence": "请在这个句子填入 [ 养 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_487",
+    "character": "养胃",
+    "pinyin": "yang3wei4",
+    "meaning": "nuôi bao tử",
+    "sentence": "请在这个句子填入 [ 养胃 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_488",
+    "character": "胃痛",
+    "pinyin": "wei4tong4",
+    "meaning": "đau bao tử",
+    "sentence": "请在这个句子填入 [ 胃痛 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_489",
+    "character": "胃疼",
+    "pinyin": "wei4teng2",
+    "meaning": "đau bao tử",
+    "sentence": "请在这个句子填入 [ 胃疼 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_490",
+    "character": "包养",
+    "pinyin": "bao1yang3",
+    "meaning": "bao nuôi",
+    "sentence": "请在这个句子填入 [ 包养 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_491",
+    "character": "保养",
+    "pinyin": "bao3yang3",
+    "meaning": "bảo dưỡng",
+    "sentence": "请在这个句子填入 [ 保养 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_492",
+    "character": "黑茶",
+    "pinyin": "hei1cha2",
+    "meaning": "trà đen",
+    "sentence": "请在这个句子填入 [ 黑茶 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_493",
+    "character": "花茶",
+    "pinyin": "hua1cha2",
+    "meaning": "trà hoa",
+    "sentence": "请在这个句子填入 [ 花茶 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_494",
+    "character": "黄茶",
+    "pinyin": "huang2cha2",
+    "meaning": "hoàng trà",
+    "sentence": "请在这个句子填入 [ 黄茶 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_495",
+    "character": "白茶",
+    "pinyin": "bai2cha2",
+    "meaning": "bạch trà",
+    "sentence": "请在这个句子填入 [ 白茶 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_496",
+    "character": "乌龙茶",
+    "pinyin": "wu1long2cha2",
+    "meaning": "trà ô long",
+    "sentence": "请在这个句子填入 [ 乌龙茶 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_497",
+    "character": "普洱茶",
+    "pinyin": "pu3er2cha2",
+    "meaning": "trà phổ nhĩ",
+    "sentence": "请在这个句子填入 [ 普洱茶 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_498",
+    "character": "铁观音茶",
+    "pinyin": "tie3guan1yin1cha2",
+    "meaning": "trà thiết quan âm",
+    "sentence": "请在这个句子填入 [ 铁观音茶 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_499",
+    "character": "观音佛",
+    "pinyin": "guan1yin1fo2",
+    "meaning": "phật quan âm",
+    "sentence": "请在这个句子填入 [ 观音佛 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_500",
+    "character": "菊花茶",
+    "pinyin": "ju2hua1cha2",
+    "meaning": "trà bông  cúc",
+    "sentence": "请在这个句子填入 [ 菊花茶 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_501",
+    "character": "茉莉茶",
+    "pinyin": "mo4li4cha2",
+    "meaning": "trà hoa nhài",
+    "sentence": "请在这个句子填入 [ 茉莉茶 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_502",
+    "character": "桃子",
+    "pinyin": "tao2zi",
+    "meaning": "trái đào",
+    "sentence": "请在这个句子填入 [ 桃子 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_503",
+    "character": "桃茶",
+    "pinyin": "tao2cha2",
+    "meaning": "trà đào",
+    "sentence": "请在这个句子填入 [ 桃茶 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_504",
+    "character": "荔枝",
+    "pinyin": "li4zhi1",
+    "meaning": "lệ chi",
+    "sentence": "请在这个句子填入 [ 荔枝 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_505",
+    "character": "荔枝茶",
+    "pinyin": "li4zhi1cha2",
+    "meaning": "trà vải",
+    "sentence": "请在这个句子填入 [ 荔枝茶 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_506",
+    "character": "牛奶",
+    "pinyin": "niu2nai3",
+    "meaning": "sữa bò",
+    "sentence": "请在这个句子填入 [ 牛奶 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_507",
+    "character": "奶酪",
+    "pinyin": "nai3lao4",
+    "meaning": "phô mai",
+    "sentence": "请在这个句子填入 [ 奶酪 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_508",
+    "character": "芝士",
+    "pinyin": "zhi1shi4",
+    "meaning": "phô mai",
+    "sentence": "请在这个句子填入 [ 芝士 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_509",
+    "character": "奶茶",
+    "pinyin": "nai3cha2",
+    "meaning": "trà  sữa",
+    "sentence": "请在这个句子填入 [ 奶茶 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_510",
+    "character": "奶油",
+    "pinyin": "nai3you2",
+    "meaning": "cream ,machiato",
+    "sentence": "请在这个句子填入 [ 奶油 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_511",
+    "character": "炼乳",
+    "pinyin": "lian4ru3",
+    "meaning": "sữa đặc",
+    "sentence": "请在这个句子填入 [ 炼乳 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_512",
+    "character": "油",
+    "pinyin": "you2",
+    "meaning": "dầu",
+    "sentence": "请在这个句子填入 [ 油 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_513",
+    "character": "油条",
+    "pinyin": "you2tiao2",
+    "meaning": "bánh quẩy",
+    "sentence": "请在这个句子填入 [ 油条 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_514",
+    "character": "加",
+    "pinyin": "jia1",
+    "meaning": "thêm ,+",
+    "sentence": "请在这个句子填入 [ 加 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_515",
+    "character": "加油",
+    "pinyin": "jia1you2",
+    "meaning": "thêm dầu /cố lên/đổ xăng",
+    "sentence": "请在这个句子填入 [ 加油 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_516",
+    "character": "没",
+    "pinyin": "mei2",
+    "meaning": "hết",
+    "sentence": "请在这个句子填入 [ 没 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_517",
+    "character": "车没油",
+    "pinyin": "che1mei2you2",
+    "meaning": "xe hết xăng rồi",
+    "sentence": "请在这个句子填入 [ 车没油 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_518",
+    "character": "站",
+    "pinyin": "zhan4",
+    "meaning": "đứng /  trạm",
+    "sentence": "请在这个句子填入 [ 站 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_519",
+    "character": "加油站",
+    "pinyin": "jia1you2zhan4",
+    "meaning": "cây  xăng",
+    "sentence": "请在这个句子填入 [ 加油站 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_520",
+    "character": "站起来",
+    "pinyin": "zhan4qi3lai2",
+    "meaning": "đứng lên",
+    "sentence": "请在这个句子填入 [ 站起来 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_521",
+    "character": "坐下来",
+    "pinyin": "zuo4xia4lai2",
+    "meaning": "ngồi xuống",
+    "sentence": "请在这个句子填入 [ 坐下来 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_522",
+    "character": "火车站",
+    "pinyin": "huo3che1zhan4",
+    "meaning": "trạm xe lửa",
+    "sentence": "请在这个句子填入 [ 火车站 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_523",
+    "character": "加热",
+    "pinyin": "jia1re4",
+    "meaning": "hâm  đồ ăn",
+    "sentence": "请在这个句子填入 [ 加热 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_524",
+    "character": "热茶",
+    "pinyin": "re4cha2",
+    "meaning": "trà nóng",
+    "sentence": "请在这个句子填入 [ 热茶 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_525",
+    "character": "水",
+    "pinyin": "shui3",
+    "meaning": "nước",
+    "sentence": "请在这个句子填入 [ 水 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_526",
+    "character": "冰",
+    "pinyin": "bing1",
+    "meaning": "( băng )",
+    "sentence": "请在这个句子填入 [ 冰 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_527",
+    "character": "冰块",
+    "pinyin": "bing1kuai4",
+    "meaning": "cục nước đá",
+    "sentence": "请在这个句子填入 [ 冰块 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_528",
+    "character": "加冰块",
+    "pinyin": "jia1bing1kuai4",
+    "meaning": "thêm nước đá",
+    "sentence": "请在这个句子填入 [ 加冰块 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_529",
+    "character": "冰沙",
+    "pinyin": "bing1sha1",
+    "meaning": "sinh  tố",
+    "sentence": "请在这个句子填入 [ 冰沙 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_530",
+    "character": "沙漠",
+    "pinyin": "sha1mo4",
+    "meaning": "sa mạc",
+    "sentence": "请在这个句子填入 [ 沙漠 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_531",
+    "character": "牛油果",
+    "pinyin": "niu2you2guo3",
+    "meaning": "trái bơ",
+    "sentence": "请在这个句子填入 [ 牛油果 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_532",
+    "character": "人心果",
+    "pinyin": "ren2xin1guo3",
+    "meaning": "trái saboche",
+    "sentence": "请在这个句子填入 [ 人心果 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_533",
+    "character": "水果",
+    "pinyin": "shui3guo3",
+    "meaning": "trái cây",
+    "sentence": "请在这个句子填入 [ 水果 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_534",
+    "character": "果汁",
+    "pinyin": "guo3zhi1",
+    "meaning": "nước ép trái cây",
+    "sentence": "请在这个句子填入 [ 果汁 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_535",
+    "character": "橙子",
+    "pinyin": "cheng2zi",
+    "meaning": "trái  cam",
+    "sentence": "请在这个句子填入 [ 橙子 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_536",
+    "character": "橙汁",
+    "pinyin": "cheng2zhi1",
+    "meaning": "nước ép cam",
+    "sentence": "请在这个句子填入 [ 橙汁 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_537",
+    "character": "甘蔗",
+    "pinyin": "gan1zhe",
+    "meaning": "mía",
+    "sentence": "请在这个句子填入 [ 甘蔗 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_538",
+    "character": "甘蔗汁",
+    "pinyin": "gan1zhezhi1",
+    "meaning": "nước mía",
+    "sentence": "请在这个句子填入 [ 甘蔗汁 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_539",
+    "character": "苦瓜",
+    "pinyin": "ku3gua1",
+    "meaning": "khổ qua",
+    "sentence": "请在这个句子填入 [ 苦瓜 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_540",
+    "character": "苦瓜汁",
+    "pinyin": "ku3gua1zhi1",
+    "meaning": "nước ép  khổ qua",
+    "sentence": "请在这个句子填入 [ 苦瓜汁 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_541",
+    "character": "西瓜",
+    "pinyin": "xi1gua1",
+    "meaning": "dưa hấu",
+    "sentence": "请在这个句子填入 [ 西瓜 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_542",
+    "character": "南瓜",
+    "pinyin": "nan2gua1",
+    "meaning": "bí đỏ",
+    "sentence": "请在这个句子填入 [ 南瓜 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_543",
+    "character": "木瓜",
+    "pinyin": "mu4gua1",
+    "meaning": "đu đủ",
+    "sentence": "请在这个句子填入 [ 木瓜 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_544",
+    "character": "香瓜",
+    "pinyin": "xiang1gua1",
+    "meaning": "dưa gang",
+    "sentence": "请在这个句子填入 [ 香瓜 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_545",
+    "character": "哈密瓜",
+    "pinyin": "ha1mi4gua1",
+    "meaning": "dưa lưới",
+    "sentence": "请在这个句子填入 [ 哈密瓜 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_546",
+    "character": "冻",
+    "pinyin": "dong4",
+    "meaning": "đông",
+    "sentence": "请在这个句子填入 [ 冻 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_547",
+    "character": "冰冻",
+    "pinyin": "bing1dong4",
+    "meaning": "đông lạnh",
+    "sentence": "请在这个句子填入 [ 冰冻 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_548",
+    "character": "果冻",
+    "pinyin": "guo3dong1",
+    "meaning": "rau câu ,thạch",
+    "sentence": "请在这个句子填入 [ 果冻 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_549",
+    "character": "巧克力",
+    "pinyin": "qiao3ke4li4",
+    "meaning": "socola",
+    "sentence": "请在这个句子填入 [ 巧克力 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_550",
+    "character": "可可",
+    "pinyin": "ke3ke3",
+    "meaning": "ca cao",
+    "sentence": "请在这个句子填入 [ 可可 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_551",
+    "character": "冰淇淋",
+    "pinyin": "bing1qi2lin2",
+    "meaning": "kem",
+    "sentence": "请在这个句子填入 [ 冰淇淋 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_552",
+    "character": "香草味",
+    "pinyin": "xiang1cao3wei4",
+    "meaning": "vị vani",
+    "sentence": "请在这个句子填入 [ 香草味 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_553",
+    "character": "未",
+    "pinyin": "wei4",
+    "meaning": "vị ( lai ) 未来",
+    "sentence": "请在这个句子填入 [ 未 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_554",
+    "character": "矿泉水",
+    "pinyin": "kuang4quan2shui3",
+    "meaning": "nước khoáng,nước suối",
+    "sentence": "请在这个句子填入 [ 矿泉水 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_555",
+    "character": "矿",
+    "pinyin": "kuang4",
+    "meaning": "Khoáng(sản)",
+    "sentence": "请在这个句子填入 [ 矿 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_556",
+    "character": "石",
+    "pinyin": "",
+    "meaning": "bộ thạch (đá )",
+    "sentence": "请在这个句子填入 [ 石 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_557",
+    "character": "泉",
+    "pinyin": "quan2",
+    "meaning": "(tuyền) suối",
+    "sentence": "请在这个句子填入 [ 泉 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_558",
+    "character": "温泉",
+    "pinyin": "wen1quan2",
+    "meaning": "ôn tuyền,suối nước nóng",
+    "sentence": "请在这个句子填入 [ 温泉 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_559",
+    "character": "温水",
+    "pinyin": "wen1shui3",
+    "meaning": "nước ấm",
+    "sentence": "请在这个句子填入 [ 温水 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_560",
+    "character": "卖",
+    "pinyin": "mai4",
+    "meaning": "bán",
+    "sentence": "请在这个句子填入 [ 卖 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_561",
+    "character": "最近",
+    "pinyin": "zui4jin4",
+    "meaning": "gần đây",
+    "sentence": "请在这个句子填入 [ 最近 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_562",
+    "character": "做生意",
+    "pinyin": "zuo4sheng1yi4",
+    "meaning": "làm ăn , làm kinh doanh",
+    "sentence": "请在这个句子填入 [ 做生意 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_563",
+    "character": "生意",
+    "pinyin": "sheng1yi4",
+    "meaning": "(n) chuyện kinh doanh ,việc làm ăn",
+    "sentence": "请在这个句子填入 [ 生意 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_564",
+    "character": "生",
+    "pinyin": "Sheng1",
+    "meaning": "sinh",
+    "sentence": "请在这个句子填入 [ 生 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_565",
+    "character": "发生",
+    "pinyin": "",
+    "meaning": "fa1sheng1（v）: phát sinh,xảy ra",
+    "sentence": "请在这个句子填入 [ 发生 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_566",
+    "character": "生气",
+    "pinyin": "sheng1qi",
+    "meaning": "tức giận",
+    "sentence": "请在这个句子填入 [ 生气 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_567",
+    "character": "学生",
+    "pinyin": "xue2sheng1",
+    "meaning": "học sinh",
+    "sentence": "请在这个句子填入 [ 学生 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_568",
+    "character": "生菜",
+    "pinyin": "sheng1cai4",
+    "meaning": "xà lách",
+    "sentence": "请在这个句子填入 [ 生菜 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_569",
+    "character": "做饭",
+    "pinyin": "zuo4fan4",
+    "meaning": "nấu cơm",
+    "sentence": "请在这个句子填入 [ 做饭 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_570",
+    "character": "做菜",
+    "pinyin": "zuo4cai4",
+    "meaning": "nấu đồ ăn",
+    "sentence": "请在这个句子填入 [ 做菜 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_571",
+    "character": "菜",
+    "pinyin": "cai4",
+    "meaning": "món ăn",
+    "sentence": "请在这个句子填入 [ 菜 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_572",
+    "character": "日本菜",
+    "pinyin": "ri4ben3cai4",
+    "meaning": "món ăn Nhật",
+    "sentence": "请在这个句子填入 [ 日本菜 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_573",
+    "character": "做爱",
+    "pinyin": "Zuo4ai4",
+    "meaning": "làm 18+",
+    "sentence": "请在这个句子填入 [ 做爱 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_574",
+    "character": "词典",
+    "pinyin": "ci2dian3",
+    "meaning": "từ điển",
+    "sentence": "请在这个句子填入 [ 词典 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_575",
+    "character": "生词",
+    "pinyin": "sheng1ci2",
+    "meaning": "từ mới",
+    "sentence": "请在这个句子填入 [ 生词 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_576",
+    "character": "荧光笔",
+    "pinyin": "ying2guang1bi3",
+    "meaning": "bút dạ quang",
+    "sentence": "请在这个句子填入 [ 荧光笔 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_577",
+    "character": "荧",
+    "pinyin": "ying2",
+    "meaning": "huỳnh",
+    "sentence": "请在这个句子填入 [ 荧 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_578",
+    "character": "光",
+    "pinyin": "guang1",
+    "meaning": "quang",
+    "sentence": "请在这个句子填入 [ 光 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_579",
+    "character": "发光",
+    "pinyin": "fa1guang1",
+    "meaning": "phát quang",
+    "sentence": "请在这个句子填入 [ 发光 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_580",
+    "character": "白月光",
+    "pinyin": "bai2yue4guang1",
+    "meaning": "Bạch Nguyệt  Quang",
+    "sentence": "请在这个句子填入 [ 白月光 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_581",
+    "character": "萤火虫",
+    "pinyin": "ying2huo3chong2",
+    "meaning": "con đom đóm",
+    "sentence": "请在这个句子填入 [ 萤火虫 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_582",
+    "character": "改正笔",
+    "pinyin": "gai1zheng4bi3",
+    "meaning": "bút xóa",
+    "sentence": "请在这个句子填入 [ 改正笔 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_583",
+    "character": "改",
+    "pinyin": "gai3",
+    "meaning": "cải ,sửa",
+    "sentence": "请在这个句子填入 [ 改 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_584",
+    "character": "改革",
+    "pinyin": "gai3ge2",
+    "meaning": "cải cách",
+    "sentence": "请在这个句子填入 [ 改革 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_585",
+    "character": "改变",
+    "pinyin": "gai3bian4",
+    "meaning": "cải biến ( thay đổi)",
+    "sentence": "请在这个句子填入 [ 改变 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_586",
+    "character": "你变了",
+    "pinyin": "ni3bian4le",
+    "meaning": "bạn thay đổi rồi",
+    "sentence": "请在这个句子填入 [ 你变了 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_587",
+    "character": "正",
+    "pinyin": "zheng4",
+    "meaning": "chính",
+    "sentence": "请在这个句子填入 [ 正 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_588",
+    "character": "橡胶",
+    "pinyin": "xiang4jiao1",
+    "meaning": "cao su",
+    "sentence": "请在这个句子填入 [ 橡胶 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_589",
+    "character": "橡皮",
+    "pinyin": "xiang4pi2",
+    "meaning": "cục tẩy",
+    "sentence": "请在这个句子填入 [ 橡皮 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_590",
+    "character": "橡皮擦",
+    "pinyin": "xiang4pi2ca1",
+    "meaning": "cục tẩy",
+    "sentence": "请在这个句子填入 [ 橡皮擦 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_591",
+    "character": "擦",
+    "pinyin": "ca1",
+    "meaning": "lau ,chùi 扌: bộ thủ",
+    "sentence": "请在这个句子填入 [ 擦 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_592",
+    "character": "香蕉",
+    "pinyin": "xiang1jiao1",
+    "meaning": "trái chuối",
+    "sentence": "请在这个句子填入 [ 香蕉 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_593",
+    "character": "圆规",
+    "pinyin": "yuan2gui1",
+    "meaning": "compa",
+    "sentence": "请在这个句子填入 [ 圆规 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_594",
+    "character": "尺子",
+    "pinyin": "chi3zi",
+    "meaning": "cây thước",
+    "sentence": "请在这个句子填入 [ 尺子 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_595",
+    "character": "田",
+    "pinyin": "tian2",
+    "meaning": "( điền ) ruộng",
+    "sentence": "请在这个句子填入 [ 田 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_596",
+    "character": "电",
+    "pinyin": "dian4",
+    "meaning": "điện",
+    "sentence": "请在这个句子填入 [ 电 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_597",
+    "character": "没电",
+    "pinyin": "mei2dian4",
+    "meaning": "hết pin,hết điện",
+    "sentence": "请在这个句子填入 [ 没电 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_598",
+    "character": "脑子",
+    "pinyin": "nao3zi",
+    "meaning": "cái não",
+    "sentence": "请在这个句子填入 [ 脑子 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_599",
+    "character": "电脑",
+    "pinyin": "dian4nao3",
+    "meaning": "máy tính",
+    "sentence": "请在这个句子填入 [ 电脑 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_600",
+    "character": "脑子进水",
+    "pinyin": "nao3zi jin4shui3",
+    "meaning": "nhũng não",
+    "sentence": "请在这个句子填入 [ 脑子进水 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_601",
+    "character": "记",
+    "pinyin": "ji4",
+    "meaning": "kí ,note =>记者: ji4zhe3: nhà báo ( kí  giả )",
+    "sentence": "请在这个句子填入 [ 记 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_602",
+    "character": "日记",
+    "pinyin": "ri4ji4",
+    "meaning": "nhật kí",
+    "sentence": "请在这个句子填入 [ 日记 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_603",
+    "character": "笔记本",
+    "pinyin": "bi3ji4ben3",
+    "meaning": "note book ( vở có coong)",
+    "sentence": "请在这个句子填入 [ 笔记本 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_604",
+    "character": "本子",
+    "pinyin": "ben3zi",
+    "meaning": "cuốn vở",
+    "sentence": "请在这个句子填入 [ 本子 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_605",
+    "character": "笔记本电脑",
+    "pinyin": "bi3ji4ben3dian4nao3",
+    "meaning": "laptop",
+    "sentence": "请在这个句子填入 [ 笔记本电脑 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_606",
+    "character": "平",
+    "pinyin": "ping2",
+    "meaning": "( bình )",
+    "sentence": "请在这个句子填入 [ 平 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_607",
+    "character": "平安",
+    "pinyin": "ping2an1",
+    "meaning": "Bình an",
+    "sentence": "请在这个句子填入 [ 平安 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_608",
+    "character": "日日平安",
+    "pinyin": "",
+    "meaning": "ri4ri4ping2an1:",
+    "sentence": "请在这个句子填入 [ 日日平安 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_609",
+    "character": "天天平安",
+    "pinyin": "",
+    "meaning": "tian1tian1ping2an1:",
+    "sentence": "请在这个句子填入 [ 天天平安 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_610",
+    "character": "苹果",
+    "pinyin": "ping2guo3",
+    "meaning": "trái táo",
+    "sentence": "请在这个句子填入 [ 苹果 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_611",
+    "character": "梨",
+    "pinyin": "li2",
+    "meaning": "trái  lê",
+    "sentence": "请在这个句子填入 [ 梨 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_612",
+    "character": "分",
+    "pinyin": "fen1",
+    "meaning": "chia",
+    "sentence": "请在这个句子填入 [ 分 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_613",
+    "character": "分离",
+    "pinyin": "fen1li2",
+    "meaning": "phân li",
+    "sentence": "请在这个句子填入 [ 分离 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_614",
+    "character": "平板电脑",
+    "pinyin": "ping2ban3dian4nao3",
+    "meaning": "máy tính bảng",
+    "sentence": "请在这个句子填入 [ 平板电脑 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_615",
+    "character": "屏幕",
+    "pinyin": "ping2mu4",
+    "meaning": "màn hình",
+    "sentence": "请在这个句子填入 [ 屏幕 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_616",
+    "character": "分享",
+    "pinyin": "fen1xiang3",
+    "meaning": "share  （ chia sẻ)",
+    "sentence": "请在这个句子填入 [ 分享 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_617",
+    "character": "老鼠",
+    "pinyin": "lao3shu3",
+    "meaning": "chuột",
+    "sentence": "请在这个句子填入 [ 老鼠 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_618",
+    "character": "老鼠爱大米",
+    "pinyin": "lao3shu3ai4da4mi3",
+    "meaning": "chuột yêu gạo",
+    "sentence": "请在这个句子填入 [ 老鼠爱大米 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_619",
+    "character": "键盘",
+    "pinyin": "jian4pan2",
+    "meaning": "bàn phím",
+    "sentence": "请在这个句子填入 [ 键盘 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_620",
+    "character": "记得",
+    "pinyin": "ji4de2",
+    "meaning": "nhớ ( làm 1 cái gì đó) remember",
+    "sentence": "请在这个句子填入 [ 记得 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_621",
+    "character": "中文",
+    "pinyin": "zhong1wen2",
+    "meaning": "tiếng Trung",
+    "sentence": "请在这个句子填入 [ 中文 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_622",
+    "character": "汉语",
+    "pinyin": "han4yu3",
+    "meaning": "Tiếng Trung",
+    "sentence": "请在这个句子填入 [ 汉语 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_623",
+    "character": "转笔刀",
+    "pinyin": "zhuan4bi3dao1",
+    "meaning": "đồ gọt",
+    "sentence": "请在这个句子填入 [ 转笔刀 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_624",
+    "character": "刀",
+    "pinyin": "dao1",
+    "meaning": "dao",
+    "sentence": "请在这个句子填入 [ 刀 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_625",
+    "character": "水果刀",
+    "pinyin": "shui3guo3dao1",
+    "meaning": "dao gọt trái cây",
+    "sentence": "请在这个句子填入 [ 水果刀 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_626",
+    "character": "作业",
+    "pinyin": "zuo4ye4",
+    "meaning": "BTVN",
+    "sentence": "请在这个句子填入 [ 作业 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_627",
+    "character": "写作业",
+    "pinyin": "xie3zuo4ye4",
+    "meaning": "làm BTVN",
+    "sentence": "请在这个句子填入 [ 写作业 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_628",
+    "character": "做作业",
+    "pinyin": "zuo4zuo4ye4",
+    "meaning": "làm BTVN",
+    "sentence": "请在这个句子填入 [ 做作业 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_629",
+    "character": "作业本",
+    "pinyin": "zuo4ye4ben3",
+    "meaning": "Vở BTVN",
+    "sentence": "请在这个句子填入 [ 作业本 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_630",
+    "character": "笔袋",
+    "pinyin": "",
+    "meaning": "bi3dai4:",
+    "sentence": "请在这个句子填入 [ 笔袋 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_631",
+    "character": "袋子",
+    "pinyin": "dai4zi",
+    "meaning": "túi",
+    "sentence": "请在这个句子填入 [ 袋子 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_632",
+    "character": "袋鼠",
+    "pinyin": "dai4shu3",
+    "meaning": "chuột túi",
+    "sentence": "请在这个句子填入 [ 袋鼠 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_633",
+    "character": "宝贝",
+    "pinyin": "bao3bei4",
+    "meaning": "bảo bối",
+    "sentence": "请在这个句子填入 [ 宝贝 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_634",
+    "character": "真",
+    "pinyin": "zhen1",
+    "meaning": "thật",
+    "sentence": "请在这个句子填入 [ 真 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_635",
+    "character": "天真",
+    "pinyin": "tian1zhen1",
+    "meaning": "chân thật , ngây thơ",
+    "sentence": "请在这个句子填入 [ 天真 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_636",
+    "character": "真的吗",
+    "pinyin": "",
+    "meaning": "zhen1dema? Thiệt ko ?",
+    "sentence": "请在这个句子填入 [ 真的吗 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_637",
+    "character": "少",
+    "pinyin": "shao3",
+    "meaning": "ít, thiếu",
+    "sentence": "请在这个句子填入 [ 少 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_638",
+    "character": "课本",
+    "pinyin": "ke4ben3",
+    "meaning": "sách giáo  khoa",
+    "sentence": "请在这个句子填入 [ 课本 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_639",
+    "character": "上",
+    "pinyin": "shang4",
+    "meaning": "Thượng ,trên",
+    "sentence": "请在这个句子填入 [ 上 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_640",
+    "character": "上课",
+    "pinyin": "shang4ke4",
+    "meaning": "lên lớp , đi học",
+    "sentence": "请在这个句子填入 [ 上课 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_641",
+    "character": "课",
+    "pinyin": "ke4",
+    "meaning": "tiết học",
+    "sentence": "请在这个句子填入 [ 课 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_642",
+    "character": "书",
+    "pinyin": "shu1",
+    "meaning": "sách",
+    "sentence": "请在这个句子填入 [ 书 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_643",
+    "character": "下",
+    "pinyin": "xia4",
+    "meaning": "hạ ,dưới ,rơi,rớt",
+    "sentence": "请在这个句子填入 [ 下 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_644",
+    "character": "下课",
+    "pinyin": "xia4ke4",
+    "meaning": "tan học",
+    "sentence": "请在这个句子填入 [ 下课 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_645",
+    "character": "安静",
+    "pinyin": "an1jing4",
+    "meaning": "yên tĩnh ( người, phong cảnh)",
+    "sentence": "请在这个句子填入 [ 安静 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_646",
+    "character": "她是安静的人",
+    "pinyin": "ta1shi4 an1jing4 de ren2",
+    "meaning": "cô ấy là người hướng nội ,ít nói",
+    "sentence": "请在这个句子填入 [ 她是安静的人 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_647",
+    "character": "静悄悄",
+    "pinyin": "jing4qiao1qiao1",
+    "meaning": "im phăng phắc",
+    "sentence": "请在这个句子填入 [ 静悄悄 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_648",
+    "character": "乱",
+    "pinyin": "luan4",
+    "meaning": "loạn,lộn xộn  , lung tung",
+    "sentence": "请在这个句子填入 [ 乱 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_649",
+    "character": "乱说",
+    "pinyin": "luan4shuo1",
+    "meaning": "nói lung tung",
+    "sentence": "请在这个句子填入 [ 乱说 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_650",
+    "character": "说话",
+    "pinyin": "shuo1hua4",
+    "meaning": "nói chuyện",
+    "sentence": "请在这个句子填入 [ 说话 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_651",
+    "character": "话",
+    "pinyin": "hua4",
+    "meaning": "( thoại ) lời nói",
+    "sentence": "请在这个句子填入 [ 话 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_652",
+    "character": "花",
+    "pinyin": "hua1",
+    "meaning": "bông hoa",
+    "sentence": "请在这个句子填入 [ 花 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_653",
+    "character": "甜话",
+    "pinyin": "tian2hua4",
+    "meaning": "lời nói ngọt ngào",
+    "sentence": "请在这个句子填入 [ 甜话 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_654",
+    "character": "你真会说甜话",
+    "pinyin": "ni3zhen1hui4shuo1tian2hua4",
+    "meaning": "bạn thật biết nói lời ngọt ngào",
+    "sentence": "请在这个句子填入 [ 你真会说甜话 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_655",
+    "character": "跑",
+    "pinyin": "pao3",
+    "meaning": "chạy",
+    "sentence": "请在这个句子填入 [ 跑 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_656",
+    "character": "跑步",
+    "pinyin": "pao3bu4",
+    "meaning": "chạy bộ",
+    "sentence": "请在这个句子填入 [ 跑步 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_657",
+    "character": "床",
+    "pinyin": "chuang2",
+    "meaning": "giường",
+    "sentence": "请在这个句子填入 [ 床 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_658",
+    "character": "起床",
+    "pinyin": "qi3chuang2",
+    "meaning": "thức dậy",
+    "sentence": "请在这个句子填入 [ 起床 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_659",
+    "character": "天天",
+    "pinyin": "tian1tian1",
+    "meaning": "ngày ngày",
+    "sentence": "请在这个句子填入 [ 天天 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_660",
+    "character": "早",
+    "pinyin": "zao3",
+    "meaning": "sớm",
+    "sentence": "请在这个句子填入 [ 早 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_661",
+    "character": "早上",
+    "pinyin": "zao3shang4",
+    "meaning": "buổi sáng",
+    "sentence": "请在这个句子填入 [ 早上 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_662",
+    "character": "早上好",
+    "pinyin": "Zao3shang4hao3",
+    "meaning": "chào buổi sáng",
+    "sentence": "请在这个句子填入 [ 早上好 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_663",
+    "character": "陪",
+    "pinyin": "pei2",
+    "meaning": "đi cùng,cùng",
+    "sentence": "请在这个句子填入 [ 陪 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_664",
+    "character": "学校",
+    "pinyin": "xue2xiao4",
+    "meaning": "trường học",
+    "sentence": "请在这个句子填入 [ 学校 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_665",
+    "character": "北京",
+    "pinyin": "bei3jing1",
+    "meaning": "Bắc Kinh",
+    "sentence": "请在这个句子填入 [ 北京 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_666",
+    "character": "里边",
+    "pinyin": "li3bian",
+    "meaning": "bên trong",
+    "sentence": "请在这个句子填入 [ 里边 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_667",
+    "character": "教学楼",
+    "pinyin": "jiao4xue2lou2",
+    "meaning": "toà nhà dạy học",
+    "sentence": "请在这个句子填入 [ 教学楼 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_668",
+    "character": "办公楼",
+    "pinyin": "ban4gong1lou2",
+    "meaning": "toà nhà văn phòng",
+    "sentence": "请在这个句子填入 [ 办公楼 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_669",
+    "character": "楼",
+    "pinyin": "lou2",
+    "meaning": "lầu",
+    "sentence": "请在这个句子填入 [ 楼 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_670",
+    "character": "北边",
+    "pinyin": "bei3bian",
+    "meaning": "phía bắc",
+    "sentence": "请在这个句子填入 [ 北边 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_671",
+    "character": "西边",
+    "pinyin": "xi1bian",
+    "meaning": "phía tây",
+    "sentence": "请在这个句子填入 [ 西边 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_672",
+    "character": "南边",
+    "pinyin": "nan2bian",
+    "meaning": "phía nam",
+    "sentence": "请在这个句子填入 [ 南边 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_673",
+    "character": "附近",
+    "pinyin": "fu4jin4",
+    "meaning": "vùng lân cận, gần đây ( địa lí )",
+    "sentence": "请在这个句子填入 [ 附近 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_674",
+    "character": "饭馆",
+    "pinyin": "fan4guan3",
+    "meaning": "nhà hàng, quán cơm",
+    "sentence": "请在这个句子填入 [ 饭馆 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_675",
+    "character": "东边",
+    "pinyin": "dong1bian",
+    "meaning": "phía đông",
+    "sentence": "请在这个句子填入 [ 东边 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_676",
+    "character": "还",
+    "pinyin": "hai2",
+    "meaning": "vẫn,còn",
+    "sentence": "请在这个句子填入 [ 还 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_677",
+    "character": "电影院",
+    "pinyin": "dian4ying3yuan4",
+    "meaning": "rạp chiếu phim",
+    "sentence": "请在这个句子填入 [ 电影院 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_678",
+    "character": "电影",
+    "pinyin": "dian4ying3",
+    "meaning": "phim",
+    "sentence": "请在这个句子填入 [ 电影 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_679",
+    "character": "看",
+    "pinyin": "kan4",
+    "meaning": "xem , nhìn",
+    "sentence": "请在这个句子填入 [ 看 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_680",
+    "character": "对面",
+    "pinyin": "dui4mian4",
+    "meaning": "đối diện",
+    "sentence": "请在这个句子填入 [ 对面 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_681",
+    "character": "药店",
+    "pinyin": "yao4dian4",
+    "meaning": "hiệu thuốc",
+    "sentence": "请在这个句子填入 [ 药店 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_682",
+    "character": "旁边",
+    "pinyin": "pang2bian1",
+    "meaning": "bên cạnh (thực tế)",
+    "sentence": "请在这个句子填入 [ 旁边 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_683",
+    "character": "超市",
+    "pinyin": "chao1shi4",
+    "meaning": "siêu thị",
+    "sentence": "请在这个句子填入 [ 超市 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_684",
+    "character": "们",
+    "pinyin": "men",
+    "meaning": "hậu tố được dùng để thành lập hình thức số nhiều",
+    "sentence": "请在这个句子填入 [ 们 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_685",
+    "character": "照片",
+    "pinyin": "zhao4pian4",
+    "meaning": "tấm ảnh ( bức hình chụp )",
+    "sentence": "请在这个句子填入 [ 照片 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_686",
+    "character": "左边",
+    "pinyin": "zuo3bian",
+    "meaning": "bên trái",
+    "sentence": "请在这个句子填入 [ 左边 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_687",
+    "character": "后边",
+    "pinyin": "hou4bian",
+    "meaning": "phía sau",
+    "sentence": "请在这个句子填入 [ 后边 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_688",
+    "character": "桌子",
+    "pinyin": "zhuo1zi",
+    "meaning": "cái bàn",
+    "sentence": "请在这个句子填入 [ 桌子 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_689",
+    "character": "上边",
+    "pinyin": "shang4bian",
+    "meaning": "bên trên",
+    "sentence": "请在这个句子填入 [ 上边 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_690",
+    "character": "台灯",
+    "pinyin": "tai2deng1",
+    "meaning": "đèn bàn",
+    "sentence": "请在这个句子填入 [ 台灯 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_691",
+    "character": "台",
+    "pinyin": "tai2",
+    "meaning": "bệ",
+    "sentence": "请在这个句子填入 [ 台 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_692",
+    "character": "张",
+    "pinyin": "zhang1",
+    "meaning": "cái , chiếc, tờ/ họ Trương",
+    "sentence": "请在这个句子填入 [ 张 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_693",
+    "character": "下边",
+    "pinyin": "xia4bian",
+    "meaning": "bên dưới",
+    "sentence": "请在这个句子填入 [ 下边 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_694",
+    "character": "抽屉",
+    "pinyin": "chou1ti",
+    "meaning": "ngăn kéo",
+    "sentence": "请在这个句子填入 [ 抽屉 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_695",
+    "character": "块",
+    "pinyin": "kuai4",
+    "meaning": "miếng, thỏi cục",
+    "sentence": "请在这个句子填入 [ 块 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_696",
+    "character": "前边",
+    "pinyin": "qian2bian",
+    "meaning": "phía trước",
+    "sentence": "请在这个句子填入 [ 前边 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_697",
+    "character": "鞋",
+    "pinyin": "xie2",
+    "meaning": "giày",
+    "sentence": "请在这个句子填入 [ 鞋 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_698",
+    "character": "拖鞋",
+    "pinyin": "tuo1xie2",
+    "meaning": "dép lê",
+    "sentence": "请在这个句子填入 [ 拖鞋 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_699",
+    "character": "眼镜",
+    "pinyin": "yan3jing4",
+    "meaning": "mắt kính",
+    "sentence": "请在这个句子填入 [ 眼镜 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_700",
+    "character": "闹钟",
+    "pinyin": "nao4zhong1",
+    "meaning": "đồng hồ báo thức",
+    "sentence": "请在这个句子填入 [ 闹钟 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_701",
+    "character": "热闹",
+    "pinyin": "re4 nao4",
+    "meaning": "náo nhiệt",
+    "sentence": "请在这个句子填入 [ 热闹 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_702",
+    "character": "王爷",
+    "pinyin": "wang2ye",
+    "meaning": "vương gia",
+    "sentence": "请在这个句子填入 [ 王爷 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_703",
+    "character": "担心",
+    "pinyin": "dan4xin1",
+    "meaning": "lo lắng",
+    "sentence": "请在这个句子填入 [ 担心 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_704",
+    "character": "聊天儿",
+    "pinyin": "liao2tian1r",
+    "meaning": "tám chuyện , nói chuyện phiếm ( 聊）",
+    "sentence": "请在这个句子填入 [ 聊天儿 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_705",
+    "character": "杂志",
+    "pinyin": "za2zhi4",
+    "meaning": "tạp chí",
+    "sentence": "请在这个句子填入 [ 杂志 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_706",
+    "character": "觉得",
+    "pinyin": "jue2de2",
+    "meaning": "cảm giác . Cảm thấy ,cho rằng",
+    "sentence": "请在这个句子填入 [ 觉得 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_707",
+    "character": "吧",
+    "pinyin": "ba",
+    "meaning": "chắc… phải không (trợ từ được dùng để thành lập câu hỏi yêu cầu xác định điều được giả định)",
+    "sentence": "请在这个句子填入 [ 吧 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_708",
+    "character": "咱们",
+    "pinyin": "zan2men",
+    "meaning": "chúng ta, chúng mình",
+    "sentence": "请在这个句子填入 [ 咱们 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_709",
+    "character": "啊",
+    "pinyin": "a",
+    "meaning": "đấy, nhỉ, đó (trợ từ dùng ở cuối câu để thể hiện sự khẳng định hoặc tán thành",
+    "sentence": "请在这个句子填入 [ 啊 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_710",
+    "character": "出发",
+    "pinyin": "chu1fa1",
+    "meaning": "xuất phát, bắt đầu lên đường",
+    "sentence": "请在这个句子填入 [ 出发 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_711",
+    "character": "行",
+    "pinyin": "xing2",
+    "meaning": "được, giỏi",
+    "sentence": "请在这个句子填入 [ 行 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_712",
+    "character": "见面",
+    "pinyin": "jian4mian4",
+    "meaning": "gặp mặt",
+    "sentence": "请在这个句子填入 [ 见面 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_713",
+    "character": "差",
+    "pinyin": "cha4",
+    "meaning": "kém, thiếu",
+    "sentence": "请在这个句子填入 [ 差 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_714",
+    "character": "门口",
+    "pinyin": "men2kou3",
+    "meaning": "cửa, cổng",
+    "sentence": "请在这个句子填入 [ 门口 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_715",
+    "character": "等",
+    "pinyin": "deng3",
+    "meaning": "đợi chờ",
+    "sentence": "请在这个句子填入 [ 等 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_716",
+    "character": "起",
+    "pinyin": "qi3",
+    "meaning": "dậy",
+    "sentence": "请在这个句子填入 [ 起 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_717",
+    "character": "午饭",
+    "pinyin": "wu3fan4",
+    "meaning": "bữa trưa",
+    "sentence": "请在这个句子填入 [ 午饭 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_718",
+    "character": "晚饭",
+    "pinyin": "wan3fan4",
+    "meaning": "bữa tối",
+    "sentence": "请在这个句子填入 [ 晚饭 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_719",
+    "character": "年",
+    "pinyin": "nian2",
+    "meaning": "năm",
+    "sentence": "请在这个句子填入 [ 年 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_720",
+    "character": "星期四",
+    "pinyin": "xing1qi1si4",
+    "meaning": "thứ 5",
+    "sentence": "请在这个句子填入 [ 星期四 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_721",
+    "character": "星期五",
+    "pinyin": "xing1qi1wu3",
+    "meaning": "thứ 6",
+    "sentence": "请在这个句子填入 [ 星期五 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_722",
+    "character": "星期六",
+    "pinyin": "xing1qi1liu4",
+    "meaning": "thứ 7",
+    "sentence": "请在这个句子填入 [ 星期六 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_723",
+    "character": "星期日",
+    "pinyin": "xing1qi1ri4",
+    "meaning": "chủ nhật",
+    "sentence": "请在这个句子填入 [ 星期日 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_724",
+    "character": "星期天",
+    "pinyin": "xing1qi1tian1",
+    "meaning": "chủ nhật",
+    "sentence": "请在这个句子填入 [ 星期天 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_725",
+    "character": "这个月",
+    "pinyin": "zhe4geyue4",
+    "meaning": "tháng này",
+    "sentence": "请在这个句子填入 [ 这个月 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_726",
+    "character": "打算",
+    "pinyin": "da3suan4",
+    "meaning": "(v) (n ) : tính , định , dự định / dự định , kế hoạch",
+    "sentence": "请在这个句子填入 [ 打算 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_727",
+    "character": "比如",
+    "pinyin": "bi3ru2",
+    "meaning": "ví dụ",
+    "sentence": "请在这个句子填入 [ 比如 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  },
+  {
+    "id": "doc_728",
+    "character": "无关",
+    "pinyin": "wu2guan1",
+    "meaning": "không liên quan",
+    "sentence": "请在这个句子填入 [ 无关 ]。",
+    "srsLevel": 1,
+    "nextReview": 0,
+    "lastReview": 0
+  }
+]

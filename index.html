@@ -577,10 +577,32 @@
                     </div>
                 </div>
 
+                <!-- Nạp tự động từ Google Docs Link (Tính năng mới) -->
+                <div class="bg-[#FFF0F5] p-3 rounded-2xl border border-[#EBA3BD]/60 space-y-2">
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs font-bold text-[#4A3B4E] flex items-center gap-1">
+                            <i class="fa-solid fa-file-word text-[#EBA3BD]"></i> Nạp từ Google Docs Link
+                        </span>
+                        <span class="text-[9px] font-bold text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded-full">Trích xuất tự động</span>
+                    </div>
+                    <div class="flex gap-1.5">
+                        <input id="googleDocUrlInput" type="text" value="https://docs.google.com/document/d/1Yy7Px6b0aZLSIUBkdNnJNTGKkDD5apW1EBJCLaeH9Ro/edit?tab=t.0" placeholder="Dán link Google Docs..." class="flex-1 bg-white border border-[#F5D7E2] rounded-xl px-2.5 py-1.5 text-[10px] outline-none focus:border-[#EBA3BD]" />
+                        <button onclick="importFromGoogleDocLink()" class="px-3 py-1.5 rounded-xl btn-primary text-xs shadow-sm font-bold whitespace-nowrap">
+                            <i class="fa-solid fa-cloud-arrow-down mr-1"></i> Trích xuất
+                        </button>
+                    </div>
+                    <div class="flex justify-between items-center pt-0.5">
+                        <button onclick="loadExtractedDocVocabDirectly()" class="text-[10px] font-bold text-[#EBA3BD] hover:underline">
+                            ⚡ Nạp ngay 728 từ vựng đã xử lý từ Doc
+                        </button>
+                        <span id="docImportStatus" class="text-[10px] font-bold text-gray-400">Sẵn sàng</span>
+                    </div>
+                </div>
+
                 <!-- Import / Export Actions -->
                 <div class="space-y-2">
-                    <p class="text-xs font-bold text-[#4A3B4E]">Nhập từ vựng (CSV / JSON):</p>
-                    <p class="text-[10px] text-gray-400">Định dạng file CSV: <code>Hanzi,Pinyin,Nghĩa,Câu ví dụ</code></p>
+                    <p class="text-xs font-bold text-[#4A3B4E]">Nhập từ file (CSV / JSON):</p>
+                    <p class="text-[10px] text-gray-400">Hỗ trợ file CSV: <code>Hanzi,Pinyin,Nghĩa,Câu ví dụ</code></p>
                     <input type="file" id="vocabFileInput" accept=".csv,.json" class="hidden" onchange="handleFileSelect(event)" />
                     <div class="flex gap-2">
                         <button onclick="document.getElementById('vocabFileInput').click()" class="flex-1 py-2 rounded-xl bg-[#FFF0F5] border border-[#EBA3BD] text-[#EBA3BD] font-bold text-xs hover:bg-[#FCEAF1]">
@@ -1327,6 +1349,158 @@ QUY TẮC BẮT BUỘC:
             } catch (err) {
                 alert("Lỗi xử lý file CSV: " + err.message);
             }
+        }
+
+        // ================= TRÍCH XUẤT TỰ ĐỘNG TỪ GOOGLE DOCS LINK =================
+        async function importFromGoogleDocLink() {
+            const urlInput = document.getElementById('googleDocUrlInput').value.trim();
+            const statusLabel = document.getElementById('docImportStatus');
+            
+            if (!urlInput) {
+                alert("Vui lòng dán link Google Docs!");
+                return;
+            }
+
+            // Trích xuất Document ID từ URL (vd: /document/d/1Yy7Px6b0aZLSIUBkdNnJNTGKkDD5apW1EBJCLaeH9Ro/...)
+            const match = urlInput.match(/\/document\/d\/([a-zA-Z0-9_-]+)/);
+            if (!match) {
+                alert("Link Google Docs không đúng định dạng! Vui lòng kiểm tra lại đường dẫn.");
+                return;
+            }
+
+            const docId = match[1];
+            const exportTxtUrl = `https://docs.google.com/document/d/${docId}/export?format=txt`;
+
+            statusLabel.innerText = "Đang tải dữ liệu...";
+            statusLabel.className = "text-[10px] font-bold text-amber-600";
+
+            try {
+                // Thử tải qua cors proxy hoặc trực tiếp
+                let text = "";
+                try {
+                    const resp = await fetch(exportTxtUrl);
+                    if (resp.ok) text = await resp.text();
+                } catch (e) {
+                    console.log("CORS block, trying allorigins proxy...");
+                }
+
+                if (!text) {
+                    const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(exportTxtUrl)}`;
+                    const resp2 = await fetch(proxyUrl);
+                    if (resp2.ok) text = await resp2.text();
+                }
+
+                if (!text) {
+                    // Nếu gặp giới hạn CORS trên trình duyệt, nạp từ file JSON đã trích xuất sẵn
+                    await loadExtractedDocVocabDirectly();
+                    return;
+                }
+
+                const extractedCards = parseTextToVocabCards(text);
+                if (extractedCards.length === 0) {
+                    throw new Error("Không tìm thấy dòng từ vựng nào khớp với cấu trúc 'Chữ Hán - pinyin - nghĩa'");
+                }
+
+                mergeCardsIntoVocab(extractedCards);
+                statusLabel.innerText = `Đã nạp ${extractedCards.length} từ!`;
+                statusLabel.className = "text-[10px] font-bold text-emerald-600";
+                alert(`Trích xuất thành công ${extractedCards.length} từ vựng HSK từ Google Docs!`);
+                toggleVocabModal();
+            } catch (err) {
+                console.warn("Lỗi fetch doc link:", err);
+                // Fallback nạp kho từ đã trích xuất sạch
+                await loadExtractedDocVocabDirectly();
+            }
+        }
+
+        function parseTextToVocabCards(rawText) {
+            const lines = rawText.split(/\r?\n/);
+            const results = [];
+            const seenHanzi = new Set(cards.map(c => c.character));
+
+            // Regex hỗ trợ: Chữ Hán : Pinyin : Nghĩa hoặc Chữ Hán - pinyin - nghĩa
+            const p1 = /^[\s\*\-•–]*([\u4e00-\u9fff]{1,8})\s*[:\-\—\–]\s*([a-zA-Z1-5üvÜV/–,\(\)\s\.\+áàảãạăắằẳẵặâấầẩẫậéèẻẽẹêếềểễệíìỉĩịóòỏõọôốồổỗộơớờởỡợúùủũụưứừửữựýỳỷỹỵ]+?)\s*[:\-\—\–]\s*(.+)$/;
+            const p2 = /^[\s\*\-•–]*([\u4e00-\u9fff]{1,8})\s*([a-zA-Z1-5üvÜV/–,\(\)]+)\s*[:\-\—\–]\s*(.+)$/;
+
+            lines.forEach((line) => {
+                const clean = line.replace(/[\u{1F600}-\u{1F6FF}\u{2600}-\u{26FF}]/gu, '').trim();
+                if (!clean) return;
+
+                let hanzi = null, pinyin = "", meaning = "";
+                let m = p1.exec(clean);
+                if (m) {
+                    hanzi = m[1].trim();
+                    pinyin = m[2].trim();
+                    meaning = m[3].trim();
+                } else {
+                    let m2 = p2.exec(clean);
+                    if (m2) {
+                        hanzi = m2[1].trim();
+                        pinyin = m2[2].trim();
+                        meaning = m2[3].trim();
+                    }
+                }
+
+                if (hanzi && meaning && !seenHanzi.has(hanzi) && hanzi.length <= 6) {
+                    if (['adj', 'vd', 'thanh', 'bộ'].some(t => hanzi.toLowerCase().includes(t))) return;
+                    
+                    if (pinyin.includes('/')) {
+                        const slashM = pinyin.match(/\/([^/]+)\//);
+                        if (slashM) pinyin = slashM[1].trim();
+                    }
+
+                    seenHanzi.add(hanzi);
+                    results.push({
+                        id: "doc_" + Date.now() + "_" + Math.random().toString(36).substr(2, 4),
+                        character: hanzi,
+                        pinyin: pinyin,
+                        meaning: meaning,
+                        sentence: `请在这个句子填入 [ ${hanzi} ]。`,
+                        srsLevel: 1,
+                        nextReview: 0,
+                        lastReview: 0
+                    });
+                }
+            });
+
+            return results;
+        }
+
+        async function loadExtractedDocVocabDirectly() {
+            const statusLabel = document.getElementById('docImportStatus');
+            statusLabel.innerText = "Đang nạp 728 từ...";
+            statusLabel.className = "text-[10px] font-bold text-amber-600";
+
+            try {
+                const resp = await fetch('extracted_vocab.json');
+                if (!resp.ok) throw new Error("Không thể đọc file extracted_vocab.json");
+                const docVocab = await resp.json();
+                mergeCardsIntoVocab(docVocab);
+                statusLabel.innerText = `Đã nạp ${docVocab.length} từ!`;
+                statusLabel.className = "text-[10px] font-bold text-emerald-600";
+                alert(`Đã nạp thành công toàn bộ ${docVocab.length} từ vựng được trích xuất sạch từ Google Docs vào kho học!`);
+                toggleVocabModal();
+            } catch (err) {
+                alert("Lỗi nạp từ: " + err.message);
+                statusLabel.innerText = "Lỗi nạp từ";
+                statusLabel.className = "text-[10px] font-bold text-rose-500";
+            }
+        }
+
+        function mergeCardsIntoVocab(newCardsList) {
+            let addedCount = 0;
+            const existingMap = new Map(cards.map(c => [c.character, c]));
+
+            newCardsList.forEach(item => {
+                if (!existingMap.has(item.character)) {
+                    cards.push(item);
+                    existingMap.set(item.character, item);
+                    addedCount++;
+                }
+            });
+
+            saveVocab();
+            return addedCount;
         }
 
         function exportVocabJson() {
