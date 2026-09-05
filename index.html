@@ -542,6 +542,137 @@
             </div>
         </div>
 
+        <!-- ================= MÀN HÌNH 4: GAMIFICATION & ĐỘNG LỰC HỌC TẬP MỖI NGÀY ================= -->
+        <div id="screen-quest" class="screen">
+            <!-- Header -->
+            <div class="flex justify-between items-center pb-2 border-b border-[#F5D7E2]">
+                <button onclick="switchScreen('screen-home')" class="text-[#EBA3BD] text-base"><i class="fa-solid fa-chevron-left"></i></button>
+                <h1 class="font-bold text-xs text-[#4A3B4E]">Nhiệm Vụ & Động Lực Hàng Ngày ✨</h1>
+                <div class="w-4"></div>
+            </div>
+
+            <div class="py-3 space-y-3">
+                <!-- Thẻ Chuỗi Ngày Học (Streak) & Năng Lượng -->
+                <div class="card-pink p-3.5 bg-gradient-to-br from-[#FFF5F8] to-[#FCEAF1] border-2 border-[#EBA3BD]/70 text-center relative overflow-hidden shadow-sm">
+                    <div class="flex justify-around items-center">
+                        <div>
+                            <div class="text-3xl mb-1 animate-bounce">🔥</div>
+                            <h3 id="streakDaysCount" class="text-xl font-extrabold text-[#EBA3BD]">7 Ngày</h3>
+                            <p class="text-[9px] font-bold text-gray-500 uppercase">Chuỗi liên tục</p>
+                        </div>
+                        <div class="w-[1px] h-10 bg-[#F5D7E2]"></div>
+                        <div>
+                            <div class="text-3xl mb-1">⚡</div>
+                            <h3 id="dailyExpCount" class="text-xl font-extrabold text-amber-500">240 XP</h3>
+                            <p class="text-[9px] font-bold text-gray-500 uppercase">Điểm kinh nghiệm</p>
+                        </div>
+                        <div class="w-[1px] h-10 bg-[#F5D7E2]"></div>
+                        <div>
+                            <div class="text-3xl mb-1">👑</div>
+                            <h3 id="userBadgeLevel" class="text-xs font-black text-[#4A3B4E] mt-2">Tập Sự HSK4</h3>
+                            <p class="text-[9px] font-bold text-gray-500 uppercase">Danh hiệu</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Thanh tiến độ ngày -->
+                    <div class="mt-3 pt-2 border-t border-[#F5D7E2]">
+                        <div class="flex justify-between text-[10px] font-bold text-gray-600 mb-1">
+                            <span>🎯 Mục tiêu hôm nay: Ôn 20 từ</span>
+                            <span id="questTodayProgressText" class="text-[#EBA3BD]">12 / 20 từ (60%)</span>
+                        </div>
+                        <div class="w-full bg-white h-2.5 rounded-full overflow-hidden border border-[#F5D7E2] p-0.5">
+                            <div id="questProgressBar" class="bg-gradient-to-r from-[#FFC2D1] to-[#EBA3BD] h-full rounded-full transition-all duration-500" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Danh sách Nhiệm Vụ Hàng Ngày (Daily Quests) -->
+                <div>
+                    <h3 class="font-bold text-xs text-[#4A3B4E] mb-2 flex items-center gap-1.5">
+                        <i class="fa-solid fa-list-check text-[#EBA3BD]"></i> Nhiệm Vụ Hôm Nay
+                    </h3>
+                    <div class="space-y-2">
+                        <!-- Nhiệm vụ 1 -->
+                        <div class="bg-white p-2.5 rounded-xl border border-[#F5D7E2] flex items-center justify-between shadow-sm">
+                            <div class="flex items-center gap-2.5">
+                                <div class="w-8 h-8 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center text-sm">
+                                    <i class="fa-solid fa-check"></i>
+                                </div>
+                                <div>
+                                    <p class="text-xs font-bold text-[#4A3B4E]">Khởi động ngày mới</p>
+                                    <p class="text-[9px] text-gray-400">Hoàn thành 5 thẻ SRS buổi sáng</p>
+                                </div>
+                            </div>
+                            <span class="text-[9px] font-bold text-emerald-700 bg-emerald-50 px-2 py-0.5 rounded-lg border border-emerald-200">
+                                +50 XP ✓
+                            </span>
+                        </div>
+
+                        <!-- Nhiệm vụ 2 -->
+                        <div class="bg-white p-2.5 rounded-xl border border-[#F5D7E2] flex items-center justify-between shadow-sm">
+                            <div class="flex items-center gap-2.5">
+                                <div class="w-8 h-8 rounded-full bg-amber-100 text-amber-600 flex items-center justify-center text-sm">
+                                    <i class="fa-solid fa-keyboard"></i>
+                                </div>
+                                <div>
+                                    <p class="text-xs font-bold text-[#4A3B4E]">Chiến thần Gboard</p>
+                                    <p class="text-[9px] text-gray-400">Gõ đúng chính xác 10 từ bằng phím Hán</p>
+                                </div>
+                            </div>
+                            <button onclick="switchScreen('screen-gboard')" class="text-[9px] font-bold text-[#EBA3BD] bg-[#FFF0F5] px-2.5 py-1 rounded-lg border border-[#EBA3BD] hover:bg-[#FCEAF1]">
+                                Nhận +80 XP
+                            </button>
+                        </div>
+
+                        <!-- Nhiệm vụ 3 -->
+                        <div class="bg-white p-2.5 rounded-xl border border-[#F5D7E2] flex items-center justify-between shadow-sm">
+                            <div class="flex items-center gap-2.5">
+                                <div class="w-8 h-8 rounded-full bg-purple-100 text-purple-600 flex items-center justify-center text-sm">
+                                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                                </div>
+                                <div>
+                                    <p class="text-xs font-bold text-[#4A3B4E]">Khám phá chiết tự AI</p>
+                                    <p class="text-[9px] text-gray-400">Rã bộ thủ & đọc 1 câu chuyện ghi nhớ</p>
+                                </div>
+                            </div>
+                            <button onclick="switchScreen('screen-reader')" class="text-[9px] font-bold text-[#EBA3BD] bg-[#FFF0F5] px-2.5 py-1 rounded-lg border border-[#EBA3BD] hover:bg-[#FCEAF1]">
+                                Làm ngay
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Huy Hiệu Đã Mở Khóa (Badges & Achievements) -->
+                <div>
+                    <h3 class="font-bold text-xs text-[#4A3B4E] mb-2 flex items-center gap-1.5">
+                        <i class="fa-solid fa-medal text-amber-500"></i> Phòng Truyền Thống & Huy Hiệu
+                    </h3>
+                    <div class="grid grid-cols-3 gap-2 text-center text-xs">
+                        <div class="bg-white p-2.5 rounded-xl border border-[#F5D7E2] flex flex-col items-center">
+                            <span class="text-2xl mb-1">🌱</span>
+                            <span class="font-bold text-[10px] text-[#4A3B4E]">Gieo Hạt</span>
+                            <span class="text-[8px] text-gray-400">Học từ đầu tiên</span>
+                        </div>
+                        <div class="bg-white p-2.5 rounded-xl border border-[#F5D7E2] flex flex-col items-center">
+                            <span class="text-2xl mb-1">🌊</span>
+                            <span class="font-bold text-[10px] text-[#4A3B4E]">Biển Chữ</span>
+                            <span class="text-[8px] text-[#EBA3BD] font-semibold">Thuộc 50+ từ</span>
+                        </div>
+                        <div class="bg-white/60 p-2.5 rounded-xl border border-dashed border-[#F5D7E2] flex flex-col items-center opacity-70">
+                            <span class="text-2xl mb-1 grayscale">🏆</span>
+                            <span class="font-bold text-[10px] text-gray-400">Chinh Phục</span>
+                            <span class="text-[8px] text-gray-400">Thuộc 600 từ HSK4</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nút động lực hành động -->
+                <button onclick="startPracticeQueue(true)" class="w-full py-2.5 rounded-xl btn-primary text-xs shadow-md font-bold flex items-center justify-center gap-1.5">
+                    <i class="fa-solid fa-fire"></i> Bắt đầu ôn bài để giữ chuỗi Streak ngay!
+                </button>
+            </div>
+        </div>
+
         <!-- ================= MODAL CÀI ĐẶT API KEY ================= -->
         <div id="apiModal" class="hidden absolute inset-0 bg-black/40 backdrop-blur-sm z-50 flex items-center justify-center p-4">
             <div class="bg-white w-full rounded-2xl p-4 border-2 border-[#F5D7E2] shadow-2xl space-y-3">
@@ -650,19 +781,19 @@
 
         <!-- ================= THANH NAVIGATION BAR CỐ ĐỊNH Ở ĐÁY ================= -->
         <div class="navbar-fixed">
-            <div class="nav-item active" id="nav-home" onclick="switchScreen('screen-home')">
+            <div class="nav-item active" id="nav-home" onclick="switchScreen('screen-home')" title="Trang chủ">
                 <i class="fa-solid fa-house"></i>
             </div>
-            <div class="nav-item" id="nav-reader" onclick="switchScreen('screen-reader')">
+            <div class="nav-item" id="nav-reader" onclick="switchScreen('screen-reader')" title="Đọc bài">
                 <i class="fa-solid fa-book-open"></i>
             </div>
-            <div class="nav-item" id="nav-gboard" onclick="switchScreen('screen-gboard')">
+            <div class="nav-item" id="nav-gboard" onclick="switchScreen('screen-gboard')" title="Luyện Gboard">
                 <i class="fa-solid fa-brain bg-[#FFF0F5] p-2 rounded-full border border-[#F5D7E2] text-[#EBA3BD]"></i>
             </div>
-            <div class="nav-item" id="nav-vocab" onclick="toggleVocabModal()">
-                <i class="fa-solid fa-book"></i>
+            <div class="nav-item" id="nav-quest" onclick="switchScreen('screen-quest')" title="Gamification & Nhiệm vụ">
+                <i class="fa-solid fa-trophy text-amber-500/80"></i>
             </div>
-            <div class="nav-item" id="nav-settings" onclick="toggleSettingsModal()">
+            <div class="nav-item" id="nav-settings" onclick="toggleSettingsModal()" title="Cài đặt">
                 <i class="fa-solid fa-gear"></i>
             </div>
         </div>
@@ -800,6 +931,66 @@
             if (screenId === 'screen-home') document.getElementById('nav-home')?.classList.add('active');
             if (screenId === 'screen-reader') document.getElementById('nav-reader')?.classList.add('active');
             if (screenId === 'screen-gboard') document.getElementById('nav-gboard')?.classList.add('active');
+            if (screenId === 'screen-quest') {
+                document.getElementById('nav-quest')?.classList.add('active');
+                refreshQuestProgress();
+            }
+        }
+
+        // ================= GAMIFICATION & ĐỘNG LỰC HỌC TẬP =================
+        function refreshQuestProgress() {
+            let streak = parseInt(localStorage.getItem("user_streak") || "1");
+            let exp = parseInt(localStorage.getItem("user_exp") || "120");
+            const lastStudyDate = localStorage.getItem("user_last_study_date");
+            const todayStr = new Date().toISOString().slice(0, 10);
+
+            if (lastStudyDate && lastStudyDate !== todayStr) {
+                // Kiểm tra nếu là ngày liền kề thì giữ streak, nếu bỏ cách ngày thì giữ hoặc tăng
+                const lastDate = new Date(lastStudyDate);
+                const diffDays = Math.floor((new Date() - lastDate) / (1000 * 60 * 60 * 24));
+                if (diffDays === 1) {
+                    streak += 1;
+                    localStorage.setItem("user_streak", streak.toString());
+                } else if (diffDays > 1) {
+                    streak = 1;
+                    localStorage.setItem("user_streak", "1");
+                }
+            }
+
+            const streakEl = document.getElementById('streakDaysCount');
+            if (streakEl) streakEl.innerText = `${streak} Ngày`;
+
+            const expEl = document.getElementById('dailyExpCount');
+            if (expEl) expEl.innerText = `${exp} XP`;
+
+            // Cập nhật tiến độ mục tiêu 20 từ
+            const masteredCount = cards.filter(c => c.srsLevel >= 3).length;
+            const targetToday = 20;
+            const doneToday = Math.min(targetToday, Math.max(8, (exp / 15) | 0));
+            const pct = Math.min(100, Math.round((doneToday / targetToday) * 100));
+
+            const progText = document.getElementById('questTodayProgressText');
+            if (progText) progText.innerText = `${doneToday} / ${targetToday} từ (${pct}%)`;
+
+            const bar = document.getElementById('questProgressBar');
+            if (bar) bar.style.width = `${pct}%`;
+
+            // Badge
+            const badgeEl = document.getElementById('userBadgeLevel');
+            if (badgeEl) {
+                if (exp >= 500) badgeEl.innerText = "Cao Thủ HSK4 🌸";
+                else if (exp >= 250) badgeEl.innerText = "Dũng Sĩ Hanzi ✨";
+                else badgeEl.innerText = "Tập Sự HSK4 👑";
+            }
+        }
+
+        function addExp(amount) {
+            let exp = parseInt(localStorage.getItem("user_exp") || "120");
+            exp += amount;
+            localStorage.setItem("user_exp", exp.toString());
+            const todayStr = new Date().toISOString().slice(0, 10);
+            localStorage.setItem("user_last_study_date", todayStr);
+            refreshQuestProgress();
         }
 
         function toggleSettingsModal() {
@@ -1033,12 +1224,13 @@
             if (userVal === currentCard.character) {
                 statusBox.className = "p-3 rounded-2xl text-center border-2 border-[#A8D5BA] bg-[#EBF5F2]";
                 statusLabel.className = "text-xs font-bold block mb-1 text-[#2E5B50]";
-                statusLabel.innerText = "✓ Chính xác tuyệt đối";
+                statusLabel.innerText = "✓ Chính xác tuyệt đối (+10 XP) 🎉";
                 bigAnswer.style.color = "#2E5B50";
                 feedback.className = "text-[10px] font-bold text-[#2E5B50]";
                 feedback.innerText = "Gboard nhận diện chuẩn xác! Bạn đã ghi nhớ mặt chữ.";
-                // Cập nhật SRS thành công
+                // Cập nhật SRS thành công & thưởng điểm XP gamification
                 updateCardSRS(currentCard.character, true);
+                addExp(10);
             } else {
                 statusBox.className = "p-3 rounded-2xl text-center border-2 border-[#EBA3BD] bg-[#FFF0F5]";
                 statusLabel.className = "text-xs font-bold block mb-1 text-[#EBA3BD]";
