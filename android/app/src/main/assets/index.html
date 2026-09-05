@@ -80,30 +80,30 @@
             box-shadow: 0 4px 15px rgba(235, 163, 189, 0.35), inset 0 2px 8px rgba(255, 255, 255, 0.9);
         }
 
-        /* Lớp sóng nước thứ nhất (Sóng chính phía trước) */
+        /* Lớp sóng nước thứ nhất (Sóng chính phía trước - Dập dềnh Slide Up/Down) */
         .water-wave-front {
             position: absolute;
-            left: -50%;
+            left: -30%;
             bottom: 0;
-            width: 200%;
-            height: 200%;
+            width: 160%;
+            height: 160%;
             background-color: rgba(235, 163, 189, 0.88);
-            border-radius: 38% 42% 40% 44%;
-            animation: waveRotateFront 4.5s linear infinite;
+            border-radius: 43% 47% 45% 45%;
+            animation: waveSlideUpDown 3.2s ease-in-out infinite alternate;
             transition: top 0.8s cubic-bezier(0.4, 0, 0.2, 1);
             z-index: 2;
         }
 
-        /* Lớp sóng nước thứ hai (Sóng nền phía sau tạo độ sâu 3D) */
+        /* Lớp sóng nước thứ hai (Sóng nền phía sau - Dập dềnh ngược nhịp tạo chiều sâu) */
         .water-wave-back {
             position: absolute;
-            left: -50%;
+            left: -30%;
             bottom: 0;
-            width: 200%;
-            height: 200%;
-            background-color: rgba(245, 190, 210, 0.55);
-            border-radius: 44% 38% 42% 40%;
-            animation: waveRotateBack 6.5s linear infinite;
+            width: 160%;
+            height: 160%;
+            background-color: rgba(245, 190, 210, 0.6);
+            border-radius: 46% 44% 48% 42%;
+            animation: waveSlideUpDownBack 3.8s ease-in-out infinite alternate;
             transition: top 0.8s cubic-bezier(0.4, 0, 0.2, 1);
             z-index: 1;
         }
@@ -111,11 +111,11 @@
         /* Điểm bóng sáng thủy tinh trên quả cầu (Glass reflection highlight) */
         .globe-glass-glare {
             position: absolute;
-            top: 5px;
+            top: 6px;
             left: 12px;
-            width: 20px;
-            height: 10px;
-            background: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0) 100%);
+            width: 22px;
+            height: 12px;
+            background: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 100%);
             border-radius: 50%;
             transform: rotate(-30deg);
             z-index: 4;
@@ -125,29 +125,44 @@
         /* Hiệu ứng bong bóng nước sủi tăm */
         .bubble {
             position: absolute;
-            background: rgba(255, 255, 255, 0.6);
+            background: rgba(255, 255, 255, 0.7);
             border-radius: 50%;
             z-index: 3;
-            animation: bubbleRise 3s infinite ease-in;
+            animation: bubbleRise 2.8s infinite ease-in;
             pointer-events: none;
         }
-        .bubble-1 { width: 5px; height: 5px; left: 35%; bottom: 10px; animation-duration: 2.8s; }
-        .bubble-2 { width: 7px; height: 7px; left: 55%; bottom: 5px; animation-duration: 3.6s; animation-delay: 1.2s; }
+        .bubble-1 { width: 5px; height: 5px; left: 35%; bottom: 8px; animation-duration: 2.5s; }
+        .bubble-2 { width: 7px; height: 7px; left: 60%; bottom: 6px; animation-duration: 3.2s; animation-delay: 1s; }
 
-        @keyframes waveRotateFront {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+        /* Chuyển động sóng nước nhấp nhô Lên / Xuống (Slide Up / Down) */
+        @keyframes waveSlideUpDown {
+            0% {
+                transform: translateY(0px) rotate(-4deg);
+            }
+            50% {
+                transform: translateY(-8px) rotate(3deg);
+            }
+            100% {
+                transform: translateY(-14px) rotate(-2deg);
+            }
         }
 
-        @keyframes waveRotateBack {
-            0% { transform: rotate(360deg); }
-            100% { transform: rotate(0deg); }
+        @keyframes waveSlideUpDownBack {
+            0% {
+                transform: translateY(-12px) rotate(4deg);
+            }
+            50% {
+                transform: translateY(-4px) rotate(-3deg);
+            }
+            100% {
+                transform: translateY(0px) rotate(2deg);
+            }
         }
 
         @keyframes bubbleRise {
             0% { transform: translateY(0) scale(0.6); opacity: 0; }
-            40% { opacity: 0.8; }
-            100% { transform: translateY(-50px) scale(1.2); opacity: 0; }
+            40% { opacity: 0.9; }
+            100% { transform: translateY(-45px) scale(1.1); opacity: 0; }
         }
 
         .card-pink {
@@ -814,13 +829,14 @@
             const dueList = cards.filter(c => !c.nextReview || c.nextReview <= now);
             const masteredList = cards.filter(c => c.srsLevel >= 4);
 
-            // Mực nước quả cầu (Globe) theo tiến độ học
-            const pct = cards.length > 0 ? Math.min(95, Math.max(15, Math.round((masteredList.length / cards.length) * 100))) : 25;
+            // Mực nước quả cầu (Globe) theo tiến độ học: Khởi điểm đẹp mắt ở 45%, dâng dần lên 95% khi thuộc từ
+            const calculatedPct = cards.length > 0 ? Math.round((masteredList.length / cards.length) * 100) : 0;
+            const pct = Math.min(95, Math.max(45, calculatedPct));
             const waveTopPct = 100 - pct;
             const frontWave = document.getElementById('globeWaterFront');
             const backWave = document.getElementById('globeWaterBack');
             if (frontWave) frontWave.style.top = `${waveTopPct}%`;
-            if (backWave) backWave.style.top = `${waveTopPct - 4}%`;
+            if (backWave) backWave.style.top = `${waveTopPct - 5}%`;
             document.getElementById('homeMasteredCount').innerText = `${masteredList.length} / ${cards.length}`;
             document.getElementById('homeDueSubtitle').innerText = `(Hôm nay cần ôn: ${dueList.length} từ)`;
             document.getElementById('dueBadge').innerText = `${dueList.length} thẻ đến hạn`;
