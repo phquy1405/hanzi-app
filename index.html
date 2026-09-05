@@ -276,11 +276,24 @@
                 </div>
             </div>
 
-            <!-- Model Badge & SRS Status -->
+            <!-- Model Badge & Dynamic Model Selector (Chuẩn hóa theo TBSG Content Optimizer) -->
             <div class="flex items-center justify-between mb-3 px-1">
                 <div class="flex items-center gap-1.5 text-[11px] font-bold text-[#9E8591]">
-                    <span class="w-2 h-2 rounded-full bg-teal-400 animate-pulse"></span>
-                    <span>Gemini 2.5 Flash / 2.0</span>
+                    <span id="apiKeyStatusDot" class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                    <select id="modelSelector" onchange="changeActiveModel(this.value)" class="bg-white/80 border border-[#F5D7E2] rounded-lg px-2 py-0.5 text-[10px] font-bold text-[#4A3B4E] outline-none cursor-pointer focus:border-[#EBA3BD]">
+                        <optgroup label="⚡ Nhóm Siêu Quota (500 RPD / 15 RPM - Khuyên dùng)">
+                            <option value="gemini-3.1-flash-lite" selected>Gemini 3.1 Flash Lite</option>
+                            <option value="gemini-3.5-flash-lite">Gemini 3.5 Flash Lite</option>
+                            <option value="gemini-2.5-flash-lite">Gemini 2.5 Flash Lite</option>
+                        </optgroup>
+                        <optgroup label="🧠 Nhóm Suy luận cao (20 RPD / 5 RPM)">
+                            <option value="gemini-3.8-flash">Gemini 3.8 Flash</option>
+                            <option value="gemini-3.7-flash">Gemini 3.7 Flash</option>
+                            <option value="gemini-3.6-flash">Gemini 3.6 Flash</option>
+                            <option value="gemini-2.5-flash">Gemini 2.5 Flash</option>
+                            <option value="gemini-2.0-flash">Gemini 2.0 Flash</option>
+                        </optgroup>
+                    </select>
                 </div>
                 <span id="srs-status-tag" class="text-[10px] font-bold text-[#EBA3BD] bg-[#FFF0F5] px-2 py-0.5 rounded-full border border-[#F5D7E2]">
                     Đang đồng bộ SRS...
@@ -466,16 +479,25 @@
 
         <!-- ================= MODAL CÀI ĐẶT API KEY ================= -->
         <div id="apiModal" class="hidden absolute inset-0 bg-black/40 backdrop-blur-sm z-50 flex items-center justify-center p-4">
-            <div class="bg-white w-full rounded-2xl p-4 border-2 border-[#F5D7E2] shadow-2xl">
-                <div class="flex justify-between items-center mb-2">
-                    <h3 class="text-xs font-bold text-[#4A3B4E]">Cài đặt Gemini API Key</h3>
+            <div class="bg-white w-full rounded-2xl p-4 border-2 border-[#F5D7E2] shadow-2xl space-y-3">
+                <div class="flex justify-between items-center border-b border-[#F5D7E2] pb-1.5">
+                    <h3 class="text-xs font-bold text-[#4A3B4E]">Cài đặt & Kiểm tra Gemini API Key</h3>
                     <button onclick="toggleSettingsModal()" class="text-gray-400 font-bold text-xs">✕</button>
                 </div>
-                <p class="text-[10px] text-gray-500 mb-2">Khóa API từ Google AI Studio (được lưu an toàn trong máy):</p>
-                <input id="apiKeyInput" type="password" placeholder="AIzaSy..." class="w-full bg-[#FDF4F7] border border-[#F5D7E2] rounded-xl px-3 py-2 text-xs outline-none focus:border-[#EBA3BD] mb-3" />
+                <div>
+                    <p class="text-[10px] text-gray-500 mb-1">Khóa API Google AI Studio (hỗ trợ nhập 1 hoặc nhiều key cách nhau bằng dấu phẩy để tự động xoay vòng như TBSG):</p>
+                    <input id="apiKeyInput" type="password" placeholder="AIzaSy..." class="w-full bg-[#FDF4F7] border border-[#F5D7E2] rounded-xl px-3 py-2 text-xs outline-none focus:border-[#EBA3BD]" />
+                </div>
+                
+                <div id="apiKeyTestResult" class="hidden p-2 rounded-xl text-[11px] font-semibold"></div>
+
                 <div class="flex gap-2">
-                    <button onclick="saveApiKey()" class="flex-1 py-2 rounded-xl btn-primary text-xs">Lưu Khóa API</button>
-                    <button onclick="clearAiCache()" class="px-3 py-2 rounded-xl bg-gray-100 text-gray-600 text-xs font-bold">Xóa Cache AI</button>
+                    <button onclick="testAndSaveApiKey()" class="flex-1 py-2 rounded-xl btn-primary text-xs shadow-sm">
+                        <i class="fa-solid fa-plug-circle-check mr-1"></i> Kiểm tra & Lưu
+                    </button>
+                    <button onclick="clearAiCache()" class="px-3 py-2 rounded-xl bg-gray-100 text-gray-600 text-xs font-bold">
+                        Xóa Cache
+                    </button>
                 </div>
             </div>
         </div>
@@ -561,9 +583,52 @@
     </div>
 
     <script>
-        // Cấu hình Gemini Model
-        const MODEL_NAME = "gemini-2.5-flash";
-        const FALLBACK_MODEL = "gemini-2.0-flash";
+        // ================= CẤU HÌNH GEMINI MODEL & KEY ROTATOR THEO TBSG =================
+        // Tham khảo chuẩn từ TBSG Content Optimizer (Model Resolver & Key Rotator)
+        let ACTIVE_MODEL = localStorage.getItem("gemini_selected_model") || "gemini-3.1-flash-lite";
+
+        // Thứ tự các model fallback an toàn tránh lỗi 429/403:
+        const MODEL_FALLBACK_CHAIN = [
+            "gemini-3.1-flash-lite",
+            "gemini-3.5-flash-lite",
+            "gemini-2.5-flash-lite",
+            "gemini-3.8-flash",
+            "gemini-3.7-flash",
+            "gemini-3.6-flash",
+            "gemini-2.5-flash",
+            "gemini-2.0-flash"
+        ];
+
+        let apiKeyList = [];
+        let currentKeyIndex = 0;
+
+        function getStoredApiKeys() {
+            const raw = localStorage.getItem("gemini_api_key") || "AIzaSyBKPxA28TFe9Q4RK3Fx6nGL70L8q1z82tw";
+            return raw.split(",").map(k => k.trim()).filter(k => k && !k.startsWith("AQ."));
+        }
+
+        function getActiveApiKey() {
+            apiKeyList = getStoredApiKeys();
+            if (apiKeyList.length === 0) return "";
+            if (currentKeyIndex >= apiKeyList.length) currentKeyIndex = 0;
+            return apiKeyList[currentKeyIndex];
+        }
+
+        function rotateApiKey() {
+            apiKeyList = getStoredApiKeys();
+            if (apiKeyList.length > 1) {
+                currentKeyIndex = (currentKeyIndex + 1) % apiKeyList.length;
+                console.log(`[KeyRotator] Đã chuyển sang API key index: ${currentKeyIndex}`);
+            }
+            return getActiveApiKey();
+        }
+
+        function changeActiveModel(modelName) {
+            ACTIVE_MODEL = modelName;
+            localStorage.setItem("gemini_selected_model", modelName);
+            console.log(`[ModelSelector] Đã chuyển mô hình chính sang: ${modelName}`);
+        }
+
         const knownWords = ["水", "木", "青", "日", "月", "看", "说", "车", "大", "家", "学", "林", "疋", "人", "心", "门", "口", "金", "火", "土"];
 
         // Dữ liệu từ vựng HSK 3-4 mặc định kèm SRS
@@ -590,7 +655,17 @@
         document.addEventListener("DOMContentLoaded", () => {
             loadVocab();
             const savedKey = localStorage.getItem("gemini_api_key");
-            if (savedKey) document.getElementById("apiKeyInput").value = savedKey;
+            if (savedKey) {
+                document.getElementById("apiKeyInput").value = savedKey;
+                updateApiKeyStatusDot(true);
+            } else {
+                updateApiKeyStatusDot(false);
+            }
+
+            const modelSel = document.getElementById("modelSelector");
+            if (modelSel && ACTIVE_MODEL) {
+                modelSel.value = ACTIVE_MODEL;
+            }
 
             // Lắng nghe phím Enter trong input Gboard
             document.getElementById("hanziInput").addEventListener("keypress", (e) => {
@@ -653,11 +728,57 @@
             }
         }
 
-        function saveApiKey() {
-            const key = document.getElementById('apiKeyInput').value.trim();
-            localStorage.setItem("gemini_api_key", key);
-            toggleSettingsModal();
-            alert("Đã lưu API Key an toàn trong thiết bị!");
+        async function testAndSaveApiKey() {
+            const inputVal = document.getElementById('apiKeyInput').value.trim();
+            const resultBox = document.getElementById('apiKeyTestResult');
+            resultBox.classList.remove('hidden');
+            resultBox.className = "p-2 rounded-xl text-[11px] font-semibold bg-amber-50 text-amber-700 border border-amber-200 block";
+            resultBox.innerHTML = '<i class="fa-solid fa-circle-notch fa-spin mr-1"></i> Đang kết nối tới Google AI Studio kiểm tra key...';
+
+            if (!inputVal) {
+                resultBox.className = "p-2 rounded-xl text-[11px] font-semibold bg-red-50 text-red-600 border border-red-200 block";
+                resultBox.innerHTML = '❌ Vui lòng nhập API Key!';
+                return;
+            }
+
+            const testKey = inputVal.split(",")[0].trim();
+            try {
+                const testUrl = `https://generativelanguage.googleapis.com/v1beta/models?key=${testKey}`;
+                const resp = await fetch(testUrl);
+                if (!resp.ok) {
+                    const err = await resp.json();
+                    throw new Error(err.error?.message || `Lỗi HTTP ${resp.status}`);
+                }
+                const data = await resp.json();
+                const count = data.models ? data.models.length : 0;
+                
+                // Lưu key vào LocalStorage
+                localStorage.setItem("gemini_api_key", inputVal);
+                updateApiKeyStatusDot(true);
+
+                resultBox.className = "p-2 rounded-xl text-[11px] font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200 block";
+                resultBox.innerHTML = `✅ Kết nối thành công! Đã nhận diện ${count} models từ Google AI Studio. Đã lưu key an toàn.`;
+                setTimeout(() => {
+                    toggleSettingsModal();
+                }, 1400);
+            } catch (err) {
+                resultBox.className = "p-2 rounded-xl text-[11px] font-semibold bg-red-50 text-red-600 border border-red-200 block";
+                resultBox.innerHTML = `❌ Key không hợp lệ hoặc bị lỗi: ${err.message}`;
+                updateApiKeyStatusDot(false);
+            }
+        }
+
+        function updateApiKeyStatusDot(isValid) {
+            const dot = document.getElementById('apiKeyStatusDot');
+            if (dot) {
+                if (isValid) {
+                    dot.className = "w-2 h-2 rounded-full bg-emerald-400 animate-pulse";
+                    dot.title = "Gemini API: Đã kết nối";
+                } else {
+                    dot.className = "w-2 h-2 rounded-full bg-rose-400";
+                    dot.title = "Gemini API: Chưa kết nối hoặc Key lỗi";
+                }
+            }
         }
 
         function clearAiCache() {
@@ -922,41 +1043,59 @@ QUY TẮC BẮT BUỘC:
                 }
             };
 
-            try {
-                // Thử gọi model ưu tiên trước, nếu bận fallback sang model khác
-                let res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${MODEL_NAME}:generateContent?key=${apiKey}`, {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify(promptPayload)
-                });
+            // 3. Thực hiện gọi API với Smart Model Routing & Key Rotation (Chuẩn TBSG)
+            const candidateModels = [ACTIVE_MODEL, ...MODEL_FALLBACK_CHAIN.filter(m => m !== ACTIVE_MODEL)];
+            let success = false;
+            let lastErrorMsg = "";
 
-                if (!res.ok) {
-                    // Fallback
-                    res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${FALLBACK_MODEL}:generateContent?key=${apiKey}`, {
+            for (const targetModel of candidateModels) {
+                const currentKey = getActiveApiKey();
+                if (!currentKey) break;
+
+                try {
+                    console.log(`[GeminiAPI] Đang gọi model ${targetModel}...`);
+                    const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${targetModel}:generateContent?key=${currentKey}`, {
                         method: "POST",
                         headers: { "Content-Type": "application/json" },
                         body: JSON.stringify(promptPayload)
                     });
+
+                    if (res.status === 429) {
+                        console.warn(`[GeminiAPI] Model ${targetModel} chạm giới hạn Quota (429). Thử đổi API Key hoặc model tiếp theo...`);
+                        rotateApiKey();
+                        continue;
+                    }
+
+                    if (!res.ok) {
+                        const err = await res.json();
+                        console.warn(`[GeminiAPI] Lỗi model ${targetModel}:`, err.error?.message);
+                        lastErrorMsg = err.error?.message || res.statusText;
+                        continue; // Thử model tiếp theo trong chuỗi fallback
+                    }
+
+                    const resData = await res.json();
+                    if (resData.candidates && resData.candidates[0]?.content?.parts?.[0]?.text) {
+                        const parsed = JSON.parse(resData.candidates[0].content.parts[0].text);
+                        const breakdown = parsed.characters_breakdown;
+
+                        // Lưu vào LocalStorage Cache để lần sau ôn lại không tốn API call
+                        localStorage.setItem(cacheKey, JSON.stringify(breakdown));
+                        renderAiBreakdown(breakdown);
+                        success = true;
+                        updateApiKeyStatusDot(true);
+                        break;
+                    }
+                } catch (error) {
+                    console.warn(`[GeminiAPI] Thất bại khi gọi ${targetModel}:`, error.message);
+                    lastErrorMsg = error.message;
                 }
-
-                if (!res.ok) {
-                    const err = await res.json();
-                    throw new Error(err.error?.message || res.statusText);
-                }
-
-                const resData = await res.json();
-                const parsed = JSON.parse(resData.candidates[0].content.parts[0].text);
-                const breakdown = parsed.characters_breakdown;
-
-                // Lưu vào LocalStorage Cache để lần sau ôn lại không tốn API call
-                localStorage.setItem(cacheKey, JSON.stringify(breakdown));
-
-                renderAiBreakdown(breakdown);
-            } catch (error) {
-                alert("Lỗi kết nối Gemini API: " + error.message);
-            } finally {
-                document.getElementById('loadingAi').classList.add('hidden');
             }
+
+            if (!success) {
+                alert("Không thể kết nối Gemini API với các mô hình khả dụng: " + lastErrorMsg);
+                updateApiKeyStatusDot(false);
+            }
+            document.getElementById('loadingAi').classList.add('hidden');
         }
 
         function renderAiBreakdown(chars) {
