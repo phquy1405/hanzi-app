@@ -354,12 +354,19 @@
                     </div>
                 </div>
                 <hr class="border-[#F5D7E2] mb-2.5">
-                <div class="flex justify-between text-[11px] font-semibold gap-2">
-                    <button onclick="startPracticeQueue(false)" class="flex-1 bg-[#FFF0F5] hover:bg-[#FCEAF1] px-2.5 py-2 rounded-xl border border-[#F5D7E2] text-left transition">
-                        <i class="fa-solid fa-bolt text-[#EBA3BD]"></i> Luyện Gboard: <span class="text-[#EBA3BD] font-bold">Tất cả ➔</span>
+                <!-- 2 Chế độ luyện tập tách biệt rõ ràng -->
+                <div class="grid grid-cols-2 gap-2 text-[11px] font-semibold">
+                    <button onclick="startPracticeQueue(false)" class="bg-[#FFF0F5] hover:bg-[#FCEAF1] p-2.5 rounded-xl border border-[#F5D7E2] text-left transition flex flex-col justify-between">
+                        <div class="flex items-center gap-1 text-[#EBA3BD] font-bold text-xs mb-1">
+                            <i class="fa-solid fa-keyboard"></i> Luyện Tự Do
+                        </div>
+                        <p class="text-[9px] text-gray-500 font-normal leading-tight">Luyện gõ Gboard toàn bộ <span class="font-bold text-[#EBA3BD]">695 từ</span> bất kỳ lúc nào</p>
                     </button>
-                    <button onclick="startPracticeQueue(true)" class="bg-[#FFF0F5] hover:bg-[#FCEAF1] px-3 py-2 rounded-xl border border-[#F5D7E2] flex items-center text-[10px] font-bold text-[#4A3B4E]">
-                        <i class="fa-regular fa-calendar-check text-[#EBA3BD] mr-1"></i> Ôn SRS hôm nay
+                    <button onclick="startPracticeQueue(true)" class="bg-[#FFF0F5] hover:bg-[#FCEAF1] p-2.5 rounded-xl border border-[#EBA3BD] text-left transition flex flex-col justify-between shadow-sm">
+                        <div class="flex items-center gap-1 text-[#4A3B4E] font-bold text-xs mb-1">
+                            <i class="fa-solid fa-calendar-check text-[#EBA3BD]"></i> Ôn Theo Lịch SRS
+                        </div>
+                        <p class="text-[9px] text-gray-500 font-normal leading-tight">Chỉ ôn các từ <span class="font-bold text-amber-600">đến hạn hôm nay</span> theo chu kỳ nhớ</p>
                     </button>
                 </div>
             </div>
@@ -444,7 +451,10 @@
         <div id="screen-gboard" class="screen">
             <div class="text-center pt-1 pb-2 flex justify-between items-center border-b border-[#F5D7E2]">
                 <button onclick="switchScreen('screen-home')" class="text-[#EBA3BD]"><i class="fa-solid fa-chevron-left"></i></button>
-                <h1 class="text-xs font-bold text-[#4A3B4E]">Luyện Phản Xạ Gboard ✨</h1>
+                <div class="text-center">
+                    <h1 id="practiceScreenTitle" class="text-xs font-bold text-[#4A3B4E]">Luyện Phản Xạ Gboard ✨</h1>
+                    <p id="practiceScreenSubtitle" class="text-[9px] text-gray-400 font-semibold">Chế độ: Toàn bộ kho từ</p>
+                </div>
                 <button onclick="toggleVocabModal()" class="text-xs text-[#EBA3BD]"><i class="fa-solid fa-gear"></i></button>
             </div>
 
@@ -935,11 +945,22 @@
             const now = Date.now();
             let pool = onlyDue ? cards.filter(c => !c.nextReview || c.nextReview <= now) : [...cards];
             if (pool.length === 0) {
-                alert("Bạn đã hoàn thành các từ đến hạn! Đang mở toàn bộ kho từ để luyện tập.");
+                alert("Bạn đã hoàn thành hết các từ đến hạn hôm nay! Đang mở toàn bộ kho từ để luyện tự do.");
                 pool = [...cards];
             }
             activePracticeQueue = pool;
             currentQueueIndex = 0;
+
+            const title = document.getElementById('practiceScreenTitle');
+            const subtitle = document.getElementById('practiceScreenSubtitle');
+            if (onlyDue) {
+                if (title) title.innerText = "Ôn Luyện Theo Lịch SRS 📅";
+                if (subtitle) subtitle.innerText = `Chế độ: Ôn ngắt quãng (${pool.length} từ đến hạn)`;
+            } else {
+                if (title) title.innerText = "Luyện Tự Do (Gboard) ✨";
+                if (subtitle) subtitle.innerText = `Chế độ: Toàn bộ kho từ (${pool.length} từ)`;
+            }
+
             renderCurrentCard();
             switchScreen('screen-gboard');
         }
@@ -949,6 +970,12 @@
             if (target) {
                 activePracticeQueue = [target];
                 currentQueueIndex = 0;
+
+                const title = document.getElementById('practiceScreenTitle');
+                const subtitle = document.getElementById('practiceScreenSubtitle');
+                if (title) title.innerText = "Luyện Chữ Mục Tiêu 🎯";
+                if (subtitle) subtitle.innerText = `Chữ đang học: ${character}`;
+
                 renderCurrentCard();
                 switchScreen('screen-gboard');
             }
